@@ -5,7 +5,18 @@
 			<ChildrenList>
 				<SoundBank Name="Main" ID="{C3C2E6D7-C103-4789-8201-E9F2E2193AA1}">
 					<ObjectInclusionList>
+						<ObjectRef Name="SmallMushroom_Note2" ID="{EA366E3F-7BAA-4169-B239-381D237606B8}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mushroom_Note1" ID="{B532F40D-7634-41DE-9243-63EDE755974D}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Test_Event" ID="{A4D94792-BB9C-421C-9548-0D265F6247AE}" WorkUnitID="{8C69E7FC-9757-435C-AEB2-C1760F75C92B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mushroom_Note4" ID="{7D9A0035-2CA3-426C-A40E-20078397A369}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SmallMushroom_Note1" ID="{93E55416-6602-42FD-95B0-4C77693C3019}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SoundDesignEnd" ID="{56308765-4863-434F-B53C-1676EAD0011E}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SmallMushroom_Note3" ID="{5114D7B0-B035-442E-84E1-89949D484B4F}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mushroom_Note3" ID="{994D4F12-5094-457B-8637-1A7D5818E7C6}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mushroom_Note2" ID="{09CD8503-D861-4848-93A4-99566CB76CB3}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SmallMushroom_Note1-1" ID="{B06E7909-6BD2-4E5E-8772-26D5418CD705}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Mushroom_Note5" ID="{C0FD2B93-C57D-4ED1-9978-904F4BC2FC93}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SmallMushroom_Note4" ID="{9F805608-8061-4FF4-A4D8-80BE09AF922D}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

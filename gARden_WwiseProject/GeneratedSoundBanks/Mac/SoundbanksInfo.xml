@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\GeneratedSoundBanks\Mac\</SoundBanksRoot>
+		<ProjectRoot>/Users/monolok/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Developer/gARden/gARden_WwiseProject/</ProjectRoot>
+		<SourceFilesRoot>/Users/monolok/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Developer/gARden/gARden_WwiseProject/.cache/Mac/</SourceFilesRoot>
+		<SoundBanksRoot>/Users/monolok/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Developer/gARden/gARden_WwiseProject/GeneratedSoundBanks/Mac/</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\GeneratedSoundBanks\Mac</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>/Users/monolok/Library/Application Support/Wwise2019/Bottles/Wwise2019x64/dosdevices/y:/Developer/gARden/gARden_WwiseProject/GeneratedSoundBanks/Mac</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3784085300">
+		<SoundBank Id="3161908922" Language="SFX" Hash="551027">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -25,11 +25,57 @@
 					<IncludedMemoryFiles>
 						<File Id="566251933" Language="SFX">
 							<ShortName>Mushroom_Note1.wav</ShortName>
-							<Path>SFX\Mushroom_Note1_10C4C929.wem</Path>
+							<Path>SFX/Mushroom_Note1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="306243796" Language="SFX">
+					<ShortName>SoundDesignEnd.wav</ShortName>
+					<Path>SFX/SoundDesignEnd_10C4C929.wem</Path>
+				</File>
+				<File Id="461983888" Language="SFX">
+					<ShortName>Mushroom_Note5.wav</ShortName>
+					<Path>SFX/Mushroom_Note5_10C4C929.wem</Path>
+				</File>
+				<File Id="510985501" Language="SFX">
+					<ShortName>SmallMushroom_Note1.wav</ShortName>
+					<Path>SFX/SmallMushroom_Note1_10C4C929.wem</Path>
+				</File>
+				<File Id="518642535" Language="SFX">
+					<ShortName>SmallMushroom_Note4.wav</ShortName>
+					<Path>SFX/SmallMushroom_Note4_10C4C929.wem</Path>
+				</File>
+				<File Id="566251933" Language="SFX">
+					<ShortName>Mushroom_Note1.wav</ShortName>
+					<Path>SFX/Mushroom_Note1_10C4C929.wem</Path>
+				</File>
+				<File Id="635265696" Language="SFX">
+					<ShortName>Mushroom_Note2.wav</ShortName>
+					<Path>SFX/Mushroom_Note2_10C4C929.wem</Path>
+				</File>
+				<File Id="661474026" Language="SFX">
+					<ShortName>SmallMushroom_Note2.wav</ShortName>
+					<Path>SFX/SmallMushroom_Note2_10C4C929.wem</Path>
+				</File>
+				<File Id="849235916" Language="SFX">
+					<ShortName>Mushroom_Note3.wav</ShortName>
+					<Path>SFX/Mushroom_Note3_10C4C929.wem</Path>
+				</File>
+				<File Id="879299307" Language="SFX">
+					<ShortName>SmallMushroom_Note1-1.wav</ShortName>
+					<Path>SFX/SmallMushroom_Note1-1_10C4C929.wem</Path>
+				</File>
+				<File Id="949424724" Language="SFX">
+					<ShortName>SmallMushroom_Note3.wav</ShortName>
+					<Path>SFX/SmallMushroom_Note3_10C4C929.wem</Path>
+				</File>
+				<File Id="1055072850" Language="SFX">
+					<ShortName>Mushroom_Note4.wav</ShortName>
+					<Path>SFX/Mushroom_Note4_10C4C929.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

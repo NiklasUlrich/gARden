@@ -2,5 +2,15 @@ Event	ID	Name			Wwise Object Path	Notes
 	4258653052	Test_Event			\Default Work Unit\Test_Event	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	566251933	Mushroom_Note1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\Mushroom_Note1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom_Note1		1225580
+	306243796	SoundDesignEnd	Y:\Developer\gARden\gARden_WwiseProject\.cache\Mac\SFX\SoundDesignEnd_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SoundDesignEnd		513604
+	461983888	Mushroom_Note5	Y:\Developer\gARden\gARden_WwiseProject\.cache\Mac\SFX\Mushroom_Note5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom_Note5		891352
+	510985501	SmallMushroom_Note1	Y:\Developer\gARden\gARden_WwiseProject\.cache\Mac\SFX\SmallMushroom_Note1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SmallMushroom_Note1		210308
+	518642535	SmallMushroom_Note4	Y:\Developer\gARden\gARden_WwiseProject\.cache\Mac\SFX\SmallMushroom_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SmallMushroom_Note4		445708
+	566251933	Mushroom_Note1	Y:\Developer\gARden\gARden_WwiseProject\.cache\Mac\SFX\Mushroom_Note1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom_Note1		1225580
+	635265696	Mushroom_Note2	Y:\Developer\gARden\gARden_WwiseProject\.cache\Mac\SFX\Mushroom_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom_Note2		882064
+	661474026	SmallMushroom_Note2	Y:\Developer\gARden\gARden_WwiseProject\.cache\Mac\SFX\SmallMushroom_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SmallMushroom_Note2		699388
+	849235916	Mushroom_Note3	Y:\Developer\gARden\gARden_WwiseProject\.cache\Mac\SFX\Mushroom_Note3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom_Note3		835644
+	879299307	SmallMushroom_Note1-1	Y:\Developer\gARden\gARden_WwiseProject\.cache\Mac\SFX\SmallMushroom_Note1-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SmallMushroom_Note1-1		800252
+	949424724	SmallMushroom_Note3	Y:\Developer\gARden\gARden_WwiseProject\.cache\Mac\SFX\SmallMushroom_Note3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\SmallMushroom_Note3		582560
+	1055072850	Mushroom_Note4	Y:\Developer\gARden\gARden_WwiseProject\.cache\Mac\SFX\Mushroom_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom_Note4		612824
 
