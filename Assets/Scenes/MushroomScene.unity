@@ -227,6 +227,7 @@ GameObject:
   m_Component:
   - component: {fileID: 435536099}
   - component: {fileID: 435536098}
+  - component: {fileID: 435536100}
   m_Layer: 0
   m_Name: WwiseGlobal
   m_TagString: Untagged
@@ -274,6 +275,30 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &435536100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 435536097}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b443ee4cfcf468544989e3dc2d2fca10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  triggerList: f7e1664c
+  useOtherObject: 0
+  data:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 00c98ab377f07424da4b922385a90de4, type: 2}
+  decodeBank: 0
+  loadAsynchronous: 0
+  saveDecodedBank: 0
+  unloadTriggerList: 958ca0ea
+  bankNameInternal: 
+  valueGuidInternal: 
 --- !u!1 &936187488
 GameObject:
   m_ObjectHideFlags: 0
@@ -577,6 +602,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1357134793454475183, guid: 1107ecdb0aba75849a8c3477661d5b3c, type: 3}
+      propertyPath: TouchWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: fa8c4df719fcb2743942df17b1c453ce, type: 2}
     - target: {fileID: 1540015131531352226, guid: 1107ecdb0aba75849a8c3477661d5b3c, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -624,6 +653,10 @@ PrefabInstance:
     - target: {fileID: 2167615941407883800, guid: 1107ecdb0aba75849a8c3477661d5b3c, type: 3}
       propertyPath: m_Name
       value: Mushroom
+      objectReference: {fileID: 0}
+    - target: {fileID: 7279549885092161717, guid: 1107ecdb0aba75849a8c3477661d5b3c, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1107ecdb0aba75849a8c3477661d5b3c, type: 3}
