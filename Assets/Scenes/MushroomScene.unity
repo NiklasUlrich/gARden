@@ -776,6 +776,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7279549885092161717, guid: 1107ecdb0aba75849a8c3477661d5b3c, type: 3}
+      propertyPath: data.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b65c565334f206d419750ee44e304510, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1107ecdb0aba75849a8c3477661d5b3c, type: 3}
 --- !u!1 &2095642493
