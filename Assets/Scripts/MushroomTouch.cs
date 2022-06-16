@@ -20,6 +20,12 @@ public class MushroomTouch : MonoBehaviour, IMixedRealityTouchHandler
     /// </summary>
     bool completed;
 
+    /// <summary>
+    /// Which event will be played when touch is started
+    /// </summary>
+    public AK.Wwise.Event TouchWwiseEvent;
+       
+
     // Start is called before the first frame update
     void Start()
     {
@@ -42,8 +48,17 @@ public class MushroomTouch : MonoBehaviour, IMixedRealityTouchHandler
 
     public void OnTouchCompleted(HandTrackingInputEventData eventData){}
 
-    public void OnTouchStarted(HandTrackingInputEventData eventData){
+    public void OnTouchStarted(HandTrackingInputEventData eventData)
+    {
+        Debug.Log("[Input] Touch is started.");
+
         mushroomShader.MoveTransition();
+
+        if (TouchWwiseEvent != null)
+        {
+            TouchWwiseEvent.Post(gameObject);
+        }
+        
     }
 
     public void OnTouchUpdated(HandTrackingInputEventData eventData){}

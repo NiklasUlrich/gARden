@@ -4,11 +4,23 @@
 		<WorkUnit Name="Default Work Unit" ID="{4FC48563-7909-4056-89D2-A699606E8394}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="11"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{034C35FC-EF55-4FEA-A902-65D3BF2FCF5B}" WorkUnitID="{FFB53E2D-01C3-4854-A193-7E2C8AF97C5F}"/>
 						</Reference>
 					</ReferenceList>
+					<ChildrenList>
+						<Bus Name="Music" ID="{7043B7B1-1797-4521-82D9-2EB759D432F9}">
+							<ObjectLists/>
+						</Bus>
+						<Bus Name="Character" ID="{A2643AE5-03C5-4A9F-A9C6-5B4FF8CB12E1}">
+							<ObjectLists/>
+						</Bus>
+					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
 			</ChildrenList>

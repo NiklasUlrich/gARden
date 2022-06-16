@@ -11,7 +11,7 @@
   <ShowSpatialAudioWarningMsg>true</ShowSpatialAudioWarningMsg>
   <WwiseInstallationPathMac />
   <WwiseInstallationPathWindows>C:\Wwise 2021.1.9.7847</WwiseInstallationPathWindows>
-  <WwiseProjectPath>../gARden_WwiseProject/gARden_WwiseProject.wproj</WwiseProjectPath>
+  <WwiseProjectPath>../../gARden/gARden_WwiseProject/gARden_WwiseProject.wproj</WwiseProjectPath>
   <UseWaapi>true</UseWaapi>
   <WaapiPort>8080</WaapiPort>
   <WaapiIP>127.0.0.1</WaapiIP>
