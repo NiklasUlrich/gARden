@@ -44,6 +44,7 @@ public class TinyMushrooms : MonoBehaviour
             Debug.Log(timer);
             if(timer >= interval)
             {
+                //THE NEXT LINE CREATES ONE TINY MUSHROOM WHEN IT IS CALLED
                 mushroomAnimators[iterator].SetBool("Completed", true);
                 Debug.Log("animating tiny mushroom " + iterator);
                 iterator++;
