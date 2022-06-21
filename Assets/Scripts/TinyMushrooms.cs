@@ -41,7 +41,6 @@ public class TinyMushrooms : MonoBehaviour
         if (animating)
         {
             timer += Time.deltaTime;
-            Debug.Log(timer);
             if(timer >= interval)
             {
                 //THE NEXT LINE CREATES ONE TINY MUSHROOM WHEN IT IS CALLED
