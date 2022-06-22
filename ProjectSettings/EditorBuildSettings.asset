@@ -6,11 +6,10 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/MainScene.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 0
-    path: Assets/Scenes/MushroomScene.unity
-    guid: 0c4dce913d06877499cec84fde0308e5
+    path: Assets/SamplesResources/Scenes/0-Main.unity
+    guid: a09cb257d566c489595b16ab37547666
   m_configObjects:
-    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 383df2a9c5ee4fa45a522cc15eb4e873, type: 2}
-    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6a39eb3539e372a4585365b2af7bb18b, type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 383df2a9c5ee4fa45a522cc15eb4e873,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 6a39eb3539e372a4585365b2af7bb18b,
+      type: 2}
