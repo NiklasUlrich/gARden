@@ -5,9 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/SamplesResources/Scenes/0-Main.unity
     guid: a09cb257d566c489595b16ab37547666
+  - enabled: 0
+    path: Assets/Scenes/Tree.unity
+    guid: 4b8dae0f762b1b44890276a5661528cd
+  - enabled: 1
+    path: Assets/Scenes/Vuforia.unity
+    guid: e30850306a2e7a64494d3289ef3aaff5
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 383df2a9c5ee4fa45a522cc15eb4e873,
       type: 2}

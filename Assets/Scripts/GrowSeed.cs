@@ -21,8 +21,6 @@ public class GrowSeed : MonoBehaviour
     {
         if (other.gameObject.GetComponent<FruitBehavior>() != null)
         {
-            Debug.Log("Fruit hit Ground!");
-
             GameObject newSeedling = Instantiate(seedling, other.transform.position, Quaternion.identity);
             newSeedling.GetComponent<Animator>().SetBool("Completed", true);
         }
