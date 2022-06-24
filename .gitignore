@@ -93,6 +93,7 @@ $RECYCLE.BIN/
 *.msm
 *.msp
 
+
 # Windows shortcuts
 *.lnk
 
@@ -102,3 +103,6 @@ gARden_WwiseProject/*.prof
 gARden_WwiseProject/*_WwiseProject.*.validationcache
 gARden_WwiseProject/*_WwiseProject.*.wsettings
 gARden_WwiseProject/**/*.akd
+
+#big tarballs
+*.tgz
