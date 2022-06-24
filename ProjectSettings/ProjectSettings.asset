@@ -136,15 +136,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 10.7.2
-  preloadedAssets:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: -7877913117336404961, guid: 383df2a9c5ee4fa45a522cc15eb4e873, type: 2}
-  - {fileID: 7179418833003683582, guid: 6a39eb3539e372a4585365b2af7bb18b, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -908,7 +900,6 @@ PlayerSettings:
   metroSplashScreenUseBackgroundColor: 1
   platformCapabilities:
     WindowsStoreApps:
-      CodeGeneration: False
       OfflineMapsManagement: False
       HumanInterfaceDevice: False
       Location: False
@@ -920,6 +911,7 @@ PlayerSettings:
       PrivateNetworkClientServer: False
       InternetClientServer: False
       VideosLibrary: False
+      BackgroundMediaPlayback: False
       Objects3D: False
       RemoteSystem: False
       BlockedChatMessages: False
@@ -942,9 +934,9 @@ PlayerSettings:
       PointOfService: False
       RecordedCallsFolder: False
       Contacts: False
-      Proximity: False
       InternetClient: True
-      BackgroundMediaPlayback: False
+      Proximity: False
+      CodeGeneration: False
       EnterpriseAuthentication: False
   metroTargetDeviceFamilies:
     Desktop: False
