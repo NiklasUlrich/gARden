@@ -7,7 +7,7 @@ public class TinyMushrooms : MonoBehaviour
     /// <summary>
     /// List of the tiny mushrooms' animators, Should be 5 in total
     /// </summary>
-    public Animator[] mushroomAnimators;
+    private List<Animator> mushroomAnimators;
 
     /// <summary>
     /// determines which mushroom is animated next
@@ -29,10 +29,15 @@ public class TinyMushrooms : MonoBehaviour
     /// </summary>
     public float interval = 0.2f;
 
+    /// <summary>
+    /// Which event will be played when touch is started
+    /// </summary>
+    public AK.Wwise.Event tinyMushroomEvent;
+
     // Start is called before the first frame update
     void Start()
     {
-
+        mushroomAnimators = new List<Animator>(GetComponentsInChildren<Animator>());
     }
 
     // Update is called once per frame
@@ -45,9 +50,15 @@ public class TinyMushrooms : MonoBehaviour
             {
                 //THE NEXT LINE CREATES ONE TINY MUSHROOM WHEN IT IS CALLED
                 mushroomAnimators[iterator].SetBool("Completed", true);
+
+                if (tinyMushroomEvent != null)
+                {
+                    tinyMushroomEvent.Post(gameObject);
+                }
+
                 Debug.Log("animating tiny mushroom " + iterator);
                 iterator++;
-                if(iterator == mushroomAnimators.Length)
+                if(iterator == mushroomAnimators.Count)
                 {
                     animating = false;
                 }
