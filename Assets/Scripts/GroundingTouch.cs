@@ -21,16 +21,22 @@ public class GroundingTouch : MonoBehaviour, IMixedRealityTouchHandler
     public float interval = 0.1f;
 
     
-    private List<Animator> flowerAnimators;
+    private List<GroundingFlower> flowerAnimators;
 
+    /// <summary>
+    /// counts through the flowers
+    /// </summary>
     private int iterator = 0;
 
+    /// <summary>
+    /// is true once all flowers have been animated
+    /// </summary>
     private bool animationCompleted = false;
 
     // Start is called before the first frame update
     void Start()
     {
-        flowerAnimators = new List<Animator>(GetComponentsInChildren<Animator>());
+        flowerAnimators = new List<GroundingFlower>(GetComponentsInChildren<GroundingFlower>());
     }
 
     // Update is called once per frame
@@ -43,7 +49,7 @@ public class GroundingTouch : MonoBehaviour, IMixedRealityTouchHandler
             {
                 if(iterator < flowerAnimators.Count)
                 {
-                    flowerAnimators[iterator].SetBool("Completed", true);
+                    flowerAnimators[iterator].Spawn();
                     iterator++;
                 }
                 else

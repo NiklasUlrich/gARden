@@ -4,11 +4,14 @@ using UnityEngine;
 
 public class GrowSeed : MonoBehaviour
 {
-    public GameObject seedling;
+    /// <summary>
+    /// A list of the seedling objects which can be spawned from fruit
+    /// </summary>
+    public List<GameObject> seedlings;
+
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -21,7 +24,8 @@ public class GrowSeed : MonoBehaviour
     {
         if (other.gameObject.GetComponent<FruitBehavior>() != null)
         {
-            GameObject newSeedling = Instantiate(seedling, other.transform.position, Quaternion.identity);
+            //instantiates a new Seedling Gameobject at the position where the fruit hits the ground
+            GameObject newSeedling = Instantiate(seedlings[Random.Range(0, seedlings.Count)], other.transform.position, Quaternion.Euler(0, Random.Range(0, 360) , 0) );
             newSeedling.GetComponent<Animator>().SetBool("Completed", true);
             other.gameObject.SetActive(false);
         }

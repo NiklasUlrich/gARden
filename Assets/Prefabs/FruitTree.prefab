@@ -408,8 +408,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40592653631e1474190210bbd5861f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seedling: {fileID: 4972030221351912712, guid: d88c9f33d980f67439b8392383533854,
-    type: 3}
+  seedlings:
+  - {fileID: 4972030221351912712, guid: d88c9f33d980f67439b8392383533854, type: 3}
+  - {fileID: 1541059983738683784, guid: 854a93bc766aa154c86bb50c79ddbcbc, type: 3}
+  - {fileID: 8449000616009815365, guid: 8a1395e036db53d469a226361e36914d, type: 3}
+  - {fileID: 7677874858291530566, guid: 8857f319d835e5c449b8787fd9915315, type: 3}
+  - {fileID: 2312763683699478354, guid: b7345f4aa2284514b88fac1eaca13d87, type: 3}
+  - {fileID: 1402068017929869984, guid: de40382dd0eabb54faac63d02ea7bb72, type: 3}
 --- !u!1 &6852064705084893067
 GameObject:
   m_ObjectHideFlags: 0
