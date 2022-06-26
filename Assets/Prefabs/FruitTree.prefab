@@ -408,7 +408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 40592653631e1474190210bbd5861f4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  seedling: {fileID: 5227034289952484806, guid: de420a95041f60943babe2ac1fda6a90,
+  seedling: {fileID: 4972030221351912712, guid: d88c9f33d980f67439b8392383533854,
     type: 3}
 --- !u!1 &6852064705084893067
 GameObject:
