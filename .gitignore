@@ -105,4 +105,4 @@ gARden_WwiseProject/*_WwiseProject.*.wsettings
 gARden_WwiseProject/**/*.akd
 
 #big tarballs
-*.tgz
+/[Pp]ackages/com.ptc.vuforia.engine-10.7.2.tgz
