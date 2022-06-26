@@ -5,9 +5,12 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/SamplesResources/Scenes/0-Main.unity
     guid: a09cb257d566c489595b16ab37547666
+  - enabled: 1
+    path: Assets/Scenes/MushroomScene.unity
+    guid: 0c4dce913d06877499cec84fde0308e5
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 383df2a9c5ee4fa45a522cc15eb4e873,
       type: 2}
