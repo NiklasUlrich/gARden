@@ -23,6 +23,14 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</Bus>
+				<Bus Name="Binaural" ID="{7ACBA417-BC00-4B7E-B823-4C6496905ED1}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="ASIO Output" CompanyID="0" PluginID="168" PluginType="7">
+							<ObjectRef Name="ASIO_Output" ID="{7FACA716-CFE0-4523-B219-028B2C4C0F93}" WorkUnitID="{FFB53E2D-01C3-4854-A193-7E2C8AF97C5F}"/>
+						</Reference>
+					</ReferenceList>
+					<ObjectLists/>
+				</Bus>
 			</ChildrenList>
 		</WorkUnit>
 	</Busses>
