@@ -1,0 +1,20 @@
+Event	ID	Name			Wwise Object Path	Notes
+	313967986	Mushroom_Note			\Default Work Unit\Mushroom\Mushroom_Note	
+	1447659621	Intro_Test_Event			\Default Work Unit\Music\Intro_Test_Event	
+	2467663479	SmallMushroom_Note			\Default Work Unit\Mushroom\SmallMushroom_Note	
+	4256775455	SoundDesignEnd			\Default Work Unit\Mushroom\SoundDesignEnd	
+	4258653052	Test_Event			\Default Work Unit\Test_Event	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	306243796	SoundDesignEnd	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SoundDesignEnd_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\SoundDesignEnd\SoundDesignEnd		513604
+	461983888	Mushroom_Note5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note5		891352
+	518642535	SmallMushroom_Note4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\SmallMushroom_Note\SmallMushroom_Note4		445708
+	566251933	Mushroom_Note1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note1		1225580
+	635265696	Mushroom_Note2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note2		882064
+	661474026	SmallMushroom_Note2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\SmallMushroom_Note\SmallMushroom_Note2		699388
+	705286880	Intro Test	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Intro Test_D79FB2B7.wem		\Actor-Mixer Hierarchy\Default Work Unit\Intro Music Test\Intro Test		7760908
+	849235916	Mushroom_Note3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note3		835644
+	879299307	SmallMushroom_Note1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note1-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\SmallMushroom_Note\SmallMushroom_Note1		800252
+	949424724	SmallMushroom_Note3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\SmallMushroom_Note\SmallMushroom_Note3		582560
+	1055072850	Mushroom_Note4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note4		612824
+

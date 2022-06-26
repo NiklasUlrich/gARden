@@ -9,8 +9,8 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
-						<Reference Name="AudioDevice">
-							<ObjectRef Name="System" ID="{034C35FC-EF55-4FEA-A902-65D3BF2FCF5B}" WorkUnitID="{FFB53E2D-01C3-4854-A193-7E2C8AF97C5F}"/>
+						<Reference Name="AudioDevice" PluginName="Microsoft Spatial Sound Platform Output [Deprecated]" CompanyID="275" PluginID="170" PluginType="7">
+							<ObjectRef Name="Microsoft_Spatial_Sound_Platform_Output__Deprecated_" ID="{FA7A40BF-E36D-48C3-AA00-AB033D787688}" WorkUnitID="{FFB53E2D-01C3-4854-A193-7E2C8AF97C5F}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
