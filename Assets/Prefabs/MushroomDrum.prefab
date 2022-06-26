@@ -94,7 +94,7 @@ Animator:
   m_GameObject: {fileID: 1357134791373583229}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 4eccca909c9900e48a24981cf487c037, type: 2}
+  m_Controller: {fileID: 9100000, guid: 2354aa85c13616a42818b8b19ffb3c8a, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -257,13 +257,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e8157354ae92644a9ab34f1cd2cdb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mushroomAnimators:
-  - {fileID: 3179582566630740934}
-  - {fileID: 1357134791373583225}
-  - {fileID: 1357134792965607578}
-  - {fileID: 1357134791781549655}
-  - {fileID: 1357134793266109229}
   interval: 0.2
+  tinyMushroomEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1357134792965607582
 GameObject:
   m_ObjectHideFlags: 0
@@ -636,6 +634,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tinyMushrooms: {fileID: 1357134792350688958}
+  TouchWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!114 &8623348283202745664
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -678,7 +680,8 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: fa8c4df719fcb2743942df17b1c453ce, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: fa8c4df719fcb2743942df17b1c453ce,
+      type: 2}
   useCallbacks: 0
   Callbacks: []
   playingId: 0
