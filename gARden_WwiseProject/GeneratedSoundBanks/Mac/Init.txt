@@ -1,4 +1,5 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	52442795	Binaural			\Default Work Unit\Binaural	
 	436743010	Character			\Default Work Unit\Master Audio Bus\Character	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	

@@ -83,12 +83,12 @@
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="SmallMushroom_Note" ID="{236D7078-18D3-42F1-BE6E-E60A410225CF}">
+						<Event Name="SmallMushroom_Note1" ID="{236D7078-18D3-42F1-BE6E-E60A410225CF}">
 							<ChildrenList>
-								<Action Name="" ID="{C484C9E3-4AEE-425E-8C51-425B6F10A15D}" ShortID="988086172">
+								<Action Name="" ID="{C4F41305-2C27-4F1C-8C8F-877B850B4EE2}" ShortID="678235907">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="SmallMushroom_Note" ID="{D7FA9DF3-7937-4D55-BAFE-0C1DF21CF714}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+											<ObjectRef Name="SmallMushroom_Note1" ID="{D7FA9DF3-7937-4D55-BAFE-0C1DF21CF714}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -105,16 +105,115 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="SmallMushroom_Note2" ID="{C6CF1F69-C7D6-4980-89F9-F56A2556E119}">
+							<ChildrenList>
+								<Action Name="" ID="{14CAE166-F927-4CED-BC34-465EAAF8105C}" ShortID="500026224">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SmallMushroom_Note2" ID="{F1517BBD-1D6F-499B-8A72-CE54EB98CFBF}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SmallMushroom_Note3" ID="{2AD8DC6E-0E62-43E5-8847-DD685BD99266}">
+							<ChildrenList>
+								<Action Name="" ID="{DBEF66D8-B18E-434F-AFE7-4C8C4F8AF41F}" ShortID="731915879">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Small Mushroom_Note3" ID="{E9C7471D-C084-464A-BFCF-E8F3846F6B7F}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SmallMushroom_Note4" ID="{A9719D03-91B5-4E2D-9A7A-A1D096539ADF}">
+							<ChildrenList>
+								<Action Name="" ID="{21BBB137-4251-4F01-8BE6-C6E2FE9FBDAA}" ShortID="468226530">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SmallMushroom_Note4" ID="{F75C60A3-FC4D-44E2-AD3E-5389139B5D42}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SmallMushroom_Note0" ID="{B65F96C8-76CD-47D2-B4AB-D1C892C4FD8B}">
+							<ChildrenList>
+								<Action Name="" ID="{16C1A888-2A47-422A-BA3D-4E93643D04EB}" ShortID="62500859">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SmallMushroom_Note0" ID="{83C9D02C-FFB3-4CE8-A61A-C55C2790E26A}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{48D6845A-98AE-4DF4-9B63-49D5553FA2DE}" ShortID="633349676">
 					<ChildrenList>
-						<Event Name="Intro_Test_Event" ID="{913720DE-AD80-44CC-A9C9-94A70F0F56C2}">
+						<Event Name="Entrance" ID="{FB639CF0-E8EF-42F4-9D88-C63425BC28EA}">
 							<ChildrenList>
-								<Action Name="" ID="{0F0EAE27-2F9F-41F6-9C4F-58FEAB79B8C8}" ShortID="818092011">
+								<Action Name="" ID="{F304DF9C-1601-4767-BEFE-A284E0C289B1}" ShortID="252366945">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Intro Test" ID="{750FF4F4-AA02-4F3B-BF0E-E48BCE3634A3}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+											<ObjectRef Name="Entrance" ID="{9D60FF39-0669-4FF3-A878-186DA581380A}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Zone_1" ID="{4DFAAA30-5027-4CAB-8A09-69F02913262C}">
+							<ChildrenList>
+								<Action Name="" ID="{A0053234-0B80-4506-9590-CB325DE48B63}" ShortID="181469810">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Zone 1" ID="{73DB87D8-3CF6-4166-B0C0-C069C7CB7AA6}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Zone_2" ID="{9D2F6A34-9724-4560-8F42-0AC831059779}">
+							<ChildrenList>
+								<Action Name="" ID="{C00C9E66-094B-4161-A0EE-2ED7398E4D66}" ShortID="7703307">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Zone 2" ID="{46E65FEF-DA39-467E-9098-331C99FBC5AC}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Zone_3_5_Drops" ID="{31B0123D-D888-4F3D-BD70-B61FA6F07A56}">
+							<ChildrenList>
+								<Action Name="" ID="{514142A6-4E64-41CA-9201-C04EC30508E6}" ShortID="864419850">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Zone 3_5_Drops" ID="{966EBAD4-5A61-4EFF-9FDF-58C3BE189D71}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Zone_4" ID="{D199AE9C-2672-4827-B394-3CA777F68763}">
+							<ChildrenList>
+								<Action Name="" ID="{F84A3B83-3D2B-4DDF-BD39-56F35E68F621}" ShortID="520676094">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Zone 4" ID="{D0E3FA3A-51C8-42BD-8458-2FEBDCFC9AA1}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Exit" ID="{7973B7B0-CFDA-48EC-BC8B-A66333DEE07E}">
+							<ChildrenList>
+								<Action Name="" ID="{31CE56ED-B6D5-4270-8A1B-C45D9D6F652E}" ShortID="338517132">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Exit" ID="{39D84ACE-05B6-4868-AC8E-6107EBBA24BE}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

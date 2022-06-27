@@ -1,9 +1,13 @@
 Audio Bus	ID	Name			Wwise Object Path	Notes
+	52442795	Binaural			\Default Work Unit\Binaural	
 	436743010	Character			\Default Work Unit\Master Audio Bus\Character	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 Audio Devices	ID	Name	Type				Notes
+	2241344162	Microsoft_Spatial_Sound_Platform_Output__Deprecated__01	Microsoft Spatial Sound Platform Output [Deprecated]			
 	2317455096	No_Output	No Output			
+	2501202364	Microsoft_Spatial_Sound_Platform_Output__Deprecated_	Microsoft Spatial Sound Platform Output [Deprecated]			
+	2712377323	ASIO_Output	ASIO Output			
 	3859886410	System	System			
 

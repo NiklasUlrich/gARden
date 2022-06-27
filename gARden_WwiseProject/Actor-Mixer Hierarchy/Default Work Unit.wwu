@@ -294,7 +294,7 @@
 									</ChildrenList>
 									<ObjectLists/>
 								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="SmallMushroom_Note" ID="{D7FA9DF3-7937-4D55-BAFE-0C1DF21CF714}" ShortID="383691878">
+								<RandomSequenceContainer Name="SmallMushroom_Note1" ID="{D7FA9DF3-7937-4D55-BAFE-0C1DF21CF714}" ShortID="383691878">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 									</PropertyList>
@@ -396,75 +396,6 @@
 											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SmallMushroom_Note1-1" ID="{5788D403-E888-4AC1-9E0C-FC321A19B7AC}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SmallMushroom_Note2" ID="{EA366E3F-7BAA-4169-B239-381D237606B8}" ShortID="920516102">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SmallMushroom_Note2" ID="{B2E6FEF8-31BA-4076-A7A9-A47CD12F95C5}">
-													<Language>SFX</Language>
-													<AudioFile>SmallMushroom_Note2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="661474026"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="SmallMushroom_Note2" ID="{B2E6FEF8-31BA-4076-A7A9-A47CD12F95C5}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SmallMushroom_Note3" ID="{5114D7B0-B035-442E-84E1-89949D484B4F}" ShortID="872114785">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SmallMushroom_Note3" ID="{E132DA6B-DFB9-42D3-8E1E-D91D6529E05C}">
-													<Language>SFX</Language>
-													<AudioFile>SmallMushroom_Note3.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="949424724"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="SmallMushroom_Note3" ID="{E132DA6B-DFB9-42D3-8E1E-D91D6529E05C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="SmallMushroom_Note4" ID="{9F805608-8061-4FF4-A4D8-80BE09AF922D}" ShortID="1058796853">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="SmallMushroom_Note4" ID="{D8164A4F-F32C-4F7B-9FEC-EED20F451CF4}">
-													<Language>SFX</Language>
-													<AudioFile>SmallMushroom_Note4.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="518642535"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ObjectLists/>
-											<ActiveSourceList>
-												<ActiveSource Name="SmallMushroom_Note4" ID="{D8164A4F-F32C-4F7B-9FEC-EED20F451CF4}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
@@ -572,6 +503,363 @@
 											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SoundDesignEnd" ID="{986E4A92-875E-41DB-8B04-3529974C57F3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SmallMushroom_Note2" ID="{F1517BBD-1D6F-499B-8A72-CE54EB98CFBF}" ShortID="1019546834">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SmallMushroom_Note2" ID="{EA366E3F-7BAA-4169-B239-381D237606B8}" ShortID="920516102">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{C2AF08CF-9588-4F95-950B-91722F8B6B2B}" ShortID="819028091">
+															<PropertyList>
+																<Property Name="RadiusMax" Type="Real64" Value="10"/>
+															</PropertyList>
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{9030B387-26F3-4EFA-A046-22941E9A2AFD}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>10</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="Spread" ID="{45CC1FE4-1AA0-4864-B948-B2320185C737}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="1"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>100</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>10</XPos>
+																					<YPos>17.81116</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Character" ID="{A2643AE5-03C5-4A9F-A9C6-5B4FF8CB12E1}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SmallMushroom_Note2" ID="{B2E6FEF8-31BA-4076-A7A9-A47CD12F95C5}">
+													<Language>SFX</Language>
+													<AudioFile>SmallMushroom_Note2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="661474026"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SmallMushroom_Note2" ID="{B2E6FEF8-31BA-4076-A7A9-A47CD12F95C5}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="Small Mushroom_Note3" ID="{E9C7471D-C084-464A-BFCF-E8F3846F6B7F}" ShortID="658375956">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SmallMushroom_Note3" ID="{5114D7B0-B035-442E-84E1-89949D484B4F}" ShortID="872114785">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{31666DA4-3EB1-4F0C-84AF-9A7B5A4F00F3}" ShortID="263102401">
+															<PropertyList>
+																<Property Name="RadiusMax" Type="Real64" Value="10"/>
+															</PropertyList>
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{D246C00B-FBFD-4AD5-9D3E-A77CC21C1089}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>10</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="Spread" ID="{2FC13E87-A88D-4A79-BA8E-774828AA76BA}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="1"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>100</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>10</XPos>
+																					<YPos>17.81116</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Character" ID="{A2643AE5-03C5-4A9F-A9C6-5B4FF8CB12E1}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SmallMushroom_Note3" ID="{E132DA6B-DFB9-42D3-8E1E-D91D6529E05C}">
+													<Language>SFX</Language>
+													<AudioFile>SmallMushroom_Note3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="949424724"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SmallMushroom_Note3" ID="{E132DA6B-DFB9-42D3-8E1E-D91D6529E05C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SmallMushroom_Note4" ID="{F75C60A3-FC4D-44E2-AD3E-5389139B5D42}" ShortID="365059579">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SmallMushroom_Note4" ID="{9F805608-8061-4FF4-A4D8-80BE09AF922D}" ShortID="1058796853">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<Custom>
+														<Attenuation Name="Attenuation (Custom)" ID="{70E643E4-55D8-473A-B1A8-55E8FE087691}" ShortID="750671014">
+															<PropertyList>
+																<Property Name="RadiusMax" Type="Real64" Value="10"/>
+															</PropertyList>
+															<CurveUsageInfoList>
+																<VolumeDryUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="VolumeDry" ID="{851FE6AF-CCB7-4119-AEFF-C37E2C41DD15}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="3"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>0</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>10</XPos>
+																					<YPos>-200</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</VolumeDryUsage>
+																<VolumeWetGameUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetGameUsage>
+																<VolumeWetUserUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+																</VolumeWetUserUsage>
+																<LowPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</LowPassFilterUsage>
+																<HighPassFilterUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</HighPassFilterUsage>
+																<SpreadUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																		<Curve Name="Spread" ID="{D8AF5EA4-649D-48E4-998D-2EB1386BD20B}">
+																			<PropertyList>
+																				<Property Name="Flags" Type="int32" Value="1"/>
+																			</PropertyList>
+																			<PointList>
+																				<Point>
+																					<XPos>0</XPos>
+																					<YPos>100</YPos>
+																					<Flags>5</Flags>
+																				</Point>
+																				<Point>
+																					<XPos>10</XPos>
+																					<YPos>17.81116</YPos>
+																					<Flags>37</Flags>
+																				</Point>
+																			</PointList>
+																		</Curve>
+																	</CurveUsageInfo>
+																</SpreadUsage>
+																<FocusUsage>
+																	<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+																</FocusUsage>
+															</CurveUsageInfoList>
+														</Attenuation>
+													</Custom>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Character" ID="{A2643AE5-03C5-4A9F-A9C6-5B4FF8CB12E1}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SmallMushroom_Note4" ID="{D8164A4F-F32C-4F7B-9FEC-EED20F451CF4}">
+													<Language>SFX</Language>
+													<AudioFile>SmallMushroom_Note4.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="518642535"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SmallMushroom_Note4" ID="{D8164A4F-F32C-4F7B-9FEC-EED20F451CF4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SmallMushroom_Note0" ID="{83C9D02C-FFB3-4CE8-A61A-C55C2790E26A}" ShortID="283956038">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="SmallMushroom_Note0" ID="{AAEC21AE-01B5-4261-81D6-25EBF4C01437}" ShortID="254287492">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="SmallMushroom_Note0" ID="{00EA8559-76C1-445D-A236-13C20B71292C}">
+													<Language>SFX</Language>
+													<AudioFile>SmallMushroom_Note0.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="386516073"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="SmallMushroom_Note0" ID="{00EA8559-76C1-445D-A236-13C20B71292C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
