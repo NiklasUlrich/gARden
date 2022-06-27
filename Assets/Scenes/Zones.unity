@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -238,7 +238,7 @@ MonoBehaviour:
   ZoneWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 9997bcef21c934b4092224c78876253b,
+    WwiseObjectReference: {fileID: 11400000, guid: fd1c525f0bf9e4b48919319a74f846e6,
       type: 2}
 --- !u!114 &162508213
 MonoBehaviour:
@@ -260,7 +260,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 9997bcef21c934b4092224c78876253b,
+    WwiseObjectReference: {fileID: 11400000, guid: fd1c525f0bf9e4b48919319a74f846e6,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -590,7 +590,7 @@ MonoBehaviour:
   ZoneWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: eeea385bc29492f42b0001a63586a6c7,
+    WwiseObjectReference: {fileID: 11400000, guid: b4af0192cc27b9f4aa161735ebf4f71a,
       type: 2}
 --- !u!114 &879624217
 MonoBehaviour:
@@ -612,7 +612,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: eeea385bc29492f42b0001a63586a6c7,
+    WwiseObjectReference: {fileID: 11400000, guid: b4af0192cc27b9f4aa161735ebf4f71a,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -810,7 +810,7 @@ MonoBehaviour:
   ZoneWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 61a69001dbc564a4c908b040017b0515,
+    WwiseObjectReference: {fileID: 11400000, guid: 23baac8e4bb437a469794a28401ba53b,
       type: 2}
 --- !u!114 &1048422811
 MonoBehaviour:
@@ -832,7 +832,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 61a69001dbc564a4c908b040017b0515,
+    WwiseObjectReference: {fileID: 11400000, guid: 23baac8e4bb437a469794a28401ba53b,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -1430,7 +1430,7 @@ MonoBehaviour:
   ZoneWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 23baac8e4bb437a469794a28401ba53b,
+    WwiseObjectReference: {fileID: 11400000, guid: 61a69001dbc564a4c908b040017b0515,
       type: 2}
 --- !u!114 &1812526914
 MonoBehaviour:
@@ -1452,7 +1452,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 23baac8e4bb437a469794a28401ba53b,
+    WwiseObjectReference: {fileID: 11400000, guid: 61a69001dbc564a4c908b040017b0515,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -1604,7 +1604,7 @@ MonoBehaviour:
   ZoneWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: fd1c525f0bf9e4b48919319a74f846e6,
+    WwiseObjectReference: {fileID: 11400000, guid: 9997bcef21c934b4092224c78876253b,
       type: 2}
 --- !u!114 &2052540631
 MonoBehaviour:
@@ -1626,7 +1626,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: fd1c525f0bf9e4b48919319a74f846e6,
+    WwiseObjectReference: {fileID: 11400000, guid: 9997bcef21c934b4092224c78876253b,
       type: 2}
   useCallbacks: 0
   Callbacks: []
@@ -1778,7 +1778,7 @@ MonoBehaviour:
   ZoneWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b4af0192cc27b9f4aa161735ebf4f71a,
+    WwiseObjectReference: {fileID: 11400000, guid: eeea385bc29492f42b0001a63586a6c7,
       type: 2}
 --- !u!114 &2102412145
 MonoBehaviour:
@@ -1800,7 +1800,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b4af0192cc27b9f4aa161735ebf4f71a,
+    WwiseObjectReference: {fileID: 11400000, guid: eeea385bc29492f42b0001a63586a6c7,
       type: 2}
   useCallbacks: 0
   Callbacks: []

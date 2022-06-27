@@ -2,7 +2,7 @@
 <ValidationCache Version="1" SchemaVersion="103">
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Virtual Acoustics\Default Work Unit.wwu" DateLow="1654623361" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Triggers\Default Work Unit.wwu" DateLow="1654623361" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1654623361" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Switches\Default Work Unit.wwu" DateLow="1656348729" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\States\Default Work Unit.wwu" DateLow="1654623361" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1654623361" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\SoundBanks\Default Work Unit.wwu" DateLow="1655421884" DateHigh="0"/>
@@ -14,11 +14,11 @@
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Mixing Sessions\Default Work Unit.wwu" DateLow="1654623361" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Metadata\Default Work Unit.wwu" DateLow="1654623361" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1656283678" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1656288061" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1656348998" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\gARden_WwiseProject.wproj" DateLow="1654623503" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\gARden_WwiseProject.mi.wsettings" DateLow="1656288061" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\gARden_WwiseProject.mi.wsettings" DateLow="1656349000" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Game Parameters\Default Work Unit.wwu" DateLow="1654623361" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Events\Default Work Unit.wwu" DateLow="1655421884" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Events\Default Work Unit.wwu" DateLow="1656348729" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Effects\Factory Effects.wwu" DateLow="1654622637" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Effects\Default Work Unit.wwu" DateLow="1654623361" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1654623361" DateHigh="0"/>
@@ -27,5 +27,5 @@
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Control Surface Sessions\Default Work Unit.wwu" DateLow="1654625219" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Audio Devices\Default Work Unit.wwu" DateLow="1656283678" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Attenuations\Default Work Unit.wwu" DateLow="1654623361" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1655421884" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1656348729" DateHigh="0"/>
 </ValidationCache>

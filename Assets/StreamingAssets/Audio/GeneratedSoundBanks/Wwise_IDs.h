@@ -16,13 +16,8 @@ namespace AK
         static const AkUniqueID ENTRANCE = 2656882895U;
         static const AkUniqueID EXIT = 26822469U;
         static const AkUniqueID MUSHROOM_NOTE = 313967986U;
-        static const AkUniqueID SMALLMUSHROOM_NOTE0 = 32458085U;
-        static const AkUniqueID SMALLMUSHROOM_NOTE1 = 32458084U;
-        static const AkUniqueID SMALLMUSHROOM_NOTE2 = 32458087U;
-        static const AkUniqueID SMALLMUSHROOM_NOTE3 = 32458086U;
-        static const AkUniqueID SMALLMUSHROOM_NOTE4 = 32458081U;
+        static const AkUniqueID SMALL_MUSHROOM_NOTES = 3856944273U;
         static const AkUniqueID SOUNDDESIGNEND = 4256775455U;
-        static const AkUniqueID TEST_EVENT = 4258653052U;
         static const AkUniqueID ZONE_1 = 2643994087U;
         static const AkUniqueID ZONE_2 = 2643994084U;
         static const AkUniqueID ZONE_3_5_DROPS = 4043173166U;
