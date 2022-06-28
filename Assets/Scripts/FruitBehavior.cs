@@ -10,6 +10,11 @@ public class FruitBehavior : MonoBehaviour
     /// </summary>
     public AK.Wwise.Event GrabWwiseEvent;
 
+    /// <summary>
+    /// Which event will be played when touch is started
+    /// </summary>
+    public AK.Wwise.Event ThrowWwiseEvent;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -23,7 +28,7 @@ public class FruitBehavior : MonoBehaviour
     }
 
     //is called when the fruit is grabbed
-    public void OnRelease()
+    public void OnGrab()
     {
         Rigidbody rb = GetComponent<Rigidbody>();
         rb.isKinematic = false;
@@ -31,6 +36,15 @@ public class FruitBehavior : MonoBehaviour
         if (GrabWwiseEvent != null)
         {
             GrabWwiseEvent.Post(gameObject);
+        }
+    }
+
+    //is called when the fruit is released
+    public void OnRelease()
+    {
+        if (ThrowWwiseEvent != null)
+        {
+            ThrowWwiseEvent.Post(gameObject);
         }
     }
 }
