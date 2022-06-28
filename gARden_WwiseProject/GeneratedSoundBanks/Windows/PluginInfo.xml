@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PluginInfo Project="gARden_WwiseProject" Platform="Windows" BasePlatform="Windows">
 	<Plugins>
+		<Plugin Name="ASIO Output" ID="11010055" DLL="ASIO" StaticLib="ASIOSourceSink"/>
+		<Plugin Name="Microsoft Spatial Sound Platform Output [Deprecated]" ID="11145527" DLL="MSSpatial" StaticLib="MSSpatialSink"/>
 		<Plugin Name="System" ID="11403271"/>
 		<Plugin Name="No Output" ID="11862023"/>
 	</Plugins>
