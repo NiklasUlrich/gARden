@@ -12,14 +12,325 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c732d4a64772b474b93e76ea17514cfb, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c3db74886eba9241bf2bed3071149b05
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: c3db74886eba9241bf2bed3071149b05
+    GuidInternal: 
+    m_lastTime: -8585457010776196149
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6385c44f0979564089d2a699606e8394
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 6385c44f0979564089d2a699606e8394
+    GuidInternal: 
+    m_lastTime: -8585453239448605104
+    List:
+    - name: Binaural
+      guid: 17a4cb7a00bc7e4bb8234c6496905ed1
+      id: 52442795
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6385c44f0979564089d2a699606e8394
+      - ElementName: Binaural
+        ObjectType: 2
+        guid: 17a4cb7a00bc7e4bb8234c6496905ed1
+      Path: Master-Mixer Hierarchy\Default Work Unit\Binaural
+    - name: Character
+      guid: e53a64a2c5039f4aa9c65b4ff8cb12e1
+      id: 436743010
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6385c44f0979564089d2a699606e8394
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Character
+        ObjectType: 2
+        guid: e53a64a2c5039f4aa9c65b4ff8cb12e1
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Character
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6385c44f0979564089d2a699606e8394
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: b1b743709717214582d92eb759d432f9
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6385c44f0979564089d2a699606e8394
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: b1b743709717214582d92eb759d432f9
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 3af557e921cf2e4090a7f6b2d282052c
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 3af557e921cf2e4090a7f6b2d282052c
+    GuidInternal: 
+    m_lastTime: -8585457010776258918
+    List:
+    - name: Main
+      guid: d7e6c2c303c189478201e9f2e2193aa1
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3af557e921cf2e4090a7f6b2d282052c
+      - ElementName: Main
+        ObjectType: 7
+        guid: d7e6c2c303c189478201e9f2e2193aa1
+      Path: SoundBanks\Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: fce7698c57975c43aeb2c1760f75c92b
+    ParentPath: Events\Default Work Unit
+    guid: fce7698c57975c43aeb2c1760f75c92b
+    GuidInternal: 
+    m_lastTime: -8585457010777705519
+    List:
+    - name: Intro_Test_Event
+      guid: de20379180adcc44a9c994a70f0f56c2
+      id: 1447659621
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Music
+        ObjectType: 4
+        guid: 5a84d648ae98f44d9b6349d5553fa2de
+      - ElementName: Intro_Test_Event
+        ObjectType: 3
+        guid: de20379180adcc44a9c994a70f0f56c2
+      Path: Events\Default Work Unit\Music\Intro_Test_Event
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: Mushroom
+      guid: 2338b494195e3040bc50a5c776d9f255
+      id: 1941802987
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      Path: Events\Default Work Unit\Mushroom
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Mushroom_Note
+      guid: db0ea9f59fc16e41ae289b0c3faffb31
+      id: 313967986
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      - ElementName: Mushroom_Note
+        ObjectType: 3
+        guid: db0ea9f59fc16e41ae289b0c3faffb31
+      Path: Events\Default Work Unit\Mushroom\Mushroom_Note
+      maxAttenuation: 10
+      maxDuration: 6.94737
+      minDuration: 3.473696
+    - name: Music
+      guid: 5a84d648ae98f44d9b6349d5553fa2de
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Music
+        ObjectType: 4
+        guid: 5a84d648ae98f44d9b6349d5553fa2de
+      Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: SmallMushroom_Note
+      guid: 78706d23d318f142be6ee60a410225cf
+      id: 2467663479
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      - ElementName: SmallMushroom_Note
+        ObjectType: 3
+        guid: 78706d23d318f142be6ee60a410225cf
+      Path: Events\Default Work Unit\Mushroom\SmallMushroom_Note
+      maxAttenuation: 10
+      maxDuration: 4.536213
+      minDuration: 2.526326
+    - name: SoundDesignEnd
+      guid: 718ec13c6c6e21468b601d2794a24275
+      id: 4256775455
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      - ElementName: SoundDesignEnd
+        ObjectType: 3
+        guid: 718ec13c6c6e21468b601d2794a24275
+      Path: Events\Default Work Unit\Mushroom\SoundDesignEnd
+      maxAttenuation: 10
+      maxDuration: 2.911225
+      minDuration: 2.911225
+    - name: Test_Event
+      guid: 9247d9a49cbb1c4295480d265f6247ae
+      id: 4258653052
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Test_Event
+        ObjectType: 3
+        guid: 9247d9a49cbb1c4295480d265f6247ae
+      Path: Events\Default Work Unit\Test_Event
+      maxAttenuation: 10
+      maxDuration: 6.94737
+      minDuration: 6.94737
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 3a88b611c5ad1f44b75a7753fd83d1e3
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 3a88b611c5ad1f44b75a7753fd83d1e3
+    GuidInternal: 
+    m_lastTime: -8585457010777705519
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d182c9dd4e80b249a92605727fc85b02
+    ParentPath: States\Default Work Unit
+    guid: d182c9dd4e80b249a92605727fc85b02
+    GuidInternal: 
+    m_lastTime: -8585457010776243309
+    List: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 906201ff74b82e45af851762f61efe73
+    ParentPath: Switches\Default Work Unit
+    guid: 906201ff74b82e45af851762f61efe73
+    GuidInternal: 
+    m_lastTime: -8585457010776217314
+    List: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4894c65c6b75714d8a58126f5185501d
+    ParentPath: Triggers\Default Work Unit
+    guid: 4894c65c6b75714d8a58126f5185501d
+    GuidInternal: 
+    m_lastTime: -8585457010776206639
+    List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
