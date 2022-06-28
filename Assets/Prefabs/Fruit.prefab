@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6356985224851568003}
   - component: {fileID: 6356985224851568002}
   - component: {fileID: 6356985224851568000}
+  - component: {fileID: 1407984760361910062}
   m_Layer: 0
   m_Name: Fruit
   m_TagString: Untagged
@@ -213,3 +214,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 333906dce724a7841865646d42d1a19b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1407984760361910062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6356985224851568059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c366ee9861e846479d6e928a3f0e1b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1
