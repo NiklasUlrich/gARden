@@ -7,7 +7,9 @@ public class ZoneCollider : MonoBehaviour
     /// <summary>
     /// The event that will be played
     /// </summary>
-    public AK.Wwise.Event ZoneWwiseEvent;
+    //public AK.Wwise.Event ZoneWwiseEvent;
+
+    public AK.Wwise.Switch mySwitch;
 
     // Start is called before the first frame update
     void Start()
@@ -27,10 +29,10 @@ public class ZoneCollider : MonoBehaviour
         {
             //Debug.Log("Entering new Zone");
 
-            if (ZoneWwiseEvent != null)
+            /*if (ZoneWwiseEvent != null)
             {
                 ZoneWwiseEvent.Post(gameObject);
-            }
+            }*/
         }
     }
 }
