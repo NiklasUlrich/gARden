@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -283,6 +283,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MushroomDrum
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230092919464923965, guid: 1107ecdb0aba75849a8c3477661d5b3c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.678
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230092919464923965, guid: 1107ecdb0aba75849a8c3477661d5b3c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2.71
       objectReference: {fileID: 0}
     - target: {fileID: 8017989500179930876, guid: 1107ecdb0aba75849a8c3477661d5b3c,
         type: 3}
@@ -936,7 +946,7 @@ PrefabInstance:
     - target: {fileID: 4023421219550643614, guid: 8b7af6a473541d0488aa7752de7b2b01,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.444
+      value: -1.497
       objectReference: {fileID: 0}
     - target: {fileID: 4023421219550643614, guid: 8b7af6a473541d0488aa7752de7b2b01,
         type: 3}
