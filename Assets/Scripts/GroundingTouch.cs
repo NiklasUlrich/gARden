@@ -33,6 +33,11 @@ public class GroundingTouch : MonoBehaviour, IMixedRealityTouchHandler
     /// </summary>
     private bool animationCompleted = false;
 
+    /// <summary>
+    /// Which event will be played when the object is spawned
+    /// </summary>
+    public AK.Wwise.Event GrowWwiseEvent;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -69,6 +74,11 @@ public class GroundingTouch : MonoBehaviour, IMixedRealityTouchHandler
     public void OnTouchStarted(HandTrackingInputEventData eventData)
     {
         playerIsTouching = true;
+
+        if (GrowWwiseEvent != null)
+        {
+            GrowWwiseEvent.Post(gameObject);
+        }
     }
 
     public void OnTouchUpdated(HandTrackingInputEventData eventData) { }
