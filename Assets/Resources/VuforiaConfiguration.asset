@@ -40,7 +40,7 @@ MonoBehaviour:
     autoImportArcore: 1
     thirdPartyARCoreClientDetected: 0
   playmode:
-    mSequencePath: C:/Users/Niklas Ulrich/Desktop/WhatsApp Video 2022-06-29 at 15.14.21.mp4
+    mSequencePath: C:/Users/Niklas Ulrich/Documents/GitHub/gARden/gARden/Assets/20220629_125009.mp4
     playModeType: 2
   webcam:
     renderTextureLayer: 30
