@@ -11,8 +11,9 @@ GameObject:
   - component: {fileID: 6859992469468822593}
   - component: {fileID: 2693703051413169123}
   - component: {fileID: 2555148535315852722}
+  - component: {fileID: 3906556449772930235}
   m_Layer: 0
-  m_Name: Point Light
+  m_Name: Halo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -45,7 +46,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.43612295, g: 0.7075472, b: 0.32373622, a: 1}
-  m_Intensity: 21.54
+  m_Intensity: 4.37
   m_Range: 0.78
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -105,8 +106,23 @@ Halo:
   m_Enabled: 1
   m_Color:
     serializedVersion: 2
-    rgba: 4286436469
+    rgba: 3497521
   m_Size: 0.85
+--- !u!114 &3906556449772930235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3275527963323153524}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7512bd2c7f2824d4fa926d7bd84f7712, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  color1: {r: 0.3809185, g: 0.754717, b: 0.39806518, a: 0}
+  color2: {r: 0.21239765, g: 0.4056604, b: 0.23540513, a: 0}
+  lerpSpeed: 1.5
 --- !u!1 &4023421219550643610
 GameObject:
   m_ObjectHideFlags: 0
@@ -237,6 +253,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   interval: 0.1
+  GrowWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!135 &3818728162471645983
 SphereCollider:
   m_ObjectHideFlags: 0
