@@ -1,0 +1,28 @@
+Event	ID	Name			Wwise Object Path	Notes
+	26822469	Exit			\Default Work Unit\Music\Exit	
+	2643994082	Zone_4			\Default Work Unit\Music\Zone_4	
+	2643994084	Zone_2			\Default Work Unit\Music\Zone_2	
+	2643994087	Zone_1			\Default Work Unit\Music\Zone_1	
+	2656882895	Entrance			\Default Work Unit\Music\Entrance	
+	4043173166	Zone_3_5_Drops			\Default Work Unit\Music\Zone_3_5_Drops	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	1690668539	Music_States			\Default Work Unit\Music_States	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music_States			
+	883690017	STATE_Zone_1	Music_States			
+	883690018	STATE_Zone_2	Music_States			
+	883690020	STATE_Zone_4	Music_States			
+	1788649551	STATE_Exit	Music_States			
+	3515679872	STATE_Zone_3_5_Drops	Music_States			
+	3901413513	STATE_Entrance	Music_States			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	83306852	Zone 4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\Zone4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 4\Zone 4\Zone 4		7130340
+	398012631	Zone3_Drop-1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\Zone3_Drop-1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 3_5_Drops\Zone3_Drop-1\Zone3_Drop-1		7130340
+	467721262	Zone 1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\Zone1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 1\Zone 1\Zone 1		7130340
+	543001980	Exit	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\Exit_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Exit\Exit\Exit		10695476
+	808275808	Zone 2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\Zone2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 2\Zone 2\Zone 2		7130340
+	863158741	Entrance	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\Entrance_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Entrance\Entrance\Entrance		7130340
+

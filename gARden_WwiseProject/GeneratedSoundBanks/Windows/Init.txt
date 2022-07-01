@@ -1,3 +1,15 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	1690668539	Music_States			\Default Work Unit\Music_States	
+
+State	ID	Name	State Group			Notes
+	748895195	None	Music_States			
+	883690017	STATE_Zone_1	Music_States			
+	883690018	STATE_Zone_2	Music_States			
+	883690020	STATE_Zone_4	Music_States			
+	1788649551	STATE_Exit	Music_States			
+	3515679872	STATE_Zone_3_5_Drops	Music_States			
+	3901413513	STATE_Entrance	Music_States			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	52442795	Binaural			\Default Work Unit\Binaural	
 	436743010	Character			\Default Work Unit\Master Audio Bus\Character	

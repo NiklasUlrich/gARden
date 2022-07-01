@@ -16,6 +16,7 @@ namespace AK
         static const AkUniqueID ENTRANCE = 2656882895U;
         static const AkUniqueID EXIT = 26822469U;
         static const AkUniqueID MUSHROOM_NOTE = 313967986U;
+        static const AkUniqueID MUSIC_PLAYLIST = 2520593515U;
         static const AkUniqueID SMALL_MUSHROOM_NOTES = 3856944273U;
         static const AkUniqueID SOUNDDESIGNEND = 4256775455U;
         static const AkUniqueID ZONE_1 = 2643994087U;
@@ -23,6 +24,26 @@ namespace AK
         static const AkUniqueID ZONE_3_5_DROPS = 4043173166U;
         static const AkUniqueID ZONE_4 = 2643994082U;
     } // namespace EVENTS
+
+    namespace STATES
+    {
+        namespace MUSIC_STATES
+        {
+            static const AkUniqueID GROUP = 1690668539U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID STATE_ENTRANCE = 3901413513U;
+                static const AkUniqueID STATE_EXIT = 1788649551U;
+                static const AkUniqueID STATE_ZONE_1 = 883690017U;
+                static const AkUniqueID STATE_ZONE_2 = 883690018U;
+                static const AkUniqueID STATE_ZONE_3_5_DROPS = 3515679872U;
+                static const AkUniqueID STATE_ZONE_4 = 883690020U;
+            } // namespace STATE
+        } // namespace MUSIC_STATES
+
+    } // namespace STATES
 
     namespace SWITCHES
     {

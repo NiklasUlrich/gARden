@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	26822469	Exit			\Default Work Unit\Music\Exit	
 	313967986	Mushroom_Note			\Default Work Unit\Mushroom\Mushroom_Note	
+	2520593515	Music_Playlist			\Default Work Unit\Music_Playlist	
 	2643994082	Zone_4			\Default Work Unit\Music\Zone_4	
 	2643994084	Zone_2			\Default Work Unit\Music\Zone_2	
 	2643994087	Zone_1			\Default Work Unit\Music\Zone_1	
@@ -9,16 +10,17 @@ Event	ID	Name			Wwise Object Path	Notes
 	4043173166	Zone_3_5_Drops			\Default Work Unit\Music\Zone_3_5_Drops	
 	4256775455	SoundDesignEnd			\Default Work Unit\Mushroom\SoundDesignEnd	
 
-Switch Group	ID	Name			Wwise Object Path	Notes
-	2966254405	Zones_Background_Music			\Default Work Unit\Zones_Background_Music	
+State Group	ID	Name			Wwise Object Path	Notes
+	1690668539	Music_States			\Default Work Unit\Music_States	
 
-Switch	ID	Name	Switch Group			Notes
-	26822469	Exit	Zones_Background_Music			
-	2643994082	Zone_4	Zones_Background_Music			
-	2643994084	Zone_2	Zones_Background_Music			
-	2643994087	Zone_1	Zones_Background_Music			
-	2656882895	Entrance	Zones_Background_Music			
-	4043173166	Zone_3_5_Drops	Zones_Background_Music			
+State	ID	Name	State Group			Notes
+	748895195	None	Music_States			
+	883690017	STATE_Zone_1	Music_States			
+	883690018	STATE_Zone_2	Music_States			
+	883690020	STATE_Zone_4	Music_States			
+	1788649551	STATE_Exit	Music_States			
+	3515679872	STATE_Zone_3_5_Drops	Music_States			
+	3901413513	STATE_Entrance	Music_States			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	83306852	Zone 4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\Zone4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 4\Zone 4\Zone 4		7130340

@@ -11,12 +11,12 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Language="SFX" Hash="2265507486">
+		<SoundBank Id="1355168291" Language="SFX" Hash="3589487803">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3397681336">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1750756326">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -58,6 +58,34 @@
 						<File Id="1055072850" Language="SFX">
 							<ShortName>Mushroom_Note4.wav</ShortName>
 							<Path>SFX\Mushroom_Note4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2520593515" Name="Music_Playlist" ObjectPath="\Events\Default Work Unit\Music_Playlist" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="83306852" Language="SFX">
+							<ShortName>Zone4.wav</ShortName>
+							<Path>SFX\Zone4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="398012631" Language="SFX">
+							<ShortName>Zone3_Drop-1.wav</ShortName>
+							<Path>SFX\Zone3_Drop-1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="467721262" Language="SFX">
+							<ShortName>Zone1.wav</ShortName>
+							<Path>SFX\Zone1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="543001980" Language="SFX">
+							<ShortName>Exit.wav</ShortName>
+							<Path>SFX\Exit_D79FB2B7.wem</Path>
+						</File>
+						<File Id="808275808" Language="SFX">
+							<ShortName>Zone2.wav</ShortName>
+							<Path>SFX\Zone2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="863158741" Language="SFX">
+							<ShortName>Entrance.wav</ShortName>
+							<Path>SFX\Entrance_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -126,6 +154,19 @@
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="1690668539" Name="Music_States" ObjectPath="\States\Default Work Unit\Music_States" GUID="{E3939D62-753F-4E64-BE1C-B5FB73105891}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Music_States\None" GUID="{283129BA-6234-41E0-8A3C-45F366AEA014}"/>
+						<State Id="3901413513" Name="STATE_Entrance" ObjectPath="\States\Default Work Unit\Music_States\STATE_Entrance" GUID="{EB678130-AE26-4452-B707-18EC4B143AC5}"/>
+						<State Id="883690017" Name="STATE_Zone_1" ObjectPath="\States\Default Work Unit\Music_States\STATE_Zone_1" GUID="{B04983DE-F85C-456C-A0B6-F7E0264D4983}"/>
+						<State Id="883690018" Name="STATE_Zone_2" ObjectPath="\States\Default Work Unit\Music_States\STATE_Zone_2" GUID="{4C9E89E2-45CE-434B-8BFD-DA62E4590848}"/>
+						<State Id="3515679872" Name="STATE_Zone_3_5_Drops" ObjectPath="\States\Default Work Unit\Music_States\STATE_Zone_3_5_Drops" GUID="{FA45089E-E981-41EC-9A53-1D7E307E3E2A}"/>
+						<State Id="883690020" Name="STATE_Zone_4" ObjectPath="\States\Default Work Unit\Music_States\STATE_Zone_4" GUID="{E4A3704F-3349-46A2-8B56-CF653A28B076}"/>
+						<State Id="1788649551" Name="STATE_Exit" ObjectPath="\States\Default Work Unit\Music_States\STATE_Exit" GUID="{242DD928-6D5A-403B-9575-58DDCB329ABC}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

@@ -114,7 +114,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 3af557e921cf2e4090a7f6b2d282052c
     GuidInternal: 
-    m_lastTime: -8585461850013946709
+    m_lastTime: -8585448895850079006
     List:
     - name: Main
       guid: d7e6c2c303c189478201e9f2e2193aa1
@@ -142,7 +142,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: fce7698c57975c43aeb2c1760f75c92b
     GuidInternal: 
-    m_lastTime: -8585452581563708496
+    m_lastTime: -8585448890698414722
     List:
     - name: Entrance
       guid: f09c63fbefe8f4429d88c63425bc28ea
@@ -238,9 +238,26 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: -1
       minDuration: -1
-    - name: SmallMushroom_Note0
-      guid: c8965fb6cd76d247b4abd1c892c4fd8b
-      id: 32458085
+    - name: Music_Playlist
+      guid: bf356d9fe737ce43be226d219d2b6f8e
+      id: 2520593515
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Music_Playlist
+        ObjectType: 3
+        guid: bf356d9fe737ce43be226d219d2b6f8e
+      Path: Events\Default Work Unit\Music_Playlist
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Small_Mushroom_Notes
+      guid: a7c12a5be3880145ac5e27db96309a27
+      id: 3856944273
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -251,93 +268,13 @@ MonoBehaviour:
       - ElementName: Mushroom
         ObjectType: 4
         guid: 2338b494195e3040bc50a5c776d9f255
-      - ElementName: SmallMushroom_Note0
+      - ElementName: Small_Mushroom_Notes
         ObjectType: 3
-        guid: c8965fb6cd76d247b4abd1c892c4fd8b
-      Path: Events\Default Work Unit\Mushroom\SmallMushroom_Note0
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: SmallMushroom_Note1
-      guid: 78706d23d318f142be6ee60a410225cf
-      id: 32458084
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: fce7698c57975c43aeb2c1760f75c92b
-      - ElementName: Mushroom
-        ObjectType: 4
-        guid: 2338b494195e3040bc50a5c776d9f255
-      - ElementName: SmallMushroom_Note1
-        ObjectType: 3
-        guid: 78706d23d318f142be6ee60a410225cf
-      Path: Events\Default Work Unit\Mushroom\SmallMushroom_Note1
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: SmallMushroom_Note2
-      guid: 691fcfc6d6c7804989f9f56a2556e119
-      id: 32458087
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: fce7698c57975c43aeb2c1760f75c92b
-      - ElementName: Mushroom
-        ObjectType: 4
-        guid: 2338b494195e3040bc50a5c776d9f255
-      - ElementName: SmallMushroom_Note2
-        ObjectType: 3
-        guid: 691fcfc6d6c7804989f9f56a2556e119
-      Path: Events\Default Work Unit\Mushroom\SmallMushroom_Note2
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: SmallMushroom_Note3
-      guid: 6edcd82a620ee5438847dd685bd99266
-      id: 32458086
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: fce7698c57975c43aeb2c1760f75c92b
-      - ElementName: Mushroom
-        ObjectType: 4
-        guid: 2338b494195e3040bc50a5c776d9f255
-      - ElementName: SmallMushroom_Note3
-        ObjectType: 3
-        guid: 6edcd82a620ee5438847dd685bd99266
-      Path: Events\Default Work Unit\Mushroom\SmallMushroom_Note3
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
-    - name: SmallMushroom_Note4
-      guid: 039d71a9b5912d4e9a7aa1d096539adf
-      id: 32458081
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: fce7698c57975c43aeb2c1760f75c92b
-      - ElementName: Mushroom
-        ObjectType: 4
-        guid: 2338b494195e3040bc50a5c776d9f255
-      - ElementName: SmallMushroom_Note4
-        ObjectType: 3
-        guid: 039d71a9b5912d4e9a7aa1d096539adf
-      Path: Events\Default Work Unit\Mushroom\SmallMushroom_Note4
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
+        guid: a7c12a5be3880145ac5e27db96309a27
+      Path: Events\Default Work Unit\Mushroom\Small_Mushroom_Notes
+      maxAttenuation: 10
+      maxDuration: 4.536213
+      minDuration: 1.191859
     - name: SoundDesignEnd
       guid: 718ec13c6c6e21468b601d2794a24275
       id: 4256775455
@@ -358,23 +295,6 @@ MonoBehaviour:
       maxAttenuation: 10
       maxDuration: 2.911225
       minDuration: 2.911225
-    - name: Test_Event
-      guid: 9247d9a49cbb1c4295480d265f6247ae
-      id: 4258653052
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: fce7698c57975c43aeb2c1760f75c92b
-      - ElementName: Test_Event
-        ObjectType: 3
-        guid: 9247d9a49cbb1c4295480d265f6247ae
-      Path: Events\Default Work Unit\Test_Event
-      maxAttenuation: 0
-      maxDuration: -1
-      minDuration: -1
     - name: Zone_1
       guid: 30aafa4d2750ab4c8a0969f02913262c
       id: 2643994087
@@ -481,8 +401,138 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: d182c9dd4e80b249a92605727fc85b02
     GuidInternal: 
-    m_lastTime: -8585469835236556046
-    List: []
+    m_lastTime: -8585448895850248393
+    List:
+    - name: Music_States
+      guid: 629d93e33f75644ebe1cb5fb73105891
+      id: 1690668539
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d182c9dd4e80b249a92605727fc85b02
+      - ElementName: Music_States
+        ObjectType: 9
+        guid: 629d93e33f75644ebe1cb5fb73105891
+      Path: States\Default Work Unit\Music_States
+      values:
+      - name: None
+        guid: ba2931283462e0418a3c45f366aea014
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: None
+          ObjectType: 8
+          guid: ba2931283462e0418a3c45f366aea014
+      - name: STATE_Entrance
+        guid: 308167eb26ae5244b70718ec4b143ac5
+        id: 3901413513
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: STATE_Entrance
+          ObjectType: 8
+          guid: 308167eb26ae5244b70718ec4b143ac5
+      - name: STATE_Exit
+        guid: 28d92d245a6d3b40957558ddcb329abc
+        id: 1788649551
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: STATE_Exit
+          ObjectType: 8
+          guid: 28d92d245a6d3b40957558ddcb329abc
+      - name: STATE_Zone_1
+        guid: de8349b05cf86c45a0b6f7e0264d4983
+        id: 883690017
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: STATE_Zone_1
+          ObjectType: 8
+          guid: de8349b05cf86c45a0b6f7e0264d4983
+      - name: STATE_Zone_2
+        guid: e2899e4cce454b438bfdda62e4590848
+        id: 883690018
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: STATE_Zone_2
+          ObjectType: 8
+          guid: e2899e4cce454b438bfdda62e4590848
+      - name: STATE_Zone_3_5_Drops
+        guid: 9e0845fa81e9ec419a531d7e307e3e2a
+        id: 3515679872
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: STATE_Zone_3_5_Drops
+          ObjectType: 8
+          guid: 9e0845fa81e9ec419a531d7e307e3e2a
+      - name: STATE_Zone_4
+        guid: 4f70a3e44933a2468b56cf653a28b076
+        id: 883690020
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: STATE_Zone_4
+          ObjectType: 8
+          guid: 4f70a3e44933a2468b56cf653a28b076
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -626,7 +676,7 @@ MonoBehaviour:
     m_lastTime: -8585469835235656032
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 070000000800000009000000
+  ExpandedWaapiItemIds: 01000000060000000700000008000000090000000b0000000c0000000d0000000e0000001000000011000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

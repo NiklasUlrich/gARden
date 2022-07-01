@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{DDC982D1-804E-49B2-A926-05727FC85B02}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{DDC982D1-804E-49B2-A926-05727FC85B02}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{DDC982D1-804E-49B2-A926-05727FC85B02}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="Music_States" ID="{E3939D62-753F-4E64-BE1C-B5FB73105891}">
+					<PropertyList>
+						<Property Name="DefaultTransitionTime" Type="Real64" Value="0"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{283129BA-6234-41E0-8A3C-45F366AEA014}"/>
+						<State Name="STATE_Entrance" ID="{EB678130-AE26-4452-B707-18EC4B143AC5}"/>
+						<State Name="STATE_Zone_1" ID="{B04983DE-F85C-456C-A0B6-F7E0264D4983}"/>
+						<State Name="STATE_Zone_2" ID="{4C9E89E2-45CE-434B-8BFD-DA62E4590848}"/>
+						<State Name="STATE_Zone_3_5_Drops" ID="{FA45089E-E981-41EC-9A53-1D7E307E3E2A}"/>
+						<State Name="STATE_Zone_4" ID="{E4A3704F-3349-46A2-8B56-CF653A28B076}"/>
+						<State Name="STATE_Exit" ID="{242DD928-6D5A-403B-9575-58DDCB329ABC}"/>
+					</ChildrenList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>
