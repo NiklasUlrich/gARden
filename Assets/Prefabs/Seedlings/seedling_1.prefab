@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8134591321448473644}
   - component: {fileID: 9166207767161650125}
   - component: {fileID: 6168836160396146149}
+  - component: {fileID: 7097153526565548842}
   m_Layer: 0
   m_Name: seedling_1
   m_TagString: Untagged
@@ -96,6 +97,18 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &7097153526565548842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4972030221351912712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c874d2aeac1da4eaedb80822446586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6241878363965106905
 GameObject:
   m_ObjectHideFlags: 0

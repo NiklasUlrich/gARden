@@ -109,6 +109,7 @@ GameObject:
   - component: {fileID: 2342185658342777004}
   - component: {fileID: 3410961738596155213}
   - component: {fileID: 432021253555974501}
+  - component: {fileID: 5003040263113897368}
   m_Layer: 0
   m_Name: seedling_2
   m_TagString: Untagged
@@ -194,3 +195,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &5003040263113897368
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1541059983738683784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7c874d2aeac1da4eaedb80822446586, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GrowWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}

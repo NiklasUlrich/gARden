@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 6356985224851568003}
   - component: {fileID: 6356985224851568002}
   - component: {fileID: 6356985224851568000}
+  - component: {fileID: 1407984760361910062}
   m_Layer: 0
   m_Name: Fruit
   m_TagString: Untagged
@@ -124,7 +125,7 @@ Rigidbody:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6356985224851568059}
   serializedVersion: 2
-  m_Mass: 0.01
+  m_Mass: 1
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
@@ -162,7 +163,7 @@ MonoBehaviour:
   manipulationType: 3
   twoHandedManipulationType: 7
   allowFarManipulation: 0
-  useForcesForNearManipulation: 1
+  useForcesForNearManipulation: 0
   oneHandRotationModeNear: 1
   oneHandRotationModeFar: 1
   releaseBehavior: 3
@@ -171,13 +172,28 @@ MonoBehaviour:
       Microsoft.MixedReality.Toolkit.SDK
   smoothingFar: 1
   smoothingNear: 1
-  moveLerpTime: 0.001
+  moveLerpTime: 0
   rotateLerpTime: 0.001
   scaleLerpTime: 0.001
   enableConstraints: 1
   constraintsManager: {fileID: 6356985224851568003}
   elasticsManager: {fileID: 0}
   onManipulationStarted:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 6356985224851568000}
+        m_TargetAssemblyTypeName: FruitBehavior, Assembly-CSharp
+        m_MethodName: OnGrab
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  onManipulationEnded:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6356985224851568000}
@@ -192,9 +208,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-  onManipulationEnded:
-    m_PersistentCalls:
-      m_Calls: []
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -213,3 +226,33 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 333906dce724a7841865646d42d1a19b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GrabWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  ThrowWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+--- !u!114 &1407984760361910062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6356985224851568059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c366ee9861e846479d6e928a3f0e1b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_listeners:
+    initialListenerList: []
+    useDefaultListeners: 1
+  isEnvironmentAware: 1
+  isStaticObject: 0
+  m_positionOffsetData:
+    KeepMe: 0
+    positionOffset: {x: 0, y: 0, z: 0}
+  m_posOffsetData: {fileID: 0}
+  listenerMask: 1

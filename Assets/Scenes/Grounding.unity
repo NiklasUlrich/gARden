@@ -217,34 +217,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!1 &325354640 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7552298553763995934, guid: 1107ecdb0aba75849a8c3477661d5b3c,
-    type: 3}
-  m_PrefabInstance: {fileID: 432323087}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &325354642
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 325354640}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c366ee9861e846479d6e928a3f0e1b7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_listeners:
-    initialListenerList: []
-    useDefaultListeners: 1
-  isEnvironmentAware: 1
-  isStaticObject: 0
-  m_positionOffsetData:
-    KeepMe: 0
-    positionOffset: {x: 0, y: 0, z: 0}
-  m_posOffsetData: {fileID: 0}
-  listenerMask: 1
 --- !u!1001 &432323087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -311,6 +283,26 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MushroomDrum
+      objectReference: {fileID: 0}
+    - target: {fileID: 3784939624707866335, guid: 1107ecdb0aba75849a8c3477661d5b3c,
+        type: 3}
+      propertyPath: m_positionOffsetData.positionOffset.y
+      value: -0.002060003
+      objectReference: {fileID: 0}
+    - target: {fileID: 3784939624707866335, guid: 1107ecdb0aba75849a8c3477661d5b3c,
+        type: 3}
+      propertyPath: m_positionOffsetData.positionOffset.z
+      value: -2.2182702e-10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230092919464923965, guid: 1107ecdb0aba75849a8c3477661d5b3c,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.678
+      objectReference: {fileID: 0}
+    - target: {fileID: 6230092919464923965, guid: 1107ecdb0aba75849a8c3477661d5b3c,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1.8
       objectReference: {fileID: 0}
     - target: {fileID: 8017989500179930876, guid: 1107ecdb0aba75849a8c3477661d5b3c,
         type: 3}
@@ -951,6 +943,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: GroundingSpace
       objectReference: {fileID: 0}
+    - target: {fileID: 4023421219550643610, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 2147483647
+      objectReference: {fileID: 0}
     - target: {fileID: 4023421219550643614, guid: 8b7af6a473541d0488aa7752de7b2b01,
         type: 3}
       propertyPath: m_RootOrder
@@ -959,17 +956,17 @@ PrefabInstance:
     - target: {fileID: 4023421219550643614, guid: 8b7af6a473541d0488aa7752de7b2b01,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.003
+      value: -1.93
       objectReference: {fileID: 0}
     - target: {fileID: 4023421219550643614, guid: 8b7af6a473541d0488aa7752de7b2b01,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.444
+      value: -1.118
       objectReference: {fileID: 0}
     - target: {fileID: 4023421219550643614, guid: 8b7af6a473541d0488aa7752de7b2b01,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.58
+      value: -0.251
       objectReference: {fileID: 0}
     - target: {fileID: 4023421219550643614, guid: 8b7af6a473541d0488aa7752de7b2b01,
         type: 3}
