@@ -45,7 +45,7 @@ Light:
   m_Type: 2
   m_Shape: 0
   m_Color: {r: 0.43612295, g: 0.7075472, b: 0.32373622, a: 1}
-  m_Intensity: 4.37
+  m_Intensity: 0.94
   m_Range: 0.7
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -107,8 +107,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7512bd2c7f2824d4fa926d7bd84f7712, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  color1: {r: 0.3809185, g: 0.754717, b: 0.39806518, a: 0}
-  color2: {r: 0.21239765, g: 0.4056604, b: 0.23540513, a: 0}
+  halo: {fileID: 2693703051413169123}
+  minIntensity: 0.5
+  maxIntensity: 1.5
   lerpSpeed: 1.5
 --- !u!1 &4023421219550643610
 GameObject:

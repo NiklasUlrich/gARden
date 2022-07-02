@@ -5,20 +5,10 @@ using UnityEditor;
 
 public class GroundingHalo : MonoBehaviour
 {
-    /// <summary>
-    /// The halo object
-    /// </summary>
-    private Behaviour halo;
+    public Light halo;
 
-    /// <summary>
-    /// The colors the halo will switch between
-    /// </summary>
-    public Color color1;
-
-    /// <summary>
-    /// The colors the halo will switch between
-    /// </summary>
-    public Color color2;
+    public float minIntensity = .2f;
+    public float maxIntensity = 1.5f;
 
     /// <summary>
     /// THe speed of the color transitions
@@ -28,11 +18,11 @@ public class GroundingHalo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        halo = (Behaviour)GetComponent("Halo");
     }
 
     // Update is called once per frame
     void Update()
     {
+        halo.intensity = Mathf.Lerp(minIntensity, maxIntensity, Mathf.Sin(Time.time * lerpSpeed));
     }
 }
