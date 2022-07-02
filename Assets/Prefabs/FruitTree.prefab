@@ -767,6 +767,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1135394738936876539}
     m_Modifications:
+    - target: {fileID: 6356985224851568000, guid: 085f32b21ea0a714a92d96deb75fd398,
+        type: 3}
+      propertyPath: GrabWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 18dc3e9926f1342438aa8b03383ebcaf,
+        type: 2}
+    - target: {fileID: 6356985224851568000, guid: 085f32b21ea0a714a92d96deb75fd398,
+        type: 3}
+      propertyPath: ThrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 3aa92bd405c37a049b768790b4c3927e,
+        type: 2}
     - target: {fileID: 6356985224851568004, guid: 085f32b21ea0a714a92d96deb75fd398,
         type: 3}
       propertyPath: m_RootOrder

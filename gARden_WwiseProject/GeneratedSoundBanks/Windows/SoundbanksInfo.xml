@@ -16,12 +16,36 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1750756326">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2686017832">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2656882895" Name="Entrance" ObjectPath="\Events\Default Work Unit\Music\Entrance" DurationType="Infinite">
+				<Event Id="3765476793" Name="Dropping_Fruit" ObjectPath="\Events\Default Work Unit\Fruit and Tree\Dropping_Fruit" MaxAttenuation="100." DurationType="OneShot" DurationMin="9.496032" DurationMax="11.368435">
+					<IncludedMemoryFiles>
+						<File Id="69570771" Language="SFX">
+							<ShortName>Falling_Fruit_2.wav</ShortName>
+							<Path>SFX\Falling_Fruit_2_10C4C929.wem</Path>
+						</File>
+						<File Id="285063219" Language="SFX">
+							<ShortName>Falling_Fruit_1.wav</ShortName>
+							<Path>SFX\Falling_Fruit_1_10C4C929.wem</Path>
+						</File>
+						<File Id="332984453" Language="SFX">
+							<ShortName>Falling_Fruit_3.wav</ShortName>
+							<Path>SFX\Falling_Fruit_3_10C4C929.wem</Path>
+						</File>
+						<File Id="691275892" Language="SFX">
+							<ShortName>Falling_Fruit_5.wav</ShortName>
+							<Path>SFX\Falling_Fruit_5_10C4C929.wem</Path>
+						</File>
+						<File Id="1009530216" Language="SFX">
+							<ShortName>Falling_Fruit_4.wav</ShortName>
+							<Path>SFX\Falling_Fruit_4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2656882895" Name="Entrance" ObjectPath="\Events\Default Work Unit\Music\Entrance" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="863158741" Language="SFX">
 							<ShortName>Entrance.wav</ShortName>
@@ -29,11 +53,35 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="26822469" Name="Exit" ObjectPath="\Events\Default Work Unit\Music\Exit" DurationType="Infinite">
+				<Event Id="26822469" Name="Exit" ObjectPath="\Events\Default Work Unit\Music\Exit" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="543001980" Language="SFX">
 							<ShortName>Exit.wav</ShortName>
 							<Path>SFX\Exit_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1666569787" Name="Growing_Tree" ObjectPath="\Events\Default Work Unit\Fruit and Tree\Growing_Tree" DurationType="OneShot" DurationMin="2.210544" DurationMax="4.105283">
+					<IncludedMemoryFiles>
+						<File Id="629135377" Language="SFX">
+							<ShortName>Growing_Tree_5.wav</ShortName>
+							<Path>SFX\Growing_Tree_5_10C4C929.wem</Path>
+						</File>
+						<File Id="698731558" Language="SFX">
+							<ShortName>Growing_Tree_2.wav</ShortName>
+							<Path>SFX\Growing_Tree_2_10C4C929.wem</Path>
+						</File>
+						<File Id="706021618" Language="SFX">
+							<ShortName>Growing_Tree_4.wav</ShortName>
+							<Path>SFX\Growing_Tree_4_10C4C929.wem</Path>
+						</File>
+						<File Id="734186881" Language="SFX">
+							<ShortName>Growing_Tree_3.wav</ShortName>
+							<Path>SFX\Growing_Tree_3_10C4C929.wem</Path>
+						</File>
+						<File Id="968470072" Language="SFX">
+							<ShortName>Growing_Tree_1.wav</ShortName>
+							<Path>SFX\Growing_Tree_1_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -61,7 +109,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2520593515" Name="Music_Playlist" ObjectPath="\Events\Default Work Unit\Music_Playlist" DurationType="Infinite">
+				<Event Id="2520593515" Name="Music_Playlist" ObjectPath="\Events\Default Work Unit\Music_Playlist" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="83306852" Language="SFX">
 							<ShortName>Zone4.wav</ShortName>
@@ -86,6 +134,26 @@
 						<File Id="863158741" Language="SFX">
 							<ShortName>Entrance.wav</ShortName>
 							<Path>SFX\Entrance_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="300230377" Name="Picking_Fruit" ObjectPath="\Events\Default Work Unit\Fruit and Tree\Picking_Fruit" MaxAttenuation="100." DurationType="OneShot" DurationMin="6.327438" DurationMax="6.961655">
+					<IncludedMemoryFiles>
+						<File Id="37874238" Language="SFX">
+							<ShortName>Fruit_Note3.wav</ShortName>
+							<Path>SFX\Fruit_Note3_10C4C929.wem</Path>
+						</File>
+						<File Id="263192278" Language="SFX">
+							<ShortName>Fruit_Note4.wav</ShortName>
+							<Path>SFX\Fruit_Note4_10C4C929.wem</Path>
+						</File>
+						<File Id="808975252" Language="SFX">
+							<ShortName>Fruit_Note1.wav</ShortName>
+							<Path>SFX\Fruit_Note1_10C4C929.wem</Path>
+						</File>
+						<File Id="824428412" Language="SFX">
+							<ShortName>Fruit_Note2.wav</ShortName>
+							<Path>SFX\Fruit_Note2_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -121,7 +189,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2643994087" Name="Zone_1" ObjectPath="\Events\Default Work Unit\Music\Zone_1" DurationType="Infinite">
+				<Event Id="2643994087" Name="Zone_1" ObjectPath="\Events\Default Work Unit\Music\Zone_1" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="467721262" Language="SFX">
 							<ShortName>Zone1.wav</ShortName>
@@ -129,7 +197,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2643994084" Name="Zone_2" ObjectPath="\Events\Default Work Unit\Music\Zone_2" DurationType="Infinite">
+				<Event Id="2643994084" Name="Zone_2" ObjectPath="\Events\Default Work Unit\Music\Zone_2" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="808275808" Language="SFX">
 							<ShortName>Zone2.wav</ShortName>
@@ -137,7 +205,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4043173166" Name="Zone_3_5_Drops" ObjectPath="\Events\Default Work Unit\Music\Zone_3_5_Drops" DurationType="Infinite">
+				<Event Id="4043173166" Name="Zone_3_5_Drops" ObjectPath="\Events\Default Work Unit\Music\Zone_3_5_Drops" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="398012631" Language="SFX">
 							<ShortName>Zone3_Drop-1.wav</ShortName>
@@ -145,7 +213,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2643994082" Name="Zone_4" ObjectPath="\Events\Default Work Unit\Music\Zone_4" DurationType="Infinite">
+				<Event Id="2643994082" Name="Zone_4" ObjectPath="\Events\Default Work Unit\Music\Zone_4" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="83306852" Language="SFX">
 							<ShortName>Zone4.wav</ShortName>

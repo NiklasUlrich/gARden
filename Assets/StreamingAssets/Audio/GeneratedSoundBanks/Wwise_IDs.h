@@ -13,10 +13,13 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID DROPPING_FRUIT = 3765476793U;
         static const AkUniqueID ENTRANCE = 2656882895U;
         static const AkUniqueID EXIT = 26822469U;
+        static const AkUniqueID GROWING_TREE = 1666569787U;
         static const AkUniqueID MUSHROOM_NOTE = 313967986U;
         static const AkUniqueID MUSIC_PLAYLIST = 2520593515U;
+        static const AkUniqueID PICKING_FRUIT = 300230377U;
         static const AkUniqueID SMALL_MUSHROOM_NOTES = 3856944273U;
         static const AkUniqueID SOUNDDESIGNEND = 4256775455U;
         static const AkUniqueID ZONE_1 = 2643994087U;

@@ -121,6 +121,43 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="Fruit and Tree" ID="{BA7D8BAE-E51C-42C2-A2C8-4269C8227030}" ShortID="1049031464">
+					<ChildrenList>
+						<Event Name="Picking_Fruit" ID="{44170C13-0F09-4977-A2D0-D64303A90D61}">
+							<ChildrenList>
+								<Action Name="" ID="{504D16C3-9F70-445F-BEFF-F116D6BF8558}" ShortID="611365994">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PIcking_Fruit" ID="{FDD3E560-409C-4CA4-B9CA-F389F5354BCD}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dropping_Fruit" ID="{FCF4A144-94B9-4787-A04A-C00D25C072B1}">
+							<ChildrenList>
+								<Action Name="" ID="{2DD3F444-504E-494D-882E-60D0BB1538E6}" ShortID="336070577">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dropping_Fruit" ID="{F2408F0E-2066-41EB-B551-915C8D72B693}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Growing_Tree" ID="{FF4D2D5F-1A39-4EF9-B6F1-FE5CD2F69E40}">
+							<ChildrenList>
+								<Action Name="" ID="{BA253B85-B253-44C8-8704-09BAB11DCF1C}" ShortID="132387879">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Growing_Tree" ID="{12884544-2CBC-4C48-8158-B928FC839646}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
