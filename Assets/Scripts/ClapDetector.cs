@@ -12,6 +12,8 @@ public class ClapDetector : MonoBehaviour
     MixedRealityPose rightPalm;
     MixedRealityPose leftPalm;
 
+    public Dandelion[] dandelions;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +37,9 @@ public class ClapDetector : MonoBehaviour
 
     void onClap()
     {
-
+        for(int i = 0; i < dandelions.Length; i++)
+        {
+            dandelions[i].explode();
+        }
     }
 }
