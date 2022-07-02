@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6859992469468822593}
   - component: {fileID: 2693703051413169123}
-  - component: {fileID: 2555148535315852722}
   - component: {fileID: 3906556449772930235}
   m_Layer: 0
   m_Name: Halo
@@ -47,7 +46,7 @@ Light:
   m_Shape: 0
   m_Color: {r: 0.43612295, g: 0.7075472, b: 0.32373622, a: 1}
   m_Intensity: 4.37
-  m_Range: 0.78
+  m_Range: 0.7
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
   m_CookieSize: 10
@@ -78,7 +77,7 @@ Light:
       e33: 1
     m_UseCullingMatrixOverride: 0
   m_Cookie: {fileID: 0}
-  m_DrawHalo: 0
+  m_DrawHalo: 1
   m_Flare: {fileID: 0}
   m_RenderMode: 0
   m_CullingMask:
@@ -96,18 +95,6 @@ Light:
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
   m_ShadowAngle: 0
---- !u!122 &2555148535315852722
-Halo:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3275527963323153524}
-  m_Enabled: 1
-  m_Color:
-    serializedVersion: 2
-    rgba: 3497521
-  m_Size: 0.85
 --- !u!114 &3906556449772930235
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -268,7 +255,7 @@ SphereCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.86
+  m_Radius: 0.7
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &4023421219591205031
 GameObject:

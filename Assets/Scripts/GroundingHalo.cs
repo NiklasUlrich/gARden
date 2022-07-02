@@ -8,7 +8,7 @@ public class GroundingHalo : MonoBehaviour
     /// <summary>
     /// The halo object
     /// </summary>
-    private SerializedObject halo;
+    private Behaviour halo;
 
     /// <summary>
     /// The colors the halo will switch between
@@ -28,13 +28,11 @@ public class GroundingHalo : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        halo = new SerializedObject(gameObject.GetComponent("Halo"));
+        halo = (Behaviour)GetComponent("Halo");
     }
 
     // Update is called once per frame
     void Update()
     {
-        halo.FindProperty("m_Color").colorValue = Color.Lerp(color1, color2, Mathf.Sin(Time.time * lerpSpeed));
-        halo.ApplyModifiedProperties();
     }
 }
