@@ -3,12 +3,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	300230377	Picking_Fruit			\Default Work Unit\Fruit and Tree\Picking_Fruit	
 	313967986	Mushroom_Note			\Default Work Unit\Mushroom\Mushroom_Note	
 	1666569787	Growing_Tree			\Default Work Unit\Fruit and Tree\Growing_Tree	
+	1935470627	Light			\Default Work Unit\Grounding\Light	
 	2520593515	Music_Playlist			\Default Work Unit\Music_Playlist	
 	2643994082	Zone_4			\Default Work Unit\Music\Zone_4	
 	2643994084	Zone_2			\Default Work Unit\Music\Zone_2	
 	2643994087	Zone_1			\Default Work Unit\Music\Zone_1	
 	2656882895	Entrance			\Default Work Unit\Music\Entrance	
 	3765476793	Dropping_Fruit			\Default Work Unit\Fruit and Tree\Dropping_Fruit	
+	3787535528	Flower			\Default Work Unit\Grounding\Flower	
 	3856944273	Small_Mushroom_Notes			\Default Work Unit\Mushroom\Small_Mushroom_Notes	
 	4043173166	Zone_3_5_Drops			\Default Work Unit\Music\Zone_3_5_Drops	
 	4256775455	SoundDesignEnd			\Default Work Unit\Mushroom\SoundDesignEnd	
@@ -26,35 +28,48 @@ State	ID	Name	State Group			Notes
 	3901413513	STATE_Entrance	Music_States			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	3848367	Grounding_Light_4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Grounding_Light_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grounding_Light\Grounding_Light\Grounding_Light_4		1111924
+	20453832	Growing_Flower_2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_2		387028
 	37874238	Fruit_Note3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Fruit_Note3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picking_Fruit\PIcking_Fruit\Fruit_Note3		1226168
-	69570771	Falling_Fruit_2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_2		2005456
+	43952289	Grounding_Light_5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Grounding_Light_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grounding_Light\Grounding_Light\Grounding_Light_5		1388876
+	69570771	Falling_Fruit_2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_2		1950096
+	78351256	Grounding_Light_3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Grounding_Light_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grounding_Light\Grounding_Light\Grounding_Light_3		989032
 	83306852	Zone 4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Zone4_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 4\Zone 4\Zone 4		7130340
+	149303641	Growing_Flower_7	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_7_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_7		417816
 	263192278	Fruit_Note4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Fruit_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picking_Fruit\PIcking_Fruit\Fruit_Note4		1228012
-	285063219	Falling_Fruit_1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_1		1711464
+	285063219	Falling_Fruit_1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_1		1671504
 	306243796	SoundDesignEnd	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SoundDesignEnd_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\SoundDesignEnd\SoundDesignEnd		513604
-	332984453	Falling_Fruit_3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_3		1782636
+	332984453	Falling_Fruit_3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_3		1770288
 	386516073	SmallMushroom_Note0	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note0		210308
 	398012631	Zone3_Drop-1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Zone3_Drop-1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 3_5_Drops\Zone3_Drop-1\Zone3_Drop-1		7130340
 	461983888	Mushroom_Note5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note5		891352
 	467721262	Zone 1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Zone1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 1\Zone 1\Zone 1		7130340
 	518642535	SmallMushroom_Note4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note4		445708
 	543001980	Exit	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Exit_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Exit\Exit\Exit		10695476
+	543267340	Growing_Flower_3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_3		386068
 	566251933	Mushroom_Note1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note1		1225580
 	629135377	Growing_Tree_5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Tree_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Tree\Growing_Tree\Growing_Tree_5		557120
 	635265696	Mushroom_Note2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note2		882064
 	661474026	SmallMushroom_Note2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note2		699388
-	691275892	Falling_Fruit_5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_5		1675164
+	675069923	Grounding_Light_2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Grounding_Light_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grounding_Light\Grounding_Light\Grounding_Light_2		1094704
+	691275892	Falling_Fruit_5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_5		1666764
 	698731558	Growing_Tree_2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Tree_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Tree\Growing_Tree\Growing_Tree_2		390004
+	702104377	Growing_Flower_1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_1		473840
 	706021618	Growing_Tree_4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Tree_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Tree\Growing_Tree\Growing_Tree_4		557120
 	734186881	Growing_Tree_3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Tree_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Tree\Growing_Tree\Growing_Tree_3		724236
+	757447782	Grounding_Light_1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Grounding_Light_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grounding_Light\Grounding_Light\Grounding_Light_1		1212032
 	808275808	Zone 2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Zone2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 2\Zone 2\Zone 2		7130340
 	808975252	Fruit_Note1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Fruit_Note1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picking_Fruit\PIcking_Fruit\Fruit_Note1		1228100
 	824428412	Fruit_Note2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Fruit_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picking_Fruit\PIcking_Fruit\Fruit_Note2		1116224
 	849235916	Mushroom_Note3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note3		835644
+	856075533	Growing_Flower_4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_4		473560
 	863158741	Entrance	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Entrance_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Entrance\Entrance\Entrance		7130340
+	875354434	Grounding_Light_6	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Grounding_Light_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grounding_Light\Grounding_Light\Grounding_Light_6		1446672
 	879299307	SmallMushroom_Note1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note1-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note1		800252
+	888548096	Growing_Flower_6	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_6		362128
 	949424724	SmallMushroom_Note3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note3		582560
 	968470072	Growing_Tree_1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Tree_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Tree\Growing_Tree\Growing_Tree_1		525396
-	1009530216	Falling_Fruit_4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_4		2005456
+	977959087	Growing_Flower_5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_5		362140
+	1009530216	Falling_Fruit_4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_4		1998924
 	1055072850	Mushroom_Note4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note4		612824
 

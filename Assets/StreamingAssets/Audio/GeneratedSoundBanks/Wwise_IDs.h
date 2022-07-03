@@ -16,7 +16,9 @@ namespace AK
         static const AkUniqueID DROPPING_FRUIT = 3765476793U;
         static const AkUniqueID ENTRANCE = 2656882895U;
         static const AkUniqueID EXIT = 26822469U;
+        static const AkUniqueID FLOWER = 3787535528U;
         static const AkUniqueID GROWING_TREE = 1666569787U;
+        static const AkUniqueID LIGHT = 1935470627U;
         static const AkUniqueID MUSHROOM_NOTE = 313967986U;
         static const AkUniqueID MUSIC_PLAYLIST = 2520593515U;
         static const AkUniqueID PICKING_FRUIT = 300230377U;

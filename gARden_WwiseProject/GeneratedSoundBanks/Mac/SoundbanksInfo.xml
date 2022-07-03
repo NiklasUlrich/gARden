@@ -16,12 +16,12 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2686017832">
+		<SoundBank Id="3161908922" Language="SFX" Hash="3971229225">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="3765476793" Name="Dropping_Fruit" ObjectPath="\Events\Default Work Unit\Fruit and Tree\Dropping_Fruit" MaxAttenuation="100." DurationType="OneShot" DurationMin="9.496032" DurationMax="11.368435">
+				<Event Id="3765476793" Name="Dropping_Fruit" ObjectPath="\Events\Default Work Unit\Fruit and Tree\Dropping_Fruit" MaxAttenuation="100." DurationType="OneShot" DurationMin="9.448413" DurationMax="11.331406">
 					<IncludedMemoryFiles>
 						<File Id="69570771" Language="SFX">
 							<ShortName>Falling_Fruit_2.wav</ShortName>
@@ -61,7 +61,39 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1666569787" Name="Growing_Tree" ObjectPath="\Events\Default Work Unit\Fruit and Tree\Growing_Tree" DurationType="OneShot" DurationMin="2.210544" DurationMax="4.105283">
+				<Event Id="3787535528" Name="Flower" ObjectPath="\Events\Default Work Unit\Grounding\Flower" MaxAttenuation="10." DurationType="OneShot" DurationMin="2.052517" DurationMax="2.685805">
+					<IncludedMemoryFiles>
+						<File Id="20453832" Language="SFX">
+							<ShortName>Growing_Flower_2.wav</ShortName>
+							<Path>SFX\Growing_Flower_2_10C4C929.wem</Path>
+						</File>
+						<File Id="149303641" Language="SFX">
+							<ShortName>Growing_Flower_7.wav</ShortName>
+							<Path>SFX\Growing_Flower_7_10C4C929.wem</Path>
+						</File>
+						<File Id="543267340" Language="SFX">
+							<ShortName>Growing_Flower_3.wav</ShortName>
+							<Path>SFX\Growing_Flower_3_10C4C929.wem</Path>
+						</File>
+						<File Id="702104377" Language="SFX">
+							<ShortName>Growing_Flower_1.wav</ShortName>
+							<Path>SFX\Growing_Flower_1_10C4C929.wem</Path>
+						</File>
+						<File Id="856075533" Language="SFX">
+							<ShortName>Growing_Flower_4.wav</ShortName>
+							<Path>SFX\Growing_Flower_4_10C4C929.wem</Path>
+						</File>
+						<File Id="888548096" Language="SFX">
+							<ShortName>Growing_Flower_6.wav</ShortName>
+							<Path>SFX\Growing_Flower_6_10C4C929.wem</Path>
+						</File>
+						<File Id="977959087" Language="SFX">
+							<ShortName>Growing_Flower_5.wav</ShortName>
+							<Path>SFX\Growing_Flower_5_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1666569787" Name="Growing_Tree" ObjectPath="\Events\Default Work Unit\Fruit and Tree\Growing_Tree" MaxAttenuation="10." DurationType="OneShot" DurationMin="2.210544" DurationMax="4.105283">
 					<IncludedMemoryFiles>
 						<File Id="629135377" Language="SFX">
 							<ShortName>Growing_Tree_5.wav</ShortName>
@@ -82,6 +114,34 @@
 						<File Id="968470072" Language="SFX">
 							<ShortName>Growing_Tree_1.wav</ShortName>
 							<Path>SFX\Growing_Tree_1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1935470627" Name="Light" ObjectPath="\Events\Default Work Unit\Grounding\Light" MaxAttenuation="10." DurationType="OneShot" DurationMin="5.606395" DurationMax="8.200726">
+					<IncludedMemoryFiles>
+						<File Id="3848367" Language="SFX">
+							<ShortName>Grounding_Light_4.wav</ShortName>
+							<Path>SFX\Grounding_Light_4_10C4C929.wem</Path>
+						</File>
+						<File Id="43952289" Language="SFX">
+							<ShortName>Grounding_Light_5.wav</ShortName>
+							<Path>SFX\Grounding_Light_5_10C4C929.wem</Path>
+						</File>
+						<File Id="78351256" Language="SFX">
+							<ShortName>Grounding_Light_3.wav</ShortName>
+							<Path>SFX\Grounding_Light_3_10C4C929.wem</Path>
+						</File>
+						<File Id="675069923" Language="SFX">
+							<ShortName>Grounding_Light_2.wav</ShortName>
+							<Path>SFX\Grounding_Light_2_10C4C929.wem</Path>
+						</File>
+						<File Id="757447782" Language="SFX">
+							<ShortName>Grounding_Light_1.wav</ShortName>
+							<Path>SFX\Grounding_Light_1_10C4C929.wem</Path>
+						</File>
+						<File Id="875354434" Language="SFX">
+							<ShortName>Grounding_Light_6.wav</ShortName>
+							<Path>SFX\Grounding_Light_6_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
