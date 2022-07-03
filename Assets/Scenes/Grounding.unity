@@ -1155,6 +1155,108 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 43132228996753618, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 205254668037771866, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 257294581590905518, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 383632437537493159, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 583741846303981004, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 727710351035058938, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 1474709338670725205, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 1795788586966566771, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 2089574547735601001, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 2129891947167709459, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 2132730402669904804, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 2248911259464224598, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 2470760272242886354, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 3431095990668246239, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 3589110543829403259, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 3631230129510802564, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 3728535198606325696, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
     - target: {fileID: 4023421219550643610, guid: 8b7af6a473541d0488aa7752de7b2b01,
         type: 3}
       propertyPath: m_Name
@@ -1165,6 +1267,12 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 2147483647
       objectReference: {fileID: 0}
+    - target: {fileID: 4023421219550643613, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: b94b5a4d2c994114f95d4d67bbbf5d99,
+        type: 2}
     - target: {fileID: 4023421219550643614, guid: 8b7af6a473541d0488aa7752de7b2b01,
         type: 3}
       propertyPath: m_RootOrder
@@ -1220,5 +1328,125 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4745827716191387630, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 4817510286201318134, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 5024385056749785761, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 5384750052091869747, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 6013826117247940011, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 6078119259298244246, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 6763515190340526419, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 7007808604120877512, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 7078715851799286406, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 7207916267960741288, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 7528034385961979045, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 7709462922427457237, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 7995808334587405081, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 8017914302354866746, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 8152640199023317320, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 8178691525287920601, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 8491626761229057655, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 8506508437506299023, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 8567285613568045940, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
+    - target: {fileID: 9058482953003482411, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
+      propertyPath: GrowWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 73614313bbd8142448d85d80f90b91b9,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b7af6a473541d0488aa7752de7b2b01, type: 3}

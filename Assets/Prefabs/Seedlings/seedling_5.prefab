@@ -112,7 +112,8 @@ MonoBehaviour:
   GrowWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: bdb9ef7c2b61e834197345137a0e6a77,
+      type: 2}
 --- !u!1 &3713004831170027651
 GameObject:
   m_ObjectHideFlags: 0

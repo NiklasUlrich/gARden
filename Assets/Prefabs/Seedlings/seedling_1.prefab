@@ -109,6 +109,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7c874d2aeac1da4eaedb80822446586, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GrowWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: bdb9ef7c2b61e834197345137a0e6a77,
+      type: 2}
 --- !u!1 &6241878363965106905
 GameObject:
   m_ObjectHideFlags: 0
