@@ -5,9 +5,9 @@ using UnityEngine;
 public class ZoneCollider : MonoBehaviour
 {
     /// <summary>
-    /// The event that will be played
+    /// The trigger that will play the sound
     /// </summary>
-    public AK.Wwise.Event ZoneWwiseEvent;
+    public WwisePlayerEnter trigger;
 
     // Start is called before the first frame update
     void Start()
@@ -26,11 +26,8 @@ public class ZoneCollider : MonoBehaviour
         if(other.gameObject.tag == "MainCamera" )
         {
             //Debug.Log("Entering new Zone");
+            trigger.enter();
 
-            if (ZoneWwiseEvent != null)
-            {
-                ZoneWwiseEvent.Post(gameObject);
-            }
         }
     }
 }

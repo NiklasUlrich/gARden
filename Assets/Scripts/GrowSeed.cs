@@ -29,5 +29,8 @@ public class GrowSeed : MonoBehaviour
             newSeedling.GetComponent<Animator>().SetBool("Completed", true);
             other.gameObject.SetActive(false);
         }
+        else if(other.gameObject.GetComponent<DandelionSeed>() != null){
+            other.gameObject.SetActive(false);
+        }
     }
 }
