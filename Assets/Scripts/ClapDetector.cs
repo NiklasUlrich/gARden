@@ -12,12 +12,16 @@ public class ClapDetector : MonoBehaviour
     MixedRealityPose rightPalm;
     MixedRealityPose leftPalm;
 
-    public Dandelion[] dandelions;
+    public GameObject dandelionCollection;
+
+    Dandelion[] dandelions;
+
+    public float clapRange;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        dandelions = dandelionCollection.GetComponentsInChildren<Dandelion>();
     }
 
     // Update is called once per frame
@@ -30,16 +34,29 @@ public class ClapDetector : MonoBehaviour
             Debug.Log("palm distance: " + Vector3.Distance(rightPalm.Position, leftPalm.Position));
             if (Vector3.Distance(rightPalm.Position, leftPalm.Position) < .1f)
             {
-                onClap();
+                onClap(rightPalm.Position);
             }
         }
+
+#if (UNITY_EDITOR)
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            if (HandJointUtils.TryGetJointPose(TrackedHandJoint.Palm, Handedness.Right, out rightPalm))
+            {
+                onClap(rightPalm.Position);
+            }
+        }
+        #endif
     }
 
-    void onClap()
+    void onClap(Vector3 clapPosition)
     {
         for(int i = 0; i < dandelions.Length; i++)
         {
-            dandelions[i].explode();
+            if(Vector3.Distance(dandelions[i].flowerCenter.position, clapPosition) < clapRange)
+            {
+                dandelions[i].explode(clapPosition, clapRange);
+            }
         }
     }
 }

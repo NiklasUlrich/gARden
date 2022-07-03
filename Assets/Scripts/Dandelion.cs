@@ -6,18 +6,16 @@ public class Dandelion : MonoBehaviour
 {
     public GameObject seeds;
 
-    public Transform center;
-
     public float explosionForce;
+
+    public Transform flowerCenter;
+
+    public float upwardsModifier;
 
     public bool explodeOnStart;
     // Start is called before the first frame update
     void Start()
     {
-        if (explodeOnStart)
-        {
-            explode();
-        }
         
     }
 
@@ -27,14 +25,14 @@ public class Dandelion : MonoBehaviour
         
     }
 
-    public void explode()
+    public void explode(Vector3 explosionCenter, float  explosionRange)
     {
         Rigidbody[] seedRBs = seeds.GetComponentsInChildren<Rigidbody>();
 
         for(int i = 0; i < seedRBs.Length; i++)
         {
             seedRBs[i].isKinematic = false;
-            seedRBs[i].AddExplosionForce(explosionForce, center.position, .3f, 0);
+            seedRBs[i].AddExplosionForce(explosionForce, explosionCenter, explosionRange, upwardsModifier);
             Debug.Log("added Explosion force");
         }
     }
