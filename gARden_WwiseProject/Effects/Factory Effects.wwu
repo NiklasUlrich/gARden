@@ -94,6 +94,7 @@
 								<Property Name="Threshold" Type="Real32" Value="-54.2"/>
 							</PropertyList>
 						</Effect>
+						<Effect Name="New_Wwise_Compressor" ID="{38717AAF-C3E2-481D-A7B3-D94046C1D49E}" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3"/>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Wwise Expander" ID="{93E8C416-F687-4AFA-892F-022B532AFB04}" ShortID="234435539">

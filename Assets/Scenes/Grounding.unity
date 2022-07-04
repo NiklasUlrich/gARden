@@ -717,6 +717,178 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5679592619052978047, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871366134340377, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871366290029810, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871366299540117, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871366323276926, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871366473887917, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871366504986084, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871366532953469, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871366796757951, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871366885176241, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871367053276075, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871367150108977, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871367287930589, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871367424918518, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871367454048509, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871367454048509, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: seedWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891871367467670923, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871367638531199, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871367650854152, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871367697582945, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871367882458371, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871367902279095, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871368079926190, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871368081317653, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871368081317653, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: seedWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5891871368115593472, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871368169137597, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871368190308699, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
+    - target: {fileID: 5891871368244036978, guid: e1f10497d42063c4abeaa9de9ddb2397,
+        type: 3}
+      propertyPath: clapWwiseEvent.WwiseObjectReference
+      value: 
+      objectReference: {fileID: 11400000, guid: 325a01039c31a7b45bac70e4f6582369,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e1f10497d42063c4abeaa9de9ddb2397, type: 3}
 --- !u!1 &936187488

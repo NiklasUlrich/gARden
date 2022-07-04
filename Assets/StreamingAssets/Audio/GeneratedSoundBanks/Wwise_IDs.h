@@ -13,6 +13,7 @@ namespace AK
 {
     namespace EVENTS
     {
+        static const AkUniqueID DANDELION = 898275277U;
         static const AkUniqueID DROPPING_FRUIT = 3765476793U;
         static const AkUniqueID ENTRANCE = 2656882895U;
         static const AkUniqueID EXIT = 26822469U;

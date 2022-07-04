@@ -85,6 +85,13 @@
 					</ReferenceList>
 					<ChildrenList>
 						<RandomSequenceContainer Name="Mushroom All Notes" ID="{5CD1AA32-CF11-4054-9F25-B24ABF2F6FCA}" ShortID="545851322">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1386,7 +1393,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Grounding_Light_1" ID="{2FA5392A-179F-4CA3-800D-AB650F174A58}" ShortID="962920596">
+								<Sound Name="Grounding_Light_1" ID="{0DD5B256-57AE-4538-B52E-E290BD920AAA}" ShortID="451546808">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1396,7 +1403,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Grounding_Light_1" ID="{02788372-5B6A-4F14-835B-C34C8FF9B7F6}">
+										<AudioFileSource Name="Grounding_Light_1" ID="{5F26EECD-2972-4238-8892-92F1E8CC3449}">
 											<Language>SFX</Language>
 											<AudioFile>Grounding_Light_1.wav</AudioFile>
 											<MediaIDList>
@@ -1406,10 +1413,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Grounding_Light_1" ID="{02788372-5B6A-4F14-835B-C34C8FF9B7F6}" Platform="Linked"/>
+										<ActiveSource Name="Grounding_Light_1" ID="{5F26EECD-2972-4238-8892-92F1E8CC3449}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Grounding_Light_2" ID="{03DD3702-DE03-4220-8491-E303E52EB01C}" ShortID="969793692">
+								<Sound Name="Grounding_Light_2" ID="{2256CEC3-D080-4AB5-B955-D10BD402D929}" ShortID="325855973">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1419,7 +1426,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Grounding_Light_2" ID="{3E5FFF52-A3E1-43DA-B658-D6CE93F532C7}">
+										<AudioFileSource Name="Grounding_Light_2" ID="{EF88D8CE-C57E-4C60-BF00-2F2F84D5EAA5}">
 											<Language>SFX</Language>
 											<AudioFile>Grounding_Light_2.wav</AudioFile>
 											<MediaIDList>
@@ -1429,10 +1436,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Grounding_Light_2" ID="{3E5FFF52-A3E1-43DA-B658-D6CE93F532C7}" Platform="Linked"/>
+										<ActiveSource Name="Grounding_Light_2" ID="{EF88D8CE-C57E-4C60-BF00-2F2F84D5EAA5}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Grounding_Light_3" ID="{606F7012-66FC-4CAD-882F-BF5F0A1CB964}" ShortID="543839476">
+								<Sound Name="Grounding_Light_3" ID="{2F4FD0E4-035F-497A-B019-30398E7DBE23}" ShortID="11636819">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1442,7 +1449,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Grounding_Light_3" ID="{6A65B5F1-5936-46D3-8BC9-C0774C2C10DC}">
+										<AudioFileSource Name="Grounding_Light_3" ID="{8DA2C125-49C4-4B9F-8AEC-FF189E01DAD6}">
 											<Language>SFX</Language>
 											<AudioFile>Grounding_Light_3.wav</AudioFile>
 											<MediaIDList>
@@ -1452,10 +1459,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Grounding_Light_3" ID="{6A65B5F1-5936-46D3-8BC9-C0774C2C10DC}" Platform="Linked"/>
+										<ActiveSource Name="Grounding_Light_3" ID="{8DA2C125-49C4-4B9F-8AEC-FF189E01DAD6}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Grounding_Light_4" ID="{971AB8DB-38BD-4B5E-9785-CB3C6E2396A9}" ShortID="694405237">
+								<Sound Name="Grounding_Light_4" ID="{A8F39F40-512B-4B00-86A3-58DD9688091A}" ShortID="272058136">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1465,7 +1472,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Grounding_Light_4" ID="{B2BCC93A-3DD1-4832-891E-5A5DDEF42F07}">
+										<AudioFileSource Name="Grounding_Light_4" ID="{8BA12C90-28BB-4BB1-96B6-66868DC255E2}">
 											<Language>SFX</Language>
 											<AudioFile>Grounding_Light_4.wav</AudioFile>
 											<MediaIDList>
@@ -1475,10 +1482,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Grounding_Light_4" ID="{B2BCC93A-3DD1-4832-891E-5A5DDEF42F07}" Platform="Linked"/>
+										<ActiveSource Name="Grounding_Light_4" ID="{8BA12C90-28BB-4BB1-96B6-66868DC255E2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Grounding_Light_5" ID="{A2A685A7-6E21-4D89-BACE-1EC02FFD5646}" ShortID="827292673">
+								<Sound Name="Grounding_Light_5" ID="{E0181991-EB3E-4C61-B986-223D176A6C56}" ShortID="990415732">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1488,7 +1495,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Grounding_Light_5" ID="{74B0DE27-1F89-46A3-848E-B216DEEA11E0}">
+										<AudioFileSource Name="Grounding_Light_5" ID="{8599BA1C-F76D-4CBB-89DD-717493908EE2}">
 											<Language>SFX</Language>
 											<AudioFile>Grounding_Light_5.wav</AudioFile>
 											<MediaIDList>
@@ -1498,10 +1505,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Grounding_Light_5" ID="{74B0DE27-1F89-46A3-848E-B216DEEA11E0}" Platform="Linked"/>
+										<ActiveSource Name="Grounding_Light_5" ID="{8599BA1C-F76D-4CBB-89DD-717493908EE2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Grounding_Light_6" ID="{1ED68E7C-A1A1-4312-B3E2-A8EEFCF6C725}" ShortID="714773645">
+								<Sound Name="Grounding_Light_6" ID="{5E1F4D7D-F9E9-4DD6-BFE5-71426BEAB19A}" ShortID="103620717">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1511,7 +1518,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Grounding_Light_6" ID="{DF7E8A35-FAD8-4C3C-BD8A-68878AE35EBA}">
+										<AudioFileSource Name="Grounding_Light_6" ID="{4A90D95D-EE95-4A47-AEDA-AC0837153925}">
 											<Language>SFX</Language>
 											<AudioFile>Grounding_Light_6.wav</AudioFile>
 											<MediaIDList>
@@ -1521,7 +1528,7 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Grounding_Light_6" ID="{DF7E8A35-FAD8-4C3C-BD8A-68878AE35EBA}" Platform="Linked"/>
+										<ActiveSource Name="Grounding_Light_6" ID="{4A90D95D-EE95-4A47-AEDA-AC0837153925}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -1624,7 +1631,7 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Growing_Flower_1" ID="{D64500C1-82C5-424B-BAB8-77474F73E77F}" ShortID="6558906">
+								<Sound Name="Growing_Flower_1" ID="{4501B0A8-B79B-4816-B10F-8A9A2F85369F}" ShortID="547770122">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1634,7 +1641,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Growing_Flower_1" ID="{06C3FD20-B750-4902-BE8D-3FA4615A7B23}">
+										<AudioFileSource Name="Growing_Flower_1" ID="{150CBAE1-59B8-4F2C-8339-4B5FDD6687F2}">
 											<Language>SFX</Language>
 											<AudioFile>Growing_Flower_1.wav</AudioFile>
 											<MediaIDList>
@@ -1644,10 +1651,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Growing_Flower_1" ID="{06C3FD20-B750-4902-BE8D-3FA4615A7B23}" Platform="Linked"/>
+										<ActiveSource Name="Growing_Flower_1" ID="{150CBAE1-59B8-4F2C-8339-4B5FDD6687F2}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Growing_Flower_2" ID="{8D7840DE-7DDD-4EDC-A1A7-DC496CC61635}" ShortID="622935524">
+								<Sound Name="Growing_Flower_2" ID="{E500A2BC-CDA7-41AA-81E7-DF346DB2C0F0}" ShortID="954734963">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1657,7 +1664,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Growing_Flower_2" ID="{66DFF832-5EB0-43D2-9BBD-2CA5112E51E0}">
+										<AudioFileSource Name="Growing_Flower_2" ID="{D6522165-49C7-4351-B1C9-9FB22682F921}">
 											<Language>SFX</Language>
 											<AudioFile>Growing_Flower_2.wav</AudioFile>
 											<MediaIDList>
@@ -1667,10 +1674,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Growing_Flower_2" ID="{66DFF832-5EB0-43D2-9BBD-2CA5112E51E0}" Platform="Linked"/>
+										<ActiveSource Name="Growing_Flower_2" ID="{D6522165-49C7-4351-B1C9-9FB22682F921}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Growing_Flower_3" ID="{C067E363-0FD1-48E9-9CE2-7DD8CF524E0B}" ShortID="594972675">
+								<Sound Name="Growing_Flower_3" ID="{E3EFF5FE-B1EE-4A86-A974-C6835B9E570D}" ShortID="871695718">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1680,7 +1687,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Growing_Flower_3" ID="{119EB417-F3A9-4769-9481-E9DE36D24ACD}">
+										<AudioFileSource Name="Growing_Flower_3" ID="{C623FAA0-8239-49D2-8C8F-2328FCA49F34}">
 											<Language>SFX</Language>
 											<AudioFile>Growing_Flower_3.wav</AudioFile>
 											<MediaIDList>
@@ -1690,10 +1697,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Growing_Flower_3" ID="{119EB417-F3A9-4769-9481-E9DE36D24ACD}" Platform="Linked"/>
+										<ActiveSource Name="Growing_Flower_3" ID="{C623FAA0-8239-49D2-8C8F-2328FCA49F34}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Growing_Flower_4" ID="{C4B59FF7-5603-43AE-A6A8-05C6CFB2AB9C}" ShortID="179547371">
+								<Sound Name="Growing_Flower_4" ID="{3541C2D9-438F-40B2-BFF4-5FCA582B9C7B}" ShortID="4297872">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1703,7 +1710,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Growing_Flower_4" ID="{68223068-0930-4BB9-AA59-B9CF7D98EEF1}">
+										<AudioFileSource Name="Growing_Flower_4" ID="{2A25FCDF-BDCE-4ED5-8FE9-2825F0EF2607}">
 											<Language>SFX</Language>
 											<AudioFile>Growing_Flower_4.wav</AudioFile>
 											<MediaIDList>
@@ -1713,10 +1720,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Growing_Flower_4" ID="{68223068-0930-4BB9-AA59-B9CF7D98EEF1}" Platform="Linked"/>
+										<ActiveSource Name="Growing_Flower_4" ID="{2A25FCDF-BDCE-4ED5-8FE9-2825F0EF2607}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Growing_Flower_5" ID="{AA6EEC2F-0DC9-498D-9B3F-2E952A241A9E}" ShortID="950987243">
+								<Sound Name="Growing_Flower_5" ID="{C27B9205-96A5-4D79-8479-B26E21C82CA2}" ShortID="260205031">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1726,7 +1733,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Growing_Flower_5" ID="{85165619-D08E-4B1C-A1FB-E6A9BBB8EB3B}">
+										<AudioFileSource Name="Growing_Flower_5" ID="{36BF7E4D-5BF9-4668-B184-325EAE1924D7}">
 											<Language>SFX</Language>
 											<AudioFile>Growing_Flower_5.wav</AudioFile>
 											<MediaIDList>
@@ -1736,10 +1743,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Growing_Flower_5" ID="{85165619-D08E-4B1C-A1FB-E6A9BBB8EB3B}" Platform="Linked"/>
+										<ActiveSource Name="Growing_Flower_5" ID="{36BF7E4D-5BF9-4668-B184-325EAE1924D7}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Growing_Flower_6" ID="{33E844E7-692C-46CE-91BD-82BD51E237EC}" ShortID="917130209">
+								<Sound Name="Growing_Flower_6" ID="{0B089C48-EDEA-413A-BCF9-2D9A5324A003}" ShortID="460202018">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1749,7 +1756,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Growing_Flower_6" ID="{6B12FAD7-73EA-4F48-A29C-D0A97B5B3EA8}">
+										<AudioFileSource Name="Growing_Flower_6" ID="{06C47285-0D22-4250-B44A-64ACF5A2D80D}">
 											<Language>SFX</Language>
 											<AudioFile>Growing_Flower_6.wav</AudioFile>
 											<MediaIDList>
@@ -1759,10 +1766,10 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Growing_Flower_6" ID="{6B12FAD7-73EA-4F48-A29C-D0A97B5B3EA8}" Platform="Linked"/>
+										<ActiveSource Name="Growing_Flower_6" ID="{06C47285-0D22-4250-B44A-64ACF5A2D80D}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Growing_Flower_7" ID="{F4929B09-2D09-49F7-A731-0645B3C0E189}" ShortID="1014093118">
+								<Sound Name="Growing_Flower_7" ID="{A0778FCC-C786-462F-B123-E18283C47726}" ShortID="583594524">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -1772,7 +1779,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Growing_Flower_7" ID="{2A2F10BD-2BAB-4083-BB3F-19BA46BC6FBB}">
+										<AudioFileSource Name="Growing_Flower_7" ID="{BEB967B9-9194-4525-AD70-732A76A0D3EC}">
 											<Language>SFX</Language>
 											<AudioFile>Growing_Flower_7.wav</AudioFile>
 											<MediaIDList>
@@ -1782,7 +1789,157 @@
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Growing_Flower_7" ID="{2A2F10BD-2BAB-4083-BB3F-19BA46BC6FBB}" Platform="Linked"/>
+										<ActiveSource Name="Growing_Flower_7" ID="{BEB967B9-9194-4525-AD70-732A76A0D3EC}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="Dandelion" ID="{09BFE8BD-4806-4F73-A6A7-9CFDA14B6FB3}" ShortID="527130986">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{D071CEF2-4C2F-4591-918E-923821F3605D}" ShortID="749098640">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="10"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{F4179ABA-C900-4D97-BCB2-ECA779028D58}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="Spread" ID="{D09B260A-E5A2-4BB3-BEBF-FE8423320076}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="1"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>100</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>10</XPos>
+															<YPos>0</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="Dandelion" ID="{1B20AA84-A9EA-46DB-919C-BE6E22221565}" ShortID="545606195">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Dandelion_1" ID="{77E35834-5C76-475C-966F-0924341CA798}" ShortID="276035418">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dandelion_1" ID="{94BEA9FE-7C1B-42A3-A508-DFFC94CBD5C6}">
+											<Language>SFX</Language>
+											<AudioFile>Dandelion_1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="248121942"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dandelion_1" ID="{94BEA9FE-7C1B-42A3-A508-DFFC94CBD5C6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Dandelion_2" ID="{3C3D64FD-4D78-4588-8BE2-B1CE296C99F5}" ShortID="470235860">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Dandelion_2" ID="{C34C1576-3AE0-4EA2-8710-2973667DB05B}">
+											<Language>SFX</Language>
+											<AudioFile>Dandelion_2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="531149941"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Dandelion_2" ID="{C34C1576-3AE0-4EA2-8710-2973667DB05B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

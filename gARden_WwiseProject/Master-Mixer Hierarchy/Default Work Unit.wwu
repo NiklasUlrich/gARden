@@ -15,6 +15,7 @@
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="Music" ID="{7043B7B1-1797-4521-82D9-2EB759D432F9}">
+							<ReferenceList/>
 							<ObjectLists/>
 						</Bus>
 						<Bus Name="Character" ID="{A2643AE5-03C5-4A9F-A9C6-5B4FF8CB12E1}">

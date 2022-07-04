@@ -16,11 +16,23 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3622131186">
+		<SoundBank Id="3161908922" Language="SFX" Hash="691105854">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
+				<Event Id="898275277" Name="Dandelion" ObjectPath="\Events\Default Work Unit\Dandelion\Dandelion" MaxAttenuation="10." DurationType="OneShot" DurationMin="2.2" DurationMax="2.332857">
+					<IncludedMemoryFiles>
+						<File Id="248121942" Language="SFX">
+							<ShortName>Dandelion_1.wav</ShortName>
+							<Path>SFX\Dandelion_1_10C4C929.wem</Path>
+						</File>
+						<File Id="531149941" Language="SFX">
+							<ShortName>Dandelion_2.wav</ShortName>
+							<Path>SFX\Dandelion_2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="3765476793" Name="Dropping_Fruit" ObjectPath="\Events\Default Work Unit\Fruit and Tree\Dropping_Fruit" MaxAttenuation="100." DurationType="OneShot" DurationMin="9.448413" DurationMax="11.331406">
 					<IncludedMemoryFiles>
 						<File Id="69570771" Language="SFX">
@@ -61,7 +73,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3787535528" Name="Flower" ObjectPath="\Events\Default Work Unit\Grounding\Flower" MaxAttenuation="10." DurationType="OneShot" DurationMin="2.052517" DurationMax="2.685805">
+				<Event Id="3787535528" Name="Flower" ObjectPath="\Events\Default Work Unit\Grounding\Flower" MaxAttenuation="10." DurationType="OneShot" DurationMin="1.263175" DurationMax="2.200544">
 					<IncludedMemoryFiles>
 						<File Id="20453832" Language="SFX">
 							<ShortName>Growing_Flower_2.wav</ShortName>
@@ -117,7 +129,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1935470627" Name="Light" ObjectPath="\Events\Default Work Unit\Grounding\Light" MaxAttenuation="10." DurationType="OneShot" DurationMin="5.606395" DurationMax="8.200726">
+				<Event Id="1935470627" Name="Light" ObjectPath="\Events\Default Work Unit\Grounding\Light" MaxAttenuation="10." DurationType="OneShot" DurationMin="6.200703" DurationMax="7.873106">
 					<IncludedMemoryFiles>
 						<File Id="3848367" Language="SFX">
 							<ShortName>Grounding_Light_4.wav</ShortName>

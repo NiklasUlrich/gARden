@@ -728,10 +728,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<MusicSegment Name="Zone 2" ID="{5330BCF7-28F7-4E13-97C8-BD4E6EE285B0}" ShortID="446693253">
+								<MusicSegment Name="Zone2" ID="{374F3DBD-72B8-4A87-83AD-4391F9CFCC46}" ShortID="919308430">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="40422.0049598"/>
-										<Property Name="Tempo" Type="Real64" Value="95"/>
+										<Property Name="EndPosition" Type="Real64" Value="40421.0657596372"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -742,14 +741,14 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<MusicTrack Name="Zone 2" ID="{AADAED35-339C-4BCD-AFE9-3A53A5006AF2}" ShortID="57141812">
+										<MusicTrack Name="Zone2" ID="{5B831312-6DB1-47A8-8EFC-9064C65FEA5C}" ShortID="495737751">
 											<ReferenceList>
 												<Reference Name="OutputBus">
 													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Zone2" ID="{94F0622A-6199-4F40-AA2D-E7F51D561826}">
+												<AudioFileSource Name="Zone2" ID="{A6AFBADC-D88B-4A9A-80F3-63D916C7AD5A}">
 													<Language>SFX</Language>
 													<AudioFile>Zone2.wav</AudioFile>
 													<MediaIDList>
@@ -758,7 +757,7 @@
 												</AudioFileSource>
 											</ChildrenList>
 											<TransitionList>
-												<MusicTransition Name="Root" ID="{AFF8DF56-E361-4F83-8A98-F8B2839D6F08}">
+												<MusicTransition Name="Root" ID="{57E5DE57-BCB6-434D-AA6C-E34375528426}">
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
@@ -769,18 +768,18 @@
 												<ObjectList Name="Sequences">
 													<Reference>
 														<Local>
-															<MusicTrackSequence Name="" ID="{7215AC72-768F-403E-B2BD-0ED7D7DC5059}">
+															<MusicTrackSequence Name="" ID="{D9765C65-0298-4277-B322-A8017C30728C}">
 																<ObjectLists>
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Zone2" ID="{186F63D7-66FE-4558-82CE-E2C624ED7F15}">
+																				<MusicClip Name="Zone2" ID="{7C4D024A-62AF-411D-B43B-242E04B4F98B}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="40421.0657596372"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Zone2" ID="{94F0622A-6199-4F40-AA2D-E7F51D561826}"/>
+																					<AudioSourceRef Name="Zone2" ID="{A6AFBADC-D88B-4A9A-80F3-63D916C7AD5A}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -797,15 +796,15 @@
 										<ObjectList Name="Cues">
 											<Reference>
 												<Local>
-													<MusicCue Name="Entry Cue" ID="{083547E1-4BF6-479A-9596-51F85D066D11}"/>
+													<MusicCue Name="Entry Cue" ID="{04C03D3C-2C7A-407C-8B16-EA21CDDBDFB8}"/>
 												</Local>
 											</Reference>
 											<Reference>
 												<Local>
-													<MusicCue Name="Exit Cue" ID="{12414132-3463-48CB-92A4-6BA886E01AB6}">
+													<MusicCue Name="Exit Cue" ID="{14C04B55-792B-40D3-8EBB-F203F3FB8C04}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="40421.0526315789"/>
+															<Property Name="TimeMs" Type="Real64" Value="40421.0657596372"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -834,11 +833,11 @@
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{FBBE0940-B3F1-446B-B6FA-8F51D936032A}" ShortID="822742006">
+										<MusicPlaylistItem Name="" ID="{1B47EAF0-C276-44E4-B4C1-C03BD73E8FE3}" ShortID="954053679">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
-											<SegmentRef Name="Zone 2" ID="{5330BCF7-28F7-4E13-97C8-BD4E6EE285B0}"/>
+											<SegmentRef Name="Zone2" ID="{374F3DBD-72B8-4A87-83AD-4391F9CFCC46}"/>
 										</MusicPlaylistItem>
 									</ChildrenList>
 								</MusicPlaylistItem>
@@ -1107,14 +1106,6 @@
 						</Entry>
 						<Entry>
 							<Path>
-								<PathElementRef Name="STATE_Zone_2" ID="{4C9E89E2-45CE-434B-8BFD-DA62E4590848}"/>
-							</Path>
-							<AudioNodeInfo>
-								<AudioNodeRef Name="Zone 2" ID="{46E65FEF-DA39-467E-9098-331C99FBC5AC}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}" Platform="Linked"/>
-							</AudioNodeInfo>
-						</Entry>
-						<Entry>
-							<Path>
 								<PathElementRef Name="STATE_Zone_3_5_Drops" ID="{FA45089E-E981-41EC-9A53-1D7E307E3E2A}"/>
 							</Path>
 							<AudioNodeInfo>
@@ -1127,6 +1118,22 @@
 							</Path>
 							<AudioNodeInfo>
 								<AudioNodeRef Name="Zone 4" ID="{D0E3FA3A-51C8-42BD-8458-2FEBDCFC9AA1}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}" Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="Music_States" ID="{E3939D62-753F-4E64-BE1C-B5FB73105891}"/>
+							</Path>
+							<AudioNodeInfo>
+								<NoObject Platform="Linked"/>
+							</AudioNodeInfo>
+						</Entry>
+						<Entry>
+							<Path>
+								<PathElementRef Name="STATE_Zone_2" ID="{4C9E89E2-45CE-434B-8BFD-DA62E4590848}"/>
+							</Path>
+							<AudioNodeInfo>
+								<AudioNodeRef Name="Zone 2" ID="{46E65FEF-DA39-467E-9098-331C99FBC5AC}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}" Platform="Linked"/>
 							</AudioNodeInfo>
 						</Entry>
 					</EntryList>
