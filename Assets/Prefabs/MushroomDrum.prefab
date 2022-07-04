@@ -51,7 +51,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8e8157354ae92644a9ab34f1cd2cdb99, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 0.2
+  interval: 0.6315
   tinyMushroomEvent:
     idInternal: 0
     valueGuidInternal: 
