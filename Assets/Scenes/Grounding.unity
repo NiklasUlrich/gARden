@@ -1232,6 +1232,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4023421219550643613, guid: 8b7af6a473541d0488aa7752de7b2b01,
         type: 3}
+      propertyPath: interval
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4023421219550643613, guid: 8b7af6a473541d0488aa7752de7b2b01,
+        type: 3}
       propertyPath: GrowWwiseEvent.WwiseObjectReference
       value: 
       objectReference: {fileID: 11400000, guid: b94b5a4d2c994114f95d4d67bbbf5d99,
