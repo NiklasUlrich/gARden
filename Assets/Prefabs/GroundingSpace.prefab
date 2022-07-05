@@ -240,7 +240,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6a3d284aea1f8834f85fc937a5ff748b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interval: 0.1
+  interval: 0.63158
   GrowWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
