@@ -10,6 +10,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	2643994084	Zone_2			\Default Work Unit\Music\Zone_2	
 	2643994087	Zone_1			\Default Work Unit\Music\Zone_1	
 	2656882895	Entrance			\Default Work Unit\Music\Entrance	
+	2703419059	Taps			\Default Work Unit\Taps\Taps	
 	3765476793	Dropping_Fruit			\Default Work Unit\Fruit and Tree\Dropping_Fruit	
 	3787535528	Flower			\Default Work Unit\Grounding\Flower	
 	3856944273	Small_Mushroom_Notes			\Default Work Unit\Mushroom\Small_Mushroom_Notes	
@@ -67,12 +68,15 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	849235916	Mushroom_Note3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note3		835644
 	856075533	Growing_Flower_4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_4		308036
 	863158741	Entrance	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Entrance_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Entrance\Entrance\Entrance		7130340
+	869453334	Tap1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Tap1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Taps\Taps\Tap1		179290
 	875354434	Grounding_Light_6	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Grounding_Light_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grounding_Light\Grounding_Light\Grounding_Light_6		1372616
+	878746730	Tap3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Tap3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Taps\Taps\Tap3		151978
 	879299307	SmallMushroom_Note1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note1-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note1		800252
 	888548096	Growing_Flower_6	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_6		388240
 	949424724	SmallMushroom_Note3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note3		582560
 	968470072	Growing_Tree_1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Tree_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Tree\Growing_Tree\Growing_Tree_1		525396
 	977959087	Growing_Flower_5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_5		357488
 	1009530216	Falling_Fruit_4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_4		1998924
+	1031294184	Tap2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Tap2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Taps\Taps\Tap2		153664
 	1055072850	Mushroom_Note4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note4		612824
 

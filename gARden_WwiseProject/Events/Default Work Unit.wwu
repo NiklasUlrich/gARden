@@ -199,6 +199,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Taps" ID="{0F58D0D4-346A-459D-ADB4-DABC9D92195F}" ShortID="824635843">
+					<ChildrenList>
+						<Event Name="Taps" ID="{8B83E0F7-D520-447C-A8CF-F551B212B4F1}">
+							<ChildrenList>
+								<Action Name="" ID="{BADCD640-5DBC-4BA3-B0CF-84499D6D676D}" ShortID="15326098">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Taps" ID="{6CD86515-5ADA-49D4-B19A-BDFCF2381473}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

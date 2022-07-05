@@ -25,6 +25,7 @@ namespace AK
         static const AkUniqueID PICKING_FRUIT = 300230377U;
         static const AkUniqueID SMALL_MUSHROOM_NOTES = 3856944273U;
         static const AkUniqueID SOUNDDESIGNEND = 4256775455U;
+        static const AkUniqueID TAPS = 2703419059U;
         static const AkUniqueID ZONE_1 = 2643994087U;
         static const AkUniqueID ZONE_2 = 2643994084U;
         static const AkUniqueID ZONE_3_5_DROPS = 4043173166U;
