@@ -142,7 +142,7 @@ Transform:
   m_GameObject: {fileID: 5908447820883660228}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.0024, y: 0.00394, z: 0.00011}
-  m_LocalScale: {x: 0.18, y: 0.18, z: 0.18}
+  m_LocalScale: {x: 0.46, y: 0.46, z: 0.46}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5908447820379581662}
@@ -246,7 +246,7 @@ Transform:
   m_GameObject: {fileID: 5908447821289257186}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.00369, y: 0.00293, z: 0.00008}
-  m_LocalScale: {x: 0.18, y: 0.18, z: 0.18}
+  m_LocalScale: {x: 0.46, y: 0.46, z: 0.46}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5908447820379581662}
@@ -350,7 +350,7 @@ Transform:
   m_GameObject: {fileID: 5908447821546524851}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.00036, y: -0.0043, z: 0.00008}
-  m_LocalScale: {x: 0.18, y: 0.18, z: 0.18}
+  m_LocalScale: {x: 0.46, y: 0.46, z: 0.46}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5908447820379581662}
@@ -454,7 +454,7 @@ Transform:
   m_GameObject: {fileID: 5908447822042946305}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.00416, y: -0.00269, z: 0.00008}
-  m_LocalScale: {x: 0.18, y: 0.18, z: 0.18}
+  m_LocalScale: {x: 0.46, y: 0.46, z: 0.46}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5908447820379581662}
@@ -544,11 +544,11 @@ GameObject:
   - component: {fileID: 5908447821491100722}
   - component: {fileID: 5908447821491100725}
   - component: {fileID: 5908447821491100723}
-  - component: {fileID: 5908447821491100724}
   - component: {fileID: 5908447821491100720}
   - component: {fileID: 3784939624707866335}
   - component: {fileID: 2750765987755352874}
   - component: {fileID: 923227271319639527}
+  - component: {fileID: 2876588027965278293}
   m_Layer: 0
   m_Name: MushroomDrum
   m_TagString: Untagged
@@ -664,24 +664,6 @@ MonoBehaviour:
   eventsToReceive: 0
   debounceThreshold: 0.01
   touchableCollider: {fileID: 5908447821491100722}
---- !u!114 &5908447821491100724
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6718926634290923911}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: b75ded89c4c331244a781a5ad329be11, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  startColor: {r: 0.26415092, g: 0.26415092, b: 0.26415092, a: 1}
-  endColor: {r: 0, g: 0.5235418, b: 0.6603774, a: 0}
-  transitionSharpness: 5
-  transitionPos: 0.3
-  transitionSpeed: 2
-  transitionStepSize: 0.15
 --- !u!114 &5908447821491100720
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -773,6 +755,29 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2876588027965278293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6718926634290923911}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f842ea50dd664d4d9b9d4c6e3b6d8f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 0.3301887, g: 0.3301887, b: 0.3301887, a: 0}
+  randomColors:
+  - {r: 0.8867924, g: 0.3839927, b: 0.11294055, a: 0}
+  - {r: 0.764436, g: 0.089711644, b: 0.9056604, a: 0}
+  - {r: 0.090196095, g: 0.23225777, b: 0.90588236, a: 0}
+  - {r: 0.090196095, g: 0.90588236, b: 0.40540972, a: 0}
+  - {r: 0.90588236, g: 0.13010558, b: 0.090196095, a: 0}
+  - {r: 0.90588236, g: 0.8042455, b: 0.090196095, a: 0}
+  endColor: {r: 0.089711644, g: 0.9056604, b: 0.85200894, a: 0}
+  numberOfHits: 7
+  completed: 0
 --- !u!1 &8001386245668853846
 GameObject:
   m_ObjectHideFlags: 0
@@ -801,7 +806,7 @@ Transform:
   m_GameObject: {fileID: 8001386245668853846}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -0.00455, y: 0.00022, z: 0.00008}
-  m_LocalScale: {x: 0.18, y: 0.18, z: 0.18}
+  m_LocalScale: {x: 0.46, y: 0.46, z: 0.46}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 5908447820379581662}

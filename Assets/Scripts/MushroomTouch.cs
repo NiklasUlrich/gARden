@@ -8,7 +8,7 @@ public class MushroomTouch : MonoBehaviour, IMixedRealityTouchHandler
     /// <summary>
     /// The shader of the object
     /// </summary>
-    MushroomShader mushroomShader;
+    MushroomColorChanger colorChanger;
 
     /// <summary>
     /// The script that controls the tiny mushrooms
@@ -29,7 +29,7 @@ public class MushroomTouch : MonoBehaviour, IMixedRealityTouchHandler
     // Start is called before the first frame update
     void Start()
     {
-        mushroomShader = gameObject.GetComponent<MushroomShader>();
+        colorChanger = gameObject.GetComponent<MushroomColorChanger>();
         completed = false;
     }
 
@@ -37,7 +37,7 @@ public class MushroomTouch : MonoBehaviour, IMixedRealityTouchHandler
     void Update()
     {
         if (!completed) { 
-            if (mushroomShader.TransitionCompleted)
+            if (colorChanger.completed)
             {
                 Debug.Log("Mushroom: Transition completed");
                 completed = true;
@@ -52,7 +52,7 @@ public class MushroomTouch : MonoBehaviour, IMixedRealityTouchHandler
     {
         Debug.Log("[Input] Touch is started.");
 
-        mushroomShader.MoveTransition();
+        colorChanger.colorChange();
 
         if (TouchWwiseEvent != null)
         {
