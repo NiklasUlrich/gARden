@@ -18,6 +18,8 @@ public class ClapDetector : MonoBehaviour
 
     public float clapRange;
 
+    public AK.Wwise.Event clapWwiseEvent;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -34,7 +36,7 @@ public class ClapDetector : MonoBehaviour
             Debug.Log("palm distance: " + Vector3.Distance(rightPalm.Position, leftPalm.Position));
             if (Vector3.Distance(rightPalm.Position, leftPalm.Position) < .1f)
             {
-                onClap(rightPalm.Position);
+                OnClap(rightPalm.Position);
             }
         }
 
@@ -43,13 +45,13 @@ public class ClapDetector : MonoBehaviour
         {
             if (HandJointUtils.TryGetJointPose(TrackedHandJoint.Palm, Handedness.Right, out rightPalm))
             {
-                onClap(rightPalm.Position);
+                OnClap(rightPalm.Position);
             }
         }
         #endif
     }
 
-    void onClap(Vector3 clapPosition)
+    void OnClap(Vector3 clapPosition)
     {
         for(int i = 0; i < dandelions.Length; i++)
         {
@@ -57,6 +59,13 @@ public class ClapDetector : MonoBehaviour
             {
                 dandelions[i].explode(clapPosition, clapRange);
             }
+        }
+
+        gameObject.transform.position = clapPosition;
+
+        if (clapWwiseEvent != null)
+        {
+            clapWwiseEvent.Post(gameObject);
         }
     }
 }

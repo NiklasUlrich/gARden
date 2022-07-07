@@ -14,13 +14,13 @@ public class Dandelion : MonoBehaviour
 
     public bool explodeOnStart;
 
-    public AK.Wwise.Event clapWwiseEvent;
+    Rigidbody[] seedRBs;
 
     public AK.Wwise.Event seedWwiseEvent;
     // Start is called before the first frame update
     void Start()
     {
-        
+        seedRBs = seeds.GetComponentsInChildren<Rigidbody>();
     }
 
     // Update is called once per frame
@@ -31,11 +31,7 @@ public class Dandelion : MonoBehaviour
 
     public void explode(Vector3 explosionCenter, float  explosionRange)
     {
-        Rigidbody[] seedRBs = seeds.GetComponentsInChildren<Rigidbody>();
-        if (clapWwiseEvent != null)
-        {
-            clapWwiseEvent.Post(gameObject);
-        }
+        
 
         for (int i = 0; i < seedRBs.Length; i++)
         {
