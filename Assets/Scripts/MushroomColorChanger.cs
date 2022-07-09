@@ -9,6 +9,7 @@ public class MushroomColorChanger : MonoBehaviour
     public Color endColor;
 
     private int counter = 0;
+    private int currentColor;
 
     public int numberOfHits;
     public bool completed = false;
@@ -39,7 +40,14 @@ public class MushroomColorChanger : MonoBehaviour
         }
         if (!completed)
         {
-            mushroomRenderer.material.SetColor("_Color", randomColors[Random.Range(0, randomColors.Length)]);
+            int randomColor = currentColor;
+            while (randomColor == currentColor)
+            {
+                randomColor = Random.Range(0, randomColors.Length);
+            }
+
+            currentColor = randomColor;
+            mushroomRenderer.material.SetColor("_Color", randomColors[randomColor]);
         }
         
     }
