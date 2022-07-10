@@ -41,7 +41,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 830035083553128269}
-  m_Mesh: {fileID: 0}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!23 &830035083555357855
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -96,6 +96,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e0193765719c39b46a2e489ac1aaa991, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  GrowWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
   flowers:
   - {fileID: 6174749286796568079, guid: 3fa03e8c927e60649b492cb9d4f6edff, type: 3}
   - {fileID: 5216893306498468694, guid: 930e0f91889b2bf4baac9c1991cea812, type: 3}
