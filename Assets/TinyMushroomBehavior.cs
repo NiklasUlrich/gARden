@@ -19,5 +19,6 @@ public class TinyMushroomBehavior : MonoBehaviour
     public void OnGrab()
     {
         gameObject.GetComponent<Rigidbody>().isKinematic = false;
+        Debug.Log("Tiny Mushroom picked up");
     }
 }
