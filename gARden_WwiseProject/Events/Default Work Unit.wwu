@@ -38,6 +38,50 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Mushroom_Note_Second_Mushroom" ID="{C9F037F2-F99A-46CC-9BF2-BF43C09F5121}">
+							<ChildrenList>
+								<Action Name="" ID="{71D4C2A8-75E3-439C-A130-E22B2414489D}" ShortID="933425570">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2nd_Mushroom_ARP" ID="{833168F6-83DB-4B47-B6C0-AFBA6232FF65}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mushroom_Small_Note_Second_Mushroom" ID="{0939407A-55F3-4BB0-B72E-A56DD7D876BB}">
+							<ChildrenList>
+								<Action Name="" ID="{6CE64359-95AF-4070-A8DE-A6EE3548CF8C}" ShortID="795093934">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2nd_Mushroom_Small_Notes" ID="{FE2993E3-0926-4516-B29E-D4AC32299CC7}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mushroom_Note_Third_Mushroom" ID="{D985C4D1-BA61-421A-AA21-46CA5C00C85D}">
+							<ChildrenList>
+								<Action Name="" ID="{07A817AA-1174-4BC0-BA1D-49087FBF2C1B}" ShortID="820827374">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3rd_Mushroom_Notes" ID="{D929C63C-06E8-4D33-82C9-62AE9147F7EB}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mushroom_Small_Note_Third_Mushroom" ID="{94396F59-64E1-416A-BF5A-E3A2CFF14882}">
+							<ChildrenList>
+								<Action Name="" ID="{D0DA21F8-6272-4D33-972E-6D2ACCC83EA1}" ShortID="578045695">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3rd_Mushroom_Small_Notes" ID="{D0F61500-3734-44ED-BA14-CCB4E828A7A0}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{48D6845A-98AE-4DF4-9B63-49D5553FA2DE}" ShortID="633349676">

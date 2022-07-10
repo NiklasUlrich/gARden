@@ -21,6 +21,10 @@ namespace AK
         static const AkUniqueID GROWING_TREE = 1666569787U;
         static const AkUniqueID LIGHT = 1935470627U;
         static const AkUniqueID MUSHROOM_NOTE = 313967986U;
+        static const AkUniqueID MUSHROOM_NOTE_SECOND_MUSHROOM = 1758564386U;
+        static const AkUniqueID MUSHROOM_NOTE_THIRD_MUSHROOM = 113254737U;
+        static const AkUniqueID MUSHROOM_SMALL_NOTE_SECOND_MUSHROOM = 2792339242U;
+        static const AkUniqueID MUSHROOM_SMALL_NOTE_THIRD_MUSHROOM = 3973682953U;
         static const AkUniqueID MUSIC_PLAYLIST = 2520593515U;
         static const AkUniqueID PICKING_FRUIT = 300230377U;
         static const AkUniqueID SMALL_MUSHROOM_NOTES = 3856944273U;
