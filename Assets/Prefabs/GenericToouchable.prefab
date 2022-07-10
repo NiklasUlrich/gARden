@@ -44,3 +44,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 671f2edb052b13f4daa07bf4d1d380a2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  TouchWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b17ddf3381b27f44cb15edad374be8a0,
+      type: 2}

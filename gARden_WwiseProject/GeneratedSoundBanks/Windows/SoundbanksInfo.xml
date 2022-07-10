@@ -16,12 +16,12 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="2949490380">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1344961980">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<IncludedEvents>
-				<Event Id="898275277" Name="Dandelion" ObjectPath="\Events\Default Work Unit\Dandelion\Dandelion" MaxAttenuation="10." DurationType="OneShot" DurationMin="2.2" DurationMax="2.332857">
+				<Event Id="898275277" Name="Dandelion" ObjectPath="\Events\Default Work Unit\Dandelion\Dandelion" MaxAttenuation="10." DurationType="OneShot" DurationMin="2.2" DurationMax="2.53297">
 					<IncludedMemoryFiles>
 						<File Id="248121942" Language="SFX">
 							<ShortName>Dandelion_1.wav</ShortName>
@@ -30,6 +30,18 @@
 						<File Id="531149941" Language="SFX">
 							<ShortName>Dandelion_2.wav</ShortName>
 							<Path>SFX\Dandelion_2_10C4C929.wem</Path>
+						</File>
+						<File Id="566088323" Language="SFX">
+							<ShortName>Dandelion3.wav</ShortName>
+							<Path>SFX\Dandelion3_10C4C929.wem</Path>
+						</File>
+						<File Id="938069819" Language="SFX">
+							<ShortName>Dandelion4.wav</ShortName>
+							<Path>SFX\Dandelion4_10C4C929.wem</Path>
+						</File>
+						<File Id="1065270294" Language="SFX">
+							<ShortName>Dandelion5.wav</ShortName>
+							<Path>SFX\Dandelion5_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -129,7 +141,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1935470627" Name="Light" ObjectPath="\Events\Default Work Unit\Grounding\Light" MaxAttenuation="10." DurationType="OneShot" DurationMin="6.200703" DurationMax="7.873106">
+				<Event Id="1935470627" Name="Light" ObjectPath="\Events\Default Work Unit\Grounding\Light" MaxAttenuation="10." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="3848367" Language="SFX">
 							<ShortName>Grounding_Light_4.wav</ShortName>
@@ -178,6 +190,106 @@
 						<File Id="1055072850" Language="SFX">
 							<ShortName>Mushroom_Note4.wav</ShortName>
 							<Path>SFX\Mushroom_Note4_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1758564386" Name="Mushroom_Note_Second_Mushroom" ObjectPath="\Events\Default Work Unit\Mushroom\Mushroom_Note_Second_Mushroom" MaxAttenuation="10." DurationType="OneShot" DurationMin="10.105284" DurationMax="10.105284">
+					<IncludedMemoryFiles>
+						<File Id="407571559" Language="SFX">
+							<ShortName>2ndMushroom_Note2.wav</ShortName>
+							<Path>SFX\2ndMushroom_Note2_10C4C929.wem</Path>
+						</File>
+						<File Id="505829208" Language="SFX">
+							<ShortName>2ndMushroom_Note4.wav</ShortName>
+							<Path>SFX\2ndMushroom_Note4_10C4C929.wem</Path>
+						</File>
+						<File Id="807050288" Language="SFX">
+							<ShortName>2ndMushroom_Note3.wav</ShortName>
+							<Path>SFX\2ndMushroom_Note3_10C4C929.wem</Path>
+						</File>
+						<File Id="1006879515" Language="SFX">
+							<ShortName>2ndMushroom_Note1.wav</ShortName>
+							<Path>SFX\2ndMushroom_Note1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="113254737" Name="Mushroom_Note_Third_Mushroom" ObjectPath="\Events\Default Work Unit\Mushroom\Mushroom_Note_Third_Mushroom" MaxAttenuation="10." DurationType="OneShot" DurationMin="2.526326" DurationMax="2.526326">
+					<IncludedMemoryFiles>
+						<File Id="167996142" Language="SFX">
+							<ShortName>3rdMushroom_Note5.wav</ShortName>
+							<Path>SFX\3rdMushroom_Note5_10C4C929.wem</Path>
+						</File>
+						<File Id="249874896" Language="SFX">
+							<ShortName>3rdMushroom_Note1.wav</ShortName>
+							<Path>SFX\3rdMushroom_Note1_10C4C929.wem</Path>
+						</File>
+						<File Id="506829407" Language="SFX">
+							<ShortName>3rdMushroom_Note2.wav</ShortName>
+							<Path>SFX\3rdMushroom_Note2_10C4C929.wem</Path>
+						</File>
+						<File Id="587175608" Language="SFX">
+							<ShortName>3rdMushroom_Note4.wav</ShortName>
+							<Path>SFX\3rdMushroom_Note4_10C4C929.wem</Path>
+						</File>
+						<File Id="640560142" Language="SFX">
+							<ShortName>3rdMushroom_Note3.wav</ShortName>
+							<Path>SFX\3rdMushroom_Note3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2792339242" Name="Mushroom_Small_Note_Second_Mushroom" ObjectPath="\Events\Default Work Unit\Mushroom\Mushroom_Small_Note_Second_Mushroom" MaxAttenuation="10." DurationType="OneShot" DurationMin="1.263175" DurationMax="1.263175">
+					<IncludedMemoryFiles>
+						<File Id="46994315" Language="SFX">
+							<ShortName>2rdMushroom_Small_Note5.wav</ShortName>
+							<Path>SFX\2rdMushroom_Small_Note5_10C4C929.wem</Path>
+						</File>
+						<File Id="378393210" Language="SFX">
+							<ShortName>2rdMushroom_Small_Note6.wav</ShortName>
+							<Path>SFX\2rdMushroom_Small_Note6_10C4C929.wem</Path>
+						</File>
+						<File Id="477141840" Language="SFX">
+							<ShortName>2rdMushroom_Small_Note2.wav</ShortName>
+							<Path>SFX\2rdMushroom_Small_Note2_10C4C929.wem</Path>
+						</File>
+						<File Id="603645623" Language="SFX">
+							<ShortName>2rdMushroom_Small_Note4.wav</ShortName>
+							<Path>SFX\2rdMushroom_Small_Note4_10C4C929.wem</Path>
+						</File>
+						<File Id="617693827" Language="SFX">
+							<ShortName>2rdMushroom_Small_Note3.wav</ShortName>
+							<Path>SFX\2rdMushroom_Small_Note3_10C4C929.wem</Path>
+						</File>
+						<File Id="720986194" Language="SFX">
+							<ShortName>2rdMushroom_Small_Note1.wav</ShortName>
+							<Path>SFX\2rdMushroom_Small_Note1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3973682953" Name="Mushroom_Small_Note_Third_Mushroom" ObjectPath="\Events\Default Work Unit\Mushroom\Mushroom_Small_Note_Third_Mushroom" MaxAttenuation="10." DurationType="OneShot" DurationMin="1.263175" DurationMax="1.263175">
+					<IncludedMemoryFiles>
+						<File Id="430480842" Language="SFX">
+							<ShortName>3rdMushroom_Small_Note4.wav</ShortName>
+							<Path>SFX\3rdMushroom_Small_Note4_10C4C929.wem</Path>
+						</File>
+						<File Id="497746666" Language="SFX">
+							<ShortName>3rdMushroom_Small_Note2.wav</ShortName>
+							<Path>SFX\3rdMushroom_Small_Note2_10C4C929.wem</Path>
+						</File>
+						<File Id="559169012" Language="SFX">
+							<ShortName>3rdMushroom_Small_Note1.wav</ShortName>
+							<Path>SFX\3rdMushroom_Small_Note1_10C4C929.wem</Path>
+						</File>
+						<File Id="823561233" Language="SFX">
+							<ShortName>3rdMushroom_Small_Note3.wav</ShortName>
+							<Path>SFX\3rdMushroom_Small_Note3_10C4C929.wem</Path>
+						</File>
+						<File Id="883489239" Language="SFX">
+							<ShortName>3rdMushroom_Small_Note6.wav</ShortName>
+							<Path>SFX\3rdMushroom_Small_Note6_10C4C929.wem</Path>
+						</File>
+						<File Id="1011999766" Language="SFX">
+							<ShortName>3rdMushroom_Small_Note5.wav</ShortName>
+							<Path>SFX\3rdMushroom_Small_Note5_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
