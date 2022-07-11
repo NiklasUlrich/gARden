@@ -964,6 +964,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &938954541 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4760479304716711464, guid: e1f10497d42063c4abeaa9de9ddb2397,
+    type: 3}
+  m_PrefabInstance: {fileID: 757133850}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1084218102
 GameObject:
   m_ObjectHideFlags: 0
@@ -1252,6 +1258,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4569805997190441342}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1222818921 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4023421219550643610, guid: 8b7af6a473541d0488aa7752de7b2b01,
+    type: 3}
+  m_PrefabInstance: {fileID: 4023421219782773931}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1287948034 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6776353959187693942, guid: 085f32b21ea0a714a92d96deb75fd398,
@@ -1522,6 +1534,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   banana: {fileID: 9041093461760076367}
   mushrooms: {fileID: 1691879523}
+  dandelionParent: {fileID: 938954541}
+  groundingFlowers: {fileID: 1222818921}
 --- !u!4 &2127051399
 Transform:
   m_ObjectHideFlags: 0

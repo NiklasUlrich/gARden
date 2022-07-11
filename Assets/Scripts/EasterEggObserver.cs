@@ -15,6 +15,9 @@ public class EasterEggObserver : MonoBehaviour
     Dandelion[] dandelions;
     bool dandelionsFound = false;
 
+    public GameObject groundingFlowers;
+    bool groundingFound = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -36,6 +39,10 @@ public class EasterEggObserver : MonoBehaviour
         if(!dandelionsFound)
         {
             DandelionUpdate();
+        }
+        if (!groundingFound)
+        {
+            GroundingUpdate();
         }
     }
 
@@ -69,6 +76,20 @@ public class EasterEggObserver : MonoBehaviour
             {
                 dandelionsFound = true;
                 Debug.Log("Dandelion found");
+                return;
+            }
+        }
+    }
+
+    void GroundingUpdate()
+    {
+        FlowerBehavior[] flowers = groundingFlowers.GetComponentsInChildren<FlowerBehavior>();
+        for(int i = 0; i < flowers.Length; i++)
+        {
+            if (!flowers[i].gameObject.GetComponent<Rigidbody>().isKinematic)
+            {
+                groundingFound = true;
+                Debug.Log("grounding found");
                 return;
             }
         }
