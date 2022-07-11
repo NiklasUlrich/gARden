@@ -24,23 +24,25 @@ public class MushroomTouch : MonoBehaviour, IMixedRealityTouchHandler
     /// Which event will be played when touch is started
     /// </summary>
     public AK.Wwise.Event TouchWwiseEvent;
-       
+
+    public bool Completed { get => completed; set => completed = value; }
+
 
     // Start is called before the first frame update
     void Start()
     {
         colorChanger = gameObject.GetComponent<MushroomColorChanger>();
-        completed = false;
+        Completed = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (!completed) { 
+        if (!Completed) { 
             if (colorChanger.completed)
             {
                 Debug.Log("Mushroom: Transition completed");
-                completed = true;
+                Completed = true;
                 tinyMushrooms.Animate();
             }
         }

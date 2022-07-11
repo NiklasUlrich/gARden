@@ -12,15 +12,16 @@ public class Dandelion : MonoBehaviour
 
     public float upwardsModifier;
 
-    public bool explodeOnStart;
-
     bool doubleExploded = false;
+
+    bool exploded;
 
     Rigidbody[] seedRBs;
 
     public AK.Wwise.Event seedWwiseEvent;
 
     public bool DoubleExploded { get => doubleExploded; set => doubleExploded = value; }
+    public bool Exploded { get => exploded; set => exploded = value; }
 
     // Start is called before the first frame update
     void Start()
@@ -36,7 +37,10 @@ public class Dandelion : MonoBehaviour
 
     public void explode(Vector3 explosionCenter, float  explosionRange)
     {
-        
+        if (!exploded)
+        {
+            exploded = true;
+        }
 
         for (int i = 0; i < seedRBs.Length; i++)
         {

@@ -1285,6 +1285,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1691879524}
+  - component: {fileID: 1691879525}
   m_Layer: 0
   m_Name: Mushrooms
   m_TagString: Untagged
@@ -1310,6 +1311,22 @@ Transform:
   m_Father: {fileID: 169559655}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1691879525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1691879523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3f01dbe4aaf0ae4ab8fab58662ba173, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FinishedWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!4 &1758699109 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6776353959187693942, guid: 085f32b21ea0a714a92d96deb75fd398,
@@ -5123,6 +5140,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1135394738311327202}
+  - component: {fileID: 6852064705584383891}
   m_Layer: 0
   m_Name: FruitTree
   m_TagString: Untagged
@@ -5130,6 +5148,22 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &6852064705584383891
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6852064705584383890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e63a5608cc6f9f1429c5a813e4946d0d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FinishedWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &6922935222690430340
 GameObject:
   m_ObjectHideFlags: 0

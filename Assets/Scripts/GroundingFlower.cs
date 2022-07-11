@@ -35,5 +35,7 @@ public class GroundingFlower : MonoBehaviour
         {
             GrowWwiseEvent.Post(gameObject);
         }
+
+        gameObject.SetActive(false);
     }
 }
