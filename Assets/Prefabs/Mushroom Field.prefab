@@ -136,6 +136,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcb71f23ec25e554bace2cbbdf966899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WwisePickUpEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  WwiseThrowEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  WwiseGroundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!136 &4016260221351991160
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -212,7 +224,19 @@ MonoBehaviour:
         m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 4016260221351991163}
+        m_TargetAssemblyTypeName: TinyMushroomBehavior, Assembly-CSharp
+        m_MethodName: OnThrow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -485,6 +509,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcb71f23ec25e554bace2cbbdf966899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WwisePickUpEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  WwiseThrowEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  WwiseGroundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!136 &7413687606748626199
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -561,7 +597,19 @@ MonoBehaviour:
         m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 7413687606748626194}
+        m_TargetAssemblyTypeName: TinyMushroomBehavior, Assembly-CSharp
+        m_MethodName: OnThrow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -720,6 +768,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcb71f23ec25e554bace2cbbdf966899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WwisePickUpEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  WwiseThrowEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  WwiseGroundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!136 &8526332829301901802
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -796,7 +856,19 @@ MonoBehaviour:
         m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8526332829301901797}
+        m_TargetAssemblyTypeName: TinyMushroomBehavior, Assembly-CSharp
+        m_MethodName: OnThrow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -955,6 +1027,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcb71f23ec25e554bace2cbbdf966899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WwisePickUpEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  WwiseThrowEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  WwiseGroundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!136 &5209065263652866490
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1031,7 +1115,19 @@ MonoBehaviour:
         m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 5209065263652866485}
+        m_TargetAssemblyTypeName: TinyMushroomBehavior, Assembly-CSharp
+        m_MethodName: OnThrow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []
@@ -1190,6 +1286,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: dcb71f23ec25e554bace2cbbdf966899, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  WwisePickUpEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  WwiseThrowEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  WwiseGroundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!136 &8058890539594193049
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -1266,7 +1374,19 @@ MonoBehaviour:
         m_CallState: 2
   onManipulationEnded:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 8058890539594193044}
+        m_TargetAssemblyTypeName: TinyMushroomBehavior, Assembly-CSharp
+        m_MethodName: OnThrow
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   onHoverEntered:
     m_PersistentCalls:
       m_Calls: []

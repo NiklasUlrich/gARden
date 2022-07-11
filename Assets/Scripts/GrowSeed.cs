@@ -33,5 +33,10 @@ public class GrowSeed : MonoBehaviour
         else if(other.gameObject.GetComponent<DandelionSeed>() != null){
             other.gameObject.GetComponent<DandelionSeed>().Pop();
         }
+
+        else if (other.gameObject.GetComponent<TinyMushroomBehavior>() != null)
+        {
+            other.gameObject.GetComponent<TinyMushroomBehavior>().OnGroundCollision();
+        }
     }
 }

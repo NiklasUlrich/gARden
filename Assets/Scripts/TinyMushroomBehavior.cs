@@ -2,16 +2,17 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class DandelionSeed : MonoBehaviour
+public class TinyMushroomBehavior : MonoBehaviour
 {
     public AK.Wwise.Event WwisePickUpEvent;
     public AK.Wwise.Event WwiseThrowEvent;
+    public AK.Wwise.Event WwiseGroundEvent;
 
-    public Dandelion parent;
 
     // Start is called before the first frame update
     void Start()
     {
+        
     }
 
     // Update is called once per frame
@@ -20,9 +21,14 @@ public class DandelionSeed : MonoBehaviour
         
     }
 
-    public void Pop()
+    public void OnGrab()
     {
-        //gameObject.SetActive(false);
+        gameObject.GetComponent<Rigidbody>().isKinematic = false;
+        Debug.Log("Tiny Mushroom picked up");
+        if (WwisePickUpEvent != null)
+        {
+            WwisePickUpEvent.Post(gameObject);
+        }
     }
 
     public void OnThrow()
@@ -33,12 +39,11 @@ public class DandelionSeed : MonoBehaviour
         }
     }
 
-    public void OnGrab()
+    public void OnGroundCollision()
     {
-        gameObject.GetComponent<Rigidbody>().isKinematic = false;
-        if (WwisePickUpEvent != null)
+        if (WwiseGroundEvent != null)
         {
-            WwisePickUpEvent.Post(gameObject);
+            WwiseGroundEvent.Post(gameObject);
         }
     }
 }
