@@ -77,6 +77,8 @@ public class GroundingTouch : MonoBehaviour, IMixedRealityTouchHandler
 
     public void OnTouchStarted(HandTrackingInputEventData eventData)
     {
+
+        Debug.Log("Grounding started");
         playerIsTouching = true;
 
 

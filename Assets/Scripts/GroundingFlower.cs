@@ -11,7 +11,11 @@ public class GroundingFlower : MonoBehaviour
 
     public List<GameObject> flowers;
 
+    bool spawned = false;
+
     Transform parent;
+
+    public bool Spawned { get => spawned; set => spawned = value; }
 
     // Start is called before the first frame update
     void Start()
@@ -30,12 +34,12 @@ public class GroundingFlower : MonoBehaviour
         GameObject newFlower = Instantiate(flowers[Random.Range(0, flowers.Count)], gameObject.transform.position, Quaternion.Euler(0, Random.Range(0, 360), 0));
         newFlower.GetComponent<Animator>().SetBool("Completed", true);
         newFlower.transform.parent = parent;
+        spawned = true;
 
         if (GrowWwiseEvent != null)
         {
             GrowWwiseEvent.Post(gameObject);
         }
 
-        gameObject.SetActive(false);
     }
 }
