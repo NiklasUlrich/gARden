@@ -14,9 +14,14 @@ public class Dandelion : MonoBehaviour
 
     public bool explodeOnStart;
 
+    bool doubleExploded = false;
+
     Rigidbody[] seedRBs;
 
     public AK.Wwise.Event seedWwiseEvent;
+
+    public bool DoubleExploded { get => doubleExploded; set => doubleExploded = value; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,6 +40,14 @@ public class Dandelion : MonoBehaviour
 
         for (int i = 0; i < seedRBs.Length; i++)
         {
+            if (!doubleExploded)
+            {
+                if (!seedRBs[i].isKinematic && Vector3.Distance(explosionCenter, seedRBs[i].gameObject.transform.position) < explosionRange)
+                {
+                    doubleExploded = true;
+                }
+            }
+            
             seedRBs[i].isKinematic = false;
             seedRBs[i].AddExplosionForce(explosionForce, explosionCenter, explosionRange, upwardsModifier);
         }
