@@ -13,6 +13,10 @@ public class GroundingFlower : MonoBehaviour
 
     Transform parent;
 
+    bool spawned = false;
+
+    public bool Spawned { get => spawned; set => spawned = value; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,7 +39,6 @@ public class GroundingFlower : MonoBehaviour
         {
             GrowWwiseEvent.Post(gameObject);
         }
-
-        gameObject.SetActive(false);
+        spawned = true;
     }
 }

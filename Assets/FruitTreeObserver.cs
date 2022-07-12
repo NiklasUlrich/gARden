@@ -19,16 +19,16 @@ public class FruitTreeObserver : MonoBehaviour
     {
         if (!finished)
         {
-            CheckDandelions();
+            CheckFruits();
         }
     }
 
-    void CheckDandelions()
+    void CheckFruits()
     {
         finished = true;
         for (int i = 0; i < fruits.Length; i++)
         {
-            if (!fruits[i].isActiveAndEnabled)
+            if (!fruits[i].Planted)
             {
                 finished = false;
                 return;

@@ -28,7 +28,7 @@ public class GroundingObserver : MonoBehaviour
         finished = true;
         for (int i = 0; i < flowers.Length; i++)
         {
-            if (!flowers[i].isActiveAndEnabled)
+            if (!flowers[i].Spawned)
             {
                 finished = false;
                 return;
