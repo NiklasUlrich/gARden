@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1344961980">
+		<SoundBank Id="3161908922" Language="SFX" Hash="246141169">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -71,17 +71,37 @@
 				</Event>
 				<Event Id="2656882895" Name="Entrance" ObjectPath="\Events\Default Work Unit\Music\Entrance" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="478325403" Language="SFX">
+							<ShortName>fill break to drop.wav</ShortName>
+							<Path>SFX\fill break to drop_D79FB2B7.wem</Path>
+						</File>
 						<File Id="863158741" Language="SFX">
 							<ShortName>Entrance.wav</ShortName>
 							<Path>SFX\Entrance_D79FB2B7.wem</Path>
+						</File>
+						<File Id="875318371" Language="SFX">
+							<ShortName>fill drop to break.wav</ShortName>
+							<Path>SFX\fill drop to break_D79FB2B7.wem</Path>
+						</File>
+						<File Id="907068458" Language="SFX">
+							<ShortName>fill_1-2.wav</ShortName>
+							<Path>SFX\fill_1-2_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="26822469" Name="Exit" ObjectPath="\Events\Default Work Unit\Music\Exit" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="478325403" Language="SFX">
+							<ShortName>fill break to drop.wav</ShortName>
+							<Path>SFX\fill break to drop_D79FB2B7.wem</Path>
+						</File>
 						<File Id="543001980" Language="SFX">
 							<ShortName>Exit.wav</ShortName>
 							<Path>SFX\Exit_D79FB2B7.wem</Path>
+						</File>
+						<File Id="875318371" Language="SFX">
+							<ShortName>fill drop to break.wav</ShortName>
+							<Path>SFX\fill drop to break_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -166,6 +186,14 @@
 						<File Id="875354434" Language="SFX">
 							<ShortName>Grounding_Light_6.wav</ShortName>
 							<Path>SFX\Grounding_Light_6_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3369687390" Name="Mushroom_Hits_the_Ground" ObjectPath="\Events\Default Work Unit\Mushroom\Mushroom_Hits_the_Ground" MaxAttenuation="10." DurationType="OneShot" DurationMin="3.886122" DurationMax="3.886122">
+					<IncludedMemoryFiles>
+						<File Id="366248607" Language="SFX">
+							<ShortName>Mushroom Hits the Ground.wav</ShortName>
+							<Path>SFX\Mushroom Hits the Ground_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -299,13 +327,21 @@
 							<ShortName>Zone4.wav</ShortName>
 							<Path>SFX\Zone4_D79FB2B7.wem</Path>
 						</File>
-						<File Id="398012631" Language="SFX">
-							<ShortName>Zone3_Drop-1.wav</ShortName>
-							<Path>SFX\Zone3_Drop-1_D79FB2B7.wem</Path>
-						</File>
 						<File Id="467721262" Language="SFX">
 							<ShortName>Zone1.wav</ShortName>
 							<Path>SFX\Zone1_D79FB2B7.wem</Path>
+						</File>
+						<File Id="478325403" Language="SFX">
+							<ShortName>fill break to drop.wav</ShortName>
+							<Path>SFX\fill break to drop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="503910403" Language="SFX">
+							<ShortName>Zone5_Drop2_crash.wav</ShortName>
+							<Path>SFX\Zone5_Drop2_crash_D79FB2B7.wem</Path>
+						</File>
+						<File Id="511589889" Language="SFX">
+							<ShortName>Zone3_Drop-1_crash.wav</ShortName>
+							<Path>SFX\Zone3_Drop-1_crash_D79FB2B7.wem</Path>
 						</File>
 						<File Id="543001980" Language="SFX">
 							<ShortName>Exit.wav</ShortName>
@@ -318,6 +354,14 @@
 						<File Id="863158741" Language="SFX">
 							<ShortName>Entrance.wav</ShortName>
 							<Path>SFX\Entrance_D79FB2B7.wem</Path>
+						</File>
+						<File Id="875318371" Language="SFX">
+							<ShortName>fill drop to break.wav</ShortName>
+							<Path>SFX\fill drop to break_D79FB2B7.wem</Path>
+						</File>
+						<File Id="907068458" Language="SFX">
+							<ShortName>fill_1-2.wav</ShortName>
+							<Path>SFX\fill_1-2_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -338,6 +382,26 @@
 						<File Id="824428412" Language="SFX">
 							<ShortName>Fruit_Note2.wav</ShortName>
 							<Path>SFX\Fruit_Note2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4034765065" Name="Picking_Up_the_Dandelion" ObjectPath="\Events\Default Work Unit\Dandelion\Picking_Up_the_Dandelion" MaxAttenuation="10." DurationType="OneShot" DurationMin="1.829479" DurationMax="2.053515">
+					<IncludedMemoryFiles>
+						<File Id="37030167" Language="SFX">
+							<ShortName>Picking Up the Dandelion 2.wav</ShortName>
+							<Path>SFX\Picking Up the Dandelion 2_10C4C929.wem</Path>
+						</File>
+						<File Id="308772345" Language="SFX">
+							<ShortName>Picking Up the Dandelion 1.wav</ShortName>
+							<Path>SFX\Picking Up the Dandelion 1_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="384173615" Name="Picking_Up_the_Mushroom" ObjectPath="\Events\Default Work Unit\Mushroom\Picking_Up_the_Mushroom" MaxAttenuation="10." DurationType="OneShot" DurationMin="1.269025" DurationMax="1.269025">
+					<IncludedMemoryFiles>
+						<File Id="920047125" Language="SFX">
+							<ShortName>Picking Up the Mushroom.wav</ShortName>
+							<Path>SFX\Picking Up the Mushroom_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -389,27 +453,67 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="1022526190" Name="Throwing_Dandelion" ObjectPath="\Events\Default Work Unit\Dandelion\Throwing_Dandelion" MaxAttenuation="10." DurationType="OneShot" DurationMin="3.489297" DurationMax="3.489297">
+					<IncludedMemoryFiles>
+						<File Id="540966496" Language="SFX">
+							<ShortName>Throwing Dandelion 1.wav</ShortName>
+							<Path>SFX\Throwing Dandelion 1_10C4C929.wem</Path>
+						</File>
+						<File Id="668857605" Language="SFX">
+							<ShortName>Throwing Dandelion 2.wav</ShortName>
+							<Path>SFX\Throwing Dandelion 2_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2643994087" Name="Zone_1" ObjectPath="\Events\Default Work Unit\Music\Zone_1" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="467721262" Language="SFX">
 							<ShortName>Zone1.wav</ShortName>
 							<Path>SFX\Zone1_D79FB2B7.wem</Path>
 						</File>
+						<File Id="478325403" Language="SFX">
+							<ShortName>fill break to drop.wav</ShortName>
+							<Path>SFX\fill break to drop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="875318371" Language="SFX">
+							<ShortName>fill drop to break.wav</ShortName>
+							<Path>SFX\fill drop to break_D79FB2B7.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2643994084" Name="Zone_2" ObjectPath="\Events\Default Work Unit\Music\Zone_2" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
+						<File Id="478325403" Language="SFX">
+							<ShortName>fill break to drop.wav</ShortName>
+							<Path>SFX\fill break to drop_D79FB2B7.wem</Path>
+						</File>
 						<File Id="808275808" Language="SFX">
 							<ShortName>Zone2.wav</ShortName>
 							<Path>SFX\Zone2_D79FB2B7.wem</Path>
+						</File>
+						<File Id="875318371" Language="SFX">
+							<ShortName>fill drop to break.wav</ShortName>
+							<Path>SFX\fill drop to break_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="4043173166" Name="Zone_3_5_Drops" ObjectPath="\Events\Default Work Unit\Music\Zone_3_5_Drops" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="398012631" Language="SFX">
-							<ShortName>Zone3_Drop-1.wav</ShortName>
-							<Path>SFX\Zone3_Drop-1_D79FB2B7.wem</Path>
+						<File Id="478325403" Language="SFX">
+							<ShortName>fill break to drop.wav</ShortName>
+							<Path>SFX\fill break to drop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="503910403" Language="SFX">
+							<ShortName>Zone5_Drop2_crash.wav</ShortName>
+							<Path>SFX\Zone5_Drop2_crash_D79FB2B7.wem</Path>
+						</File>
+						<File Id="511589889" Language="SFX">
+							<ShortName>Zone3_Drop-1_crash.wav</ShortName>
+							<Path>SFX\Zone3_Drop-1_crash_D79FB2B7.wem</Path>
+						</File>
+						<File Id="875318371" Language="SFX">
+							<ShortName>fill drop to break.wav</ShortName>
+							<Path>SFX\fill drop to break_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -418,6 +522,14 @@
 						<File Id="83306852" Language="SFX">
 							<ShortName>Zone4.wav</ShortName>
 							<Path>SFX\Zone4_D79FB2B7.wem</Path>
+						</File>
+						<File Id="478325403" Language="SFX">
+							<ShortName>fill break to drop.wav</ShortName>
+							<Path>SFX\fill break to drop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="875318371" Language="SFX">
+							<ShortName>fill drop to break.wav</ShortName>
+							<Path>SFX\fill drop to break_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

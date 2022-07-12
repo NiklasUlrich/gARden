@@ -250,8 +250,15 @@ MonoBehaviour:
   GrabWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: bda4ad84f2f753a429f74c8a3be71aab,
+      type: 2}
   ThrowWwiseEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: a4df8874e4567084f8a986c0b874a2cf,
+      type: 2}
+  WwiseGroundEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b17ddf3381b27f44cb15edad374be8a0,
+      type: 2}

@@ -3,7 +3,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	113254737	Mushroom_Note_Third_Mushroom			\Default Work Unit\Mushroom\Mushroom_Note_Third_Mushroom	
 	300230377	Picking_Fruit			\Default Work Unit\Fruit and Tree\Picking_Fruit	
 	313967986	Mushroom_Note			\Default Work Unit\Mushroom\Mushroom_Note	
+	384173615	Picking_Up_the_Mushroom			\Default Work Unit\Mushroom\Picking_Up_the_Mushroom	
 	898275277	Dandelion			\Default Work Unit\Dandelion\Dandelion	
+	1022526190	Throwing_Dandelion			\Default Work Unit\Dandelion\Throwing_Dandelion	
 	1666569787	Growing_Tree			\Default Work Unit\Fruit and Tree\Growing_Tree	
 	1758564386	Mushroom_Note_Second_Mushroom			\Default Work Unit\Mushroom\Mushroom_Note_Second_Mushroom	
 	1935470627	Light			\Default Work Unit\Grounding\Light	
@@ -14,10 +16,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	2656882895	Entrance			\Default Work Unit\Music\Entrance	
 	2703419059	Taps			\Default Work Unit\Taps\Taps	
 	2792339242	Mushroom_Small_Note_Second_Mushroom			\Default Work Unit\Mushroom\Mushroom_Small_Note_Second_Mushroom	
+	3369687390	Mushroom_Hits_the_Ground			\Default Work Unit\Mushroom\Mushroom_Hits_the_Ground	
 	3765476793	Dropping_Fruit			\Default Work Unit\Fruit and Tree\Dropping_Fruit	
 	3787535528	Flower			\Default Work Unit\Grounding\Flower	
 	3856944273	Small_Mushroom_Notes			\Default Work Unit\Mushroom\Small_Mushroom_Notes	
 	3973682953	Mushroom_Small_Note_Third_Mushroom			\Default Work Unit\Mushroom\Mushroom_Small_Note_Third_Mushroom	
+	4034765065	Picking_Up_the_Dandelion			\Default Work Unit\Dandelion\Picking_Up_the_Dandelion	
 	4043173166	Zone_3_5_Drops			\Default Work Unit\Music\Zone_3_5_Drops	
 	4256775455	SoundDesignEnd			\Default Work Unit\Mushroom\SoundDesignEnd	
 
@@ -36,6 +40,7 @@ State	ID	Name	State Group			Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	3848367	Grounding_Light_4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Grounding_Light_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grounding_Light\Grounding_Light\Grounding_Light_4		1323064
 	20453832	Growing_Flower_2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_2		222888
+	37030167	Picking Up the Dandelion 2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Picking Up the Dandelion 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dandelion\Picking Up the Dandelion Tip\Picking Up the Dandelion 2		322784
 	37874238	Fruit_Note3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Fruit_Note3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picking_Fruit\PIcking_Fruit\Fruit_Note3		1226168
 	43952289	Grounding_Light_5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Grounding_Light_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grounding_Light\Grounding_Light\Grounding_Light_5		1388880
 	46994315	2rdMushroom_Small_Note5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\2rdMushroom_Small_Note5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\2nd_Mushroom_Small_Notes\2rdMushroom_Small_Note5		222888
@@ -49,20 +54,25 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	263192278	Fruit_Note4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Fruit_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Picking_Fruit\PIcking_Fruit\Fruit_Note4		1228012
 	285063219	Falling_Fruit_1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_1		1671504
 	306243796	SoundDesignEnd	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SoundDesignEnd_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\SoundDesignEnd\SoundDesignEnd		513604
+	308772345	Picking Up the Dandelion 1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Picking Up the Dandelion 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dandelion\Picking Up the Dandelion Tip\Picking Up the Dandelion 1		362304
 	332984453	Falling_Fruit_3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_3		1770288
+	366248607	Mushroom Hits the Ground	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom Hits the Ground_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Hits_The_Ground\Mushroom Hits the Ground		685576
 	378393210	2rdMushroom_Small_Note6	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\2rdMushroom_Small_Note6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\2nd_Mushroom_Small_Notes\2rdMushroom_Small_Note6		222888
 	386516073	SmallMushroom_Note0	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note0		210308
-	398012631	Zone3_Drop-1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Zone3_Drop-1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 3_5_Drops\Zone3_Drop-1\Zone3_Drop-1		7130340
 	407571559	2ndMushroom_Note2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\2ndMushroom_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\2nd_Mushroom_ARP\2ndMushroom_Note2		1782636
 	430480842	3rdMushroom_Small_Note4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\3rdMushroom_Small_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\3rd_Mushroom_Small_Notes\3rdMushroom_Small_Note4		222888
 	461983888	Mushroom_Note5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note5		891352
 	467721262	Zone 1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Zone1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 1\Zone 1\Zone 1		7130340
 	477141840	2rdMushroom_Small_Note2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\2rdMushroom_Small_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\2nd_Mushroom_Small_Notes\2rdMushroom_Small_Note2		222888
+	478325403	fill break to drop	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\fill break to drop_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Fill\fill1\fill break to drop\fill break to drop		445708
 	497746666	3rdMushroom_Small_Note2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\3rdMushroom_Small_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\3rd_Mushroom_Small_Notes\3rdMushroom_Small_Note2		222888
+	503910403	Zone3_Drop-1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Zone5_Drop2_crash_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 3_5_Drops\Zone3_Drop-1\Zone3_Drop-1		7130340
 	505829208	2ndMushroom_Note4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\2ndMushroom_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\2nd_Mushroom_ARP\2ndMushroom_Note4		1782636
 	506829407	3rdMushroom_Note2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\3rdMushroom_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\3rd_Mushroom_Notes\3rdMushroom_Note2		445708
+	511589889	Zone3_Drop-1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Zone3_Drop-1_crash_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 3_5_Drops\Zone3_Drop-1\Zone3_Drop-1		7130340
 	518642535	SmallMushroom_Note4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note4		445708
 	531149941	Dandelion_2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Dandelion_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dandelion\Dandelion\Dandelion_2		388144
+	540966496	Throwing Dandelion 1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Throwing Dandelion 1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dandelion\Throwing Dandelion\Throwing Dandelion 1		615576
 	543001980	Exit	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Exit_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Exit\Exit\Exit		10695476
 	543267340	Growing_Flower_3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_3		278592
 	559169012	3rdMushroom_Small_Note1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\3rdMushroom_Small_Note1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\3rd_Mushroom_Small_Notes\3rdMushroom_Small_Note1		222888
@@ -75,6 +85,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	635265696	Mushroom_Note2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Mushroom_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note2		882064
 	640560142	3rdMushroom_Note3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\3rdMushroom_Note3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\3rd_Mushroom_Notes\3rdMushroom_Note3		445708
 	661474026	SmallMushroom_Note2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note2		699388
+	668857605	Throwing Dandelion 2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Throwing Dandelion 2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dandelion\Throwing Dandelion\Throwing Dandelion 2		615576
 	675069923	Grounding_Light_2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Grounding_Light_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grounding_Light\Grounding_Light\Grounding_Light_2		1093868
 	691275892	Falling_Fruit_5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Falling_Fruit_5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dropping_Fruit\Dropping_Fruit\Falling_Fruit_5		1666764
 	698731558	Growing_Tree_2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Tree_2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Tree\Growing_Tree\Growing_Tree_2		390004
@@ -92,11 +103,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	856075533	Growing_Flower_4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_4		308036
 	863158741	Entrance	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Entrance_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Entrance\Entrance\Entrance		7130340
 	869453334	Tap1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Tap1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Taps\Taps\Tap1		179290
+	875318371	fill drop to break	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\fill drop to break_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\Fill\fill1\fill drop to break\fill drop to break		891352
 	875354434	Grounding_Light_6	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Grounding_Light_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Grounding_Light\Grounding_Light\Grounding_Light_6		1372616
 	878746730	Tap3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Tap3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Taps\Taps\Tap3		151978
 	879299307	SmallMushroom_Note1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note1-1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note1		800252
 	883489239	3rdMushroom_Small_Note6	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\3rdMushroom_Small_Note6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\3rd_Mushroom_Small_Notes\3rdMushroom_Small_Note6		222888
 	888548096	Growing_Flower_6	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Flower_6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Flower\Growing_Flower\Growing_Flower_6		388240
+	907068458	fill	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\fill_1-2_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Entrance\Entrance\fill		1336992
+	920047125	Picking Up the Mushroom	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Picking Up the Mushroom_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\PIcking Up the Mushroom\Picking Up the Mushroom		223920
 	938069819	Dandelion4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Dandelion4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Dandelion\Dandelion\Dandelion4		442640
 	949424724	SmallMushroom_Note3	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\SmallMushroom_Note3_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note3		582560
 	968470072	Growing_Tree_1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Windows\SFX\Growing_Tree_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Growing_Tree\Growing_Tree\Growing_Tree_1		525396
