@@ -7,6 +7,7 @@ public class DandelionObserver : MonoBehaviour
     bool finished = false;
     Dandelion[] dandelions;
     public AK.Wwise.Event FinishedWwiseEvent;
+    public ParticleSystem[] effects;
 
     // Start is called before the first frame update
     void Start()
@@ -39,6 +40,11 @@ public class DandelionObserver : MonoBehaviour
         if (FinishedWwiseEvent != null)
         {
             FinishedWwiseEvent.Post(gameObject);
+        }
+
+        for (int i = 0; i < effects.Length; i++)
+        {
+            effects[i].Play();
         }
     }
 }

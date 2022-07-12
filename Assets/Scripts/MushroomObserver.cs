@@ -9,6 +9,8 @@ public class MushroomObserver : MonoBehaviour
 
     public AK.Wwise.Event FinishedWwiseEvent;
 
+    public ParticleSystem[] effects;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -41,5 +43,11 @@ public class MushroomObserver : MonoBehaviour
         {
             FinishedWwiseEvent.Post(gameObject);
         }
+
+        for(int i = 0; i < effects.Length; i++)
+        {
+            effects[i].Play();
+        }
+        
     }
 }
