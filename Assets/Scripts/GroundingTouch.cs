@@ -68,23 +68,23 @@ public class GroundingTouch : MonoBehaviour, IMixedRealityTouchHandler
 
     public void OnTouchCompleted(HandTrackingInputEventData eventData) 
     {
-        playerIsTouching = false;
-        if (GrowWwiseEvent != null)
-        {
-            GrowWwiseEvent.Stop(gameObject);
-        }
+
     }
 
     public void OnTouchStarted(HandTrackingInputEventData eventData)
     {
-        playerIsTouching = true;
-
-
-
-        if (GrowWwiseEvent != null)
+        if (!playerIsTouching)
         {
-            GrowWwiseEvent.Post(gameObject);
+            playerIsTouching = true;
+
+            gameObject.GetComponent<Renderer>().enabled = false;
+
+            if (GrowWwiseEvent != null)
+            {
+                GrowWwiseEvent.Post(gameObject);
+            }
         }
+        
 
     }
 

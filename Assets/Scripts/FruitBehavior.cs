@@ -15,6 +15,8 @@ public class FruitBehavior : MonoBehaviour
     /// </summary>
     public AK.Wwise.Event ThrowWwiseEvent;
 
+    public bool banana;
+
     bool planted = false;
     public bool Planted { get => planted; set => planted = value; }
 
