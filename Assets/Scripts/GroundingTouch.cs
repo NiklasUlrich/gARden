@@ -38,7 +38,7 @@ public class GroundingTouch : MonoBehaviour, IMixedRealityTouchHandler
     /// </summary>
     public AK.Wwise.Event GrowWwiseEvent;
 
-    public GameObject[] effectsToDeactivate;
+    public ParticleSystem[] effectsToDeactivate;
 
     // Start is called before the first frame update
     void Start()
@@ -90,7 +90,7 @@ public class GroundingTouch : MonoBehaviour, IMixedRealityTouchHandler
 
             for(int i = 0; i < effectsToDeactivate.Length; i++)
             {
-                effectsToDeactivate[i].SetActive(false);
+                effectsToDeactivate[i].Stop();
             }
         }
         
