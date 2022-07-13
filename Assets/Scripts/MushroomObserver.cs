@@ -39,15 +39,22 @@ public class MushroomObserver : MonoBehaviour
         }
 
         Debug.Log("Mushrooms completed");
+        
+        StartCoroutine( EndingSignal());
+    }
+
+    IEnumerator EndingSignal()
+    {
+        yield return new WaitForSeconds(2);
+
         if (FinishedWwiseEvent != null)
         {
             FinishedWwiseEvent.Post(gameObject);
         }
 
-        for(int i = 0; i < effects.Length; i++)
+        for (int i = 0; i < effects.Length; i++)
         {
             effects[i].Play();
         }
-        
     }
 }

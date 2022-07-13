@@ -35,7 +35,15 @@ public class FruitTreeObserver : MonoBehaviour
             }
         }
 
-        Debug.Log("Mushrooms completed");
+       
+
+        StartCoroutine(EndingSignal());
+    }
+
+    IEnumerator EndingSignal()
+    {
+        yield return new WaitForSeconds(2);
+
         if (FinishedWwiseEvent != null)
         {
             FinishedWwiseEvent.Post(gameObject);

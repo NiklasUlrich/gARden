@@ -36,7 +36,13 @@ public class DandelionObserver : MonoBehaviour
             }
         }
 
-        Debug.Log("Dandelions completed");
+        StartCoroutine(EndingSignal());
+    }
+
+    IEnumerator EndingSignal()
+    {
+        yield return new WaitForSeconds(2);
+
         if (FinishedWwiseEvent != null)
         {
             FinishedWwiseEvent.Post(gameObject);
