@@ -412,7 +412,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Zone 4" ID="{AB42F206-A1D1-4298-B711-6EC483FE1A5A}" ShortID="1052057960">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="41617.151706379"/>
+										<Property Name="EndPosition" Type="Real64" Value="164188.811360192"/>
 										<Property Name="Tempo" Type="Real64" Value="95"/>
 									</PropertyList>
 									<ReferenceList>
@@ -436,6 +436,20 @@
 													<AudioFile>Zone4.wav</AudioFile>
 													<MediaIDList>
 														<MediaID ID="83306852"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Exit" ID="{CD6338DD-8DE0-438D-A1A7-30968324E9BA}">
+													<Language>SFX</Language>
+													<AudioFile>Exit.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="543001980"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Entrance" ID="{582EF152-331E-4779-86FD-F77B2FC72F44}">
+													<Language>SFX</Language>
+													<AudioFile>Entrance.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="863158741"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -525,6 +539,31 @@
 																				</MusicClip>
 																			</Local>
 																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Exit" ID="{640F1B4A-5260-4543-9B11-0B9536284010}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="60631.5873015873"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="2549.58203645766"/>
+																						<Property Name="PlayAt" Type="Real64" Value="40421.0657596372"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Exit" ID="{CD6338DD-8DE0-438D-A1A7-30968324E9BA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Entrance" ID="{4D151E66-EB90-4D8D-99E4-FB8E98B06F14}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="40421.0657596372"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="2633.9454335905"/>
+																						<Property Name="FadeOutDuration" Type="Real64" Value="7748.66304323804"/>
+																						<Property Name="PlayAt" Type="Real64" Value="98303.3198710252"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Entrance" ID="{582EF152-331E-4779-86FD-F77B2FC72F44}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
 																	</ObjectList>
 																</ObjectLists>
 															</MusicTrackSequence>
@@ -546,7 +585,7 @@
 													<MusicCue Name="Exit Cue" ID="{6D3C5D98-07CF-4695-9B1A-F78A53A7E8AE}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="40421.0657596372"/>
+															<Property Name="TimeMs" Type="Real64" Value="138724.385630662"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -944,7 +983,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>

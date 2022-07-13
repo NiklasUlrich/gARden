@@ -4,6 +4,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	300230377	Picking_Fruit			\Default Work Unit\Fruit and Tree\Picking_Fruit	
 	313967986	Mushroom_Note			\Default Work Unit\Mushroom\Mushroom_Note	
 	384173615	Picking_Up_the_Mushroom			\Default Work Unit\Mushroom\Picking_Up_the_Mushroom	
+	762803533	Meditation_Voiceover_Processed			\Default Work Unit\Grounding\Meditation_Voiceover_Processed	
 	898275277	Dandelion			\Default Work Unit\Dandelion\Dandelion	
 	1022526190	Throwing_Dandelion			\Default Work Unit\Dandelion\Throwing_Dandelion	
 	1666569787	Growing_Tree			\Default Work Unit\Fruit and Tree\Growing_Tree	
@@ -60,6 +61,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	378393210	2rdMushroom_Small_Note6	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\2rdMushroom_Small_Note6_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\2nd_Mushroom_Small_Notes\2rdMushroom_Small_Note6		222888
 	386516073	SmallMushroom_Note0	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\SmallMushroom_Note0_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Small Mushroom Notes\SmallMushroom_Note0		210308
 	407571559	2ndMushroom_Note2	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\2ndMushroom_Note2_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\2nd_Mushroom_ARP\2ndMushroom_Note2		1782636
+	417674849	Voice Over Meditation_processed	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\Voice Over Meditation_processed_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Meditation\Meditation voiceover processed\Voice Over Meditation_processed		8738860
 	430480842	3rdMushroom_Small_Note4	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\3rdMushroom_Small_Note4_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\3rd_Mushroom_Small_Notes\3rdMushroom_Small_Note4		222888
 	461983888	Mushroom_Note5	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\Mushroom_Note5_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Mushroom\Mushroom All Notes\Mushroom_Note\Mushroom_Note5		891352
 	467721262	Zone 1	C:\Users\mi\Documents\GitHub\gARden\gARden_WwiseProject\.cache\Mac\SFX\Zone1_D79FB2B7.wem		\Interactive Music Hierarchy\Default Work Unit\All Background Music\Zone 1\Zone 1\Zone 1		7130340

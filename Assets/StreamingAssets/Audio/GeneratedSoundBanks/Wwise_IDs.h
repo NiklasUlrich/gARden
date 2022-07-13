@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID FLOWER = 3787535528U;
         static const AkUniqueID GROWING_TREE = 1666569787U;
         static const AkUniqueID LIGHT = 1935470627U;
+        static const AkUniqueID MEDITATION_VOICEOVER_PROCESSED = 762803533U;
         static const AkUniqueID MUSHROOM_HITS_THE_GROUND = 3369687390U;
         static const AkUniqueID MUSHROOM_NOTE = 313967986U;
         static const AkUniqueID MUSHROOM_NOTE_SECOND_MUSHROOM = 1758564386U;

@@ -16,7 +16,7 @@
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="246141169">
+		<SoundBank Id="3161908922" Language="SFX" Hash="1650642258">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -186,6 +186,14 @@
 						<File Id="875354434" Language="SFX">
 							<ShortName>Grounding_Light_6.wav</ShortName>
 							<Path>SFX\Grounding_Light_6_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="762803533" Name="Meditation_Voiceover_Processed" ObjectPath="\Events\Default Work Unit\Grounding\Meditation_Voiceover_Processed" DurationType="OneShot" DurationMin="49.539661" DurationMax="49.539661">
+					<IncludedMemoryFiles>
+						<File Id="417674849" Language="SFX">
+							<ShortName>Voice Over Meditation_processed.wav</ShortName>
+							<Path>SFX\Voice Over Meditation_processed_10C4C929.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
@@ -526,6 +534,14 @@
 						<File Id="478325403" Language="SFX">
 							<ShortName>fill break to drop.wav</ShortName>
 							<Path>SFX\fill break to drop_D79FB2B7.wem</Path>
+						</File>
+						<File Id="543001980" Language="SFX">
+							<ShortName>Exit.wav</ShortName>
+							<Path>SFX\Exit_D79FB2B7.wem</Path>
+						</File>
+						<File Id="863158741" Language="SFX">
+							<ShortName>Entrance.wav</ShortName>
+							<Path>SFX\Entrance_D79FB2B7.wem</Path>
 						</File>
 						<File Id="875318371" Language="SFX">
 							<ShortName>fill drop to break.wav</ShortName>
