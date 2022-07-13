@@ -82,6 +82,28 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Picking_Up_the_Mushroom" ID="{333813EF-615A-487D-A603-F5253848D7E2}">
+							<ChildrenList>
+								<Action Name="" ID="{06FF8095-012E-47B7-8EDD-7A8C3879B3D1}" ShortID="663011761">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PIcking Up the Mushroom" ID="{A07384DA-5122-4A6A-9EEE-B2B9ADC49146}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mushroom_Hits_the_Ground" ID="{3A80C336-F50D-4863-AAD0-60FB1A44DBA0}">
+							<ChildrenList>
+								<Action Name="" ID="{FB7D6FAC-D5DC-4932-8ECB-4EB06464578A}" ShortID="1059997530">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mushroom_Hits_The_Ground" ID="{238E1141-DDBE-4D73-B178-6C47E4B8906D}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{48D6845A-98AE-4DF4-9B63-49D5553FA2DE}" ShortID="633349676">
@@ -236,6 +258,28 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="Dandelion" ID="{1B20AA84-A9EA-46DB-919C-BE6E22221565}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Picking_Up_the_Dandelion" ID="{0433DB36-EA56-401E-8A37-53B1B8F25EB8}">
+							<ChildrenList>
+								<Action Name="" ID="{DC261D52-A4B3-49B5-893F-F24B9E4B633D}" ShortID="745509716">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Picking Up the Dandelion Tip" ID="{290297CF-ED97-48AE-9CBF-28BD8833E04C}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Throwing_Dandelion" ID="{95941F31-4ABB-4C66-8514-5EE10C4EE2F8}">
+							<ChildrenList>
+								<Action Name="" ID="{C23D9312-6D56-42AF-8E13-FD2BC0227D5E}" ShortID="246048093">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Throwing Dandelion" ID="{3F109B4A-3E6B-4827-B7E3-13D73A86B50B}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

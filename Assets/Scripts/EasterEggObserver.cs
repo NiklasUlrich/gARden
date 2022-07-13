@@ -18,6 +18,10 @@ public class EasterEggObserver : MonoBehaviour
     public GameObject groundingFlowers;
     bool groundingFound = false;
 
+    int easterEggsfound = 0;
+
+    public int EasterEggsfound { get => easterEggsfound; set => easterEggsfound = value; }
+
     // Start is called before the first frame update
     void Start()
     {
@@ -51,6 +55,7 @@ public class EasterEggObserver : MonoBehaviour
         if (!banana.gameObject.GetComponent<Rigidbody>().isKinematic)
         {
             bananaFound = true;
+            EasterEggsfound++;
             Debug.Log("Banana found");
         }
     }
@@ -63,6 +68,7 @@ public class EasterEggObserver : MonoBehaviour
             {
                 mushroomsFound = true;
                 Debug.Log("Mushrooms found");
+                EasterEggsfound++;
                 return;
             }
         }
@@ -76,6 +82,7 @@ public class EasterEggObserver : MonoBehaviour
             {
                 dandelionsFound = true;
                 Debug.Log("Dandelion found");
+                EasterEggsfound++;
                 return;
             }
         }
@@ -90,6 +97,7 @@ public class EasterEggObserver : MonoBehaviour
             {
                 groundingFound = true;
                 Debug.Log("grounding found");
+                EasterEggsfound++;
                 return;
             }
         }

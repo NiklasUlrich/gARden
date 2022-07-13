@@ -38,6 +38,8 @@ public class GroundingTouch : MonoBehaviour, IMixedRealityTouchHandler
     /// </summary>
     public AK.Wwise.Event GrowWwiseEvent;
 
+    public ParticleSystem[] effectsToDeactivate;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -68,25 +70,30 @@ public class GroundingTouch : MonoBehaviour, IMixedRealityTouchHandler
 
     public void OnTouchCompleted(HandTrackingInputEventData eventData) 
     {
-        playerIsTouching = false;
-        if (GrowWwiseEvent != null)
-        {
-            GrowWwiseEvent.Stop(gameObject);
-        }
+
     }
 
     public void OnTouchStarted(HandTrackingInputEventData eventData)
     {
-
-        Debug.Log("Grounding started");
-        playerIsTouching = true;
-
-
-
-        if (GrowWwiseEvent != null)
+        if (!playerIsTouching)
         {
-            GrowWwiseEvent.Post(gameObject);
+            playerIsTouching = true;
+
+            Debug.Log("touching Grounding");
+
+            gameObject.GetComponent<Renderer>().enabled = false;
+
+            if (GrowWwiseEvent != null)
+            {
+                GrowWwiseEvent.Post(gameObject);
+            }
+
+            for(int i = 0; i < effectsToDeactivate.Length; i++)
+            {
+                effectsToDeactivate[i].Stop();
+            }
         }
+        
 
     }
 

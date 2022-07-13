@@ -15,6 +15,11 @@ public class FruitBehavior : MonoBehaviour
     /// </summary>
     public AK.Wwise.Event ThrowWwiseEvent;
 
+    public bool banana;
+
+    bool planted = false;
+    public bool Planted { get => planted; set => planted = value; }
+
     // Start is called before the first frame update
     void Start()
     {

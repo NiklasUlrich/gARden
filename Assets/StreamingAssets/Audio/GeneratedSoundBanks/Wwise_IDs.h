@@ -20,6 +20,7 @@ namespace AK
         static const AkUniqueID FLOWER = 3787535528U;
         static const AkUniqueID GROWING_TREE = 1666569787U;
         static const AkUniqueID LIGHT = 1935470627U;
+        static const AkUniqueID MUSHROOM_HITS_THE_GROUND = 3369687390U;
         static const AkUniqueID MUSHROOM_NOTE = 313967986U;
         static const AkUniqueID MUSHROOM_NOTE_SECOND_MUSHROOM = 1758564386U;
         static const AkUniqueID MUSHROOM_NOTE_THIRD_MUSHROOM = 113254737U;
@@ -27,9 +28,12 @@ namespace AK
         static const AkUniqueID MUSHROOM_SMALL_NOTE_THIRD_MUSHROOM = 3973682953U;
         static const AkUniqueID MUSIC_PLAYLIST = 2520593515U;
         static const AkUniqueID PICKING_FRUIT = 300230377U;
+        static const AkUniqueID PICKING_UP_THE_DANDELION = 4034765065U;
+        static const AkUniqueID PICKING_UP_THE_MUSHROOM = 384173615U;
         static const AkUniqueID SMALL_MUSHROOM_NOTES = 3856944273U;
         static const AkUniqueID SOUNDDESIGNEND = 4256775455U;
         static const AkUniqueID TAPS = 2703419059U;
+        static const AkUniqueID THROWING_DANDELION = 1022526190U;
         static const AkUniqueID ZONE_1 = 2643994087U;
         static const AkUniqueID ZONE_2 = 2643994084U;
         static const AkUniqueID ZONE_3_5_DROPS = 4043173166U;

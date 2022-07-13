@@ -600,7 +600,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Entrance" ID="{125534A3-2DD5-44ED-9E2B-CA7F6F1673A1}" ShortID="254936025">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="40523.8605352507"/>
+										<Property Name="EndPosition" Type="Real64" Value="45473.693758205"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -649,6 +649,57 @@
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Entrance" ID="{44ED3F02-5B27-4F82-8FD0-3A235A7C0AA2}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+										<MusicTrack Name="fill" ID="{702E71F6-AA85-47A3-81C1-454E116B86C4}" ShortID="684762450">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="fill_1-2" ID="{20A0C0BB-46B9-421D-9E56-D2FFAE243C56}">
+													<Language>SFX</Language>
+													<AudioFile>fill_1-2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="907068458"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{9355CAAC-B0E2-4F44-B155-A35F9398371E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{AFCDDCBF-2240-4C17-B6BF-6BF79F08A3AE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="fill_1-2" ID="{7D032155-CF81-4629-B302-880D92CEA2FB}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="7578.95691609977"/>
+																						<Property Name="FadeInDuration" Type="Real64" Value="5895.28118939884"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="32842.1052631579"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="fill_1-2" ID="{20A0C0BB-46B9-421D-9E56-D2FFAE243C56}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -855,7 +906,7 @@
 							<ChildrenList>
 								<MusicSegment Name="Zone3_Drop-1" ID="{FEB85A54-8B55-44C7-AE55-42ECCCEBD3DF}" ShortID="226765075">
 									<PropertyList>
-										<Property Name="EndPosition" Type="Real64" Value="40513.4636740607"/>
+										<Property Name="EndPosition" Type="Real64" Value="87266.8083723492"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -873,11 +924,18 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Zone3_Drop-1" ID="{D52C422D-4DE6-4497-8540-C5A5CF348AEC}">
+												<AudioFileSource Name="Zone3_Drop-1_crash" ID="{37B25E22-7B7E-4231-95B8-24CF8792613A}">
 													<Language>SFX</Language>
-													<AudioFile>Zone3_Drop-1.wav</AudioFile>
+													<AudioFile>Zone3_Drop-1_crash.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="398012631"/>
+														<MediaID ID="511589889"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Zone5_Drop2_crash" ID="{3F6A01CC-799A-4EDB-BDC8-73E3A0DAF12A}">
+													<Language>SFX</Language>
+													<AudioFile>Zone5_Drop2_crash.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="503910403"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
@@ -886,6 +944,7 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
+													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -898,13 +957,26 @@
 																	<ObjectList Name="Clips">
 																		<Reference>
 																			<Local>
-																				<MusicClip Name="Zone3_Drop-1" ID="{6369CB97-5783-444F-9FFE-4280FCB420F4}">
+																				<MusicClip Name="Zone3_Drop-1_crash" ID="{95A0F72E-F57A-4845-BA3C-D3F93596B0C7}">
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="40421.0657596372"/>
 																						<Property Name="FadeInMode" Type="int16" Value="0"/>
 																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
 																					</PropertyList>
-																					<AudioSourceRef Name="Zone3_Drop-1" ID="{D52C422D-4DE6-4497-8540-C5A5CF348AEC}"/>
+																					<AudioSourceRef Name="Zone3_Drop-1_crash" ID="{37B25E22-7B7E-4231-95B8-24CF8792613A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="Zone5_Drop2_crash" ID="{6E81D901-B197-4286-872F-1B3172112E11}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="40421.0657596372"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																						<Property Name="PlayAt" Type="Real64" Value="40421.0526315789"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="Zone5_Drop2_crash" ID="{3F6A01CC-799A-4EDB-BDC8-73E3A0DAF12A}"/>
 																				</MusicClip>
 																			</Local>
 																		</Reference>
@@ -929,7 +1001,7 @@
 													<MusicCue Name="Exit Cue" ID="{AE796C43-5C97-4D4A-8132-8B273F8F84CC}">
 														<PropertyList>
 															<Property Name="CueType" Type="int16" Value="1"/>
-															<Property Name="TimeMs" Type="Real64" Value="40421.0657596372"/>
+															<Property Name="TimeMs" Type="Real64" Value="80842.1183912161"/>
 														</PropertyList>
 													</MusicCue>
 												</Local>
@@ -994,7 +1066,8 @@
 								<MusicTransition Name="Transition" ID="{02663992-DF92-4EF6-BCA1-E49DE9204EF2}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="DestinationJumpPositionPreset" Type="int16" Value="1"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="1"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1005,12 +1078,25 @@
 											<ObjectRef Name="Entrance" ID="{9D60FF39-0669-4FF3-A878-186DA581380A}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
 										</Reference>
 									</ReferenceList>
-									<TransitionInfo/>
+									<TransitionInfo>
+										<TransitionObjectRef Name="fill 1-2" ID="{563B884D-4A4B-4E49-ABDD-14F4EE6F0234}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										<TransitionFadeIn>
+											<MusicFade Name="Transition Fade-in" ID="{B115893B-F245-4F3B-90F0-23CCF6E46E32}"/>
+										</TransitionFadeIn>
+										<TransitionFadeOut>
+											<MusicFade Name="Transition Fade-out" ID="{C7574475-33A9-4DDD-9CA7-1582C7F26EDA}">
+												<PropertyList>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</TransitionFadeOut>
+									</TransitionInfo>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{036D1E80-BB27-40F1-A982-7249B50608D8}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
-										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="EnableTransitionFadeOut" Type="bool" Value="True"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="1"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
 									</PropertyList>
 									<ReferenceList>
@@ -1021,13 +1107,24 @@
 											<ObjectRef Name="Zone 1" ID="{73DB87D8-3CF6-4166-B0C0-C069C7CB7AA6}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
 										</Reference>
 									</ReferenceList>
-									<TransitionInfo/>
+									<TransitionInfo>
+										<TransitionObjectRef Name="fill drop to break" ID="{BE22682C-2525-4DAA-B8FF-07F60E98209A}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										<TransitionFadeOut>
+											<MusicFade Name="Transition Fade-out" ID="{AFD29B6C-6A60-4B1E-B7BE-311704504F4B}">
+												<PropertyList>
+													<Property Name="FadeTime" Type="Real64" Value="2"/>
+													<Property Name="FadeType" Type="int16" Value="1"/>
+												</PropertyList>
+											</MusicFade>
+										</TransitionFadeOut>
+									</TransitionInfo>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{F13748FB-856F-4A31-B0A8-3EB3B92D0289}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
@@ -1037,13 +1134,16 @@
 											<ObjectRef Name="Zone 2" ID="{46E65FEF-DA39-467E-9098-331C99FBC5AC}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
 										</Reference>
 									</ReferenceList>
-									<TransitionInfo/>
+									<TransitionInfo>
+										<TransitionObjectRef Name="fill break to drop" ID="{EB1B605E-A39A-433B-8633-188D634449DD}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+									</TransitionInfo>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{082A67D6-C533-4D88-ADF4-A201A7CEF21F}">
 									<PropertyList>
 										<Property Name="DestinationContextType" Type="int16" Value="2"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
 										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="DestinationContextObject">
@@ -1053,7 +1153,9 @@
 											<ObjectRef Name="Zone 3_5_Drops" ID="{966EBAD4-5A61-4EFF-9FDF-58C3BE189D71}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
 										</Reference>
 									</ReferenceList>
-									<TransitionInfo/>
+									<TransitionInfo>
+										<TransitionObjectRef Name="fill drop to break" ID="{BE22682C-2525-4DAA-B8FF-07F60E98209A}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+									</TransitionInfo>
 								</MusicTransition>
 								<MusicTransition Name="Transition" ID="{785EE013-9A0D-4EE6-9ED5-05D74AD70C49}">
 									<PropertyList>
@@ -1070,6 +1172,120 @@
 										</Reference>
 									</ReferenceList>
 									<TransitionInfo/>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{0DE66E7E-66CB-4A08-A3B1-68D515662864}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Zone 3_5_Drops" ID="{966EBAD4-5A61-4EFF-9FDF-58C3BE189D71}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Entrance" ID="{9D60FF39-0669-4FF3-A878-186DA581380A}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="fill break to drop" ID="{EB1B605E-A39A-433B-8633-188D634449DD}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{DCD5D5F2-22D5-42C2-B4D0-AC7E7F1864B9}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Zone 3_5_Drops" ID="{966EBAD4-5A61-4EFF-9FDF-58C3BE189D71}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Zone 1" ID="{73DB87D8-3CF6-4166-B0C0-C069C7CB7AA6}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="fill break to drop" ID="{EB1B605E-A39A-433B-8633-188D634449DD}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{04C7BE14-3512-4121-8838-42883F502340}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Zone 3_5_Drops" ID="{966EBAD4-5A61-4EFF-9FDF-58C3BE189D71}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Zone 4" ID="{D0E3FA3A-51C8-42BD-8458-2FEBDCFC9AA1}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="fill break to drop" ID="{EB1B605E-A39A-433B-8633-188D634449DD}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{858C70EB-8C9C-4029-AFC2-0B0D493CA653}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Zone 3_5_Drops" ID="{966EBAD4-5A61-4EFF-9FDF-58C3BE189D71}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Exit" ID="{39D84ACE-05B6-4868-AC8E-6107EBBA24BE}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="fill break to drop" ID="{EB1B605E-A39A-433B-8633-188D634449DD}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{F37D0654-AB56-40DC-BA9A-9D1278534D6D}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Zone 1" ID="{73DB87D8-3CF6-4166-B0C0-C069C7CB7AA6}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Zone 3_5_Drops" ID="{966EBAD4-5A61-4EFF-9FDF-58C3BE189D71}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="fill drop to break" ID="{BE22682C-2525-4DAA-B8FF-07F60E98209A}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+									</TransitionInfo>
+								</MusicTransition>
+								<MusicTransition Name="Transition" ID="{18F5A2E2-4D1E-4152-92EF-77BA9F3C0A66}">
+									<PropertyList>
+										<Property Name="DestinationContextType" Type="int16" Value="2"/>
+										<Property Name="ExitSourceAt" Type="int16" Value="2"/>
+										<Property Name="SourceContextType" Type="int16" Value="2"/>
+										<Property Name="UseTransitionObject" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="DestinationContextObject">
+											<ObjectRef Name="Zone 4" ID="{AB42F206-A1D1-4298-B711-6EC483FE1A5A}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+										<Reference Name="SourceContextObject">
+											<ObjectRef Name="Zone 3_5_Drops" ID="{966EBAD4-5A61-4EFF-9FDF-58C3BE189D71}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+									<TransitionInfo>
+										<TransitionObjectRef Name="fill drop to break" ID="{BE22682C-2525-4DAA-B8FF-07F60E98209A}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+									</TransitionInfo>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
@@ -1263,7 +1479,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -1348,7 +1563,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -1433,7 +1647,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -1518,7 +1731,6 @@
 													<PropertyList>
 														<Property Name="IsFolder" Type="bool" Value="True"/>
 													</PropertyList>
-													<ReferenceList/>
 													<TransitionInfo/>
 												</MusicTransition>
 											</TransitionList>
@@ -1576,10 +1788,8 @@
 									<PropertyList>
 										<Property Name="IsFolder" Type="bool" Value="True"/>
 									</PropertyList>
-									<ReferenceList/>
 									<ChildrenList>
 										<MusicTransition Name="Transition" ID="{34550D76-0670-4ED8-B7A1-A5AB662844F7}">
-											<ReferenceList/>
 											<TransitionInfo/>
 										</MusicTransition>
 									</ChildrenList>
@@ -1597,14 +1807,12 @@
 							<PropertyList>
 								<Property Name="IsFolder" Type="bool" Value="True"/>
 							</PropertyList>
-							<ReferenceList/>
 							<ChildrenList>
 								<MusicTransition Name="Transition" ID="{07CCC701-72B1-4C81-9769-D25741F6EA95}">
 									<PropertyList>
 										<Property Name="DestinationPlaylistJumpTo" Type="int16" Value="3"/>
 										<Property Name="ExitSourceAt" Type="int16" Value="3"/>
 									</PropertyList>
-									<ReferenceList/>
 									<TransitionInfo>
 										<SourceFadeOut>
 											<MusicFade Name="Source Fade-out" ID="{286A0CBE-4F8E-48B8-86F8-9068B89B7034}">
@@ -1614,6 +1822,330 @@
 											</MusicFade>
 										</SourceFadeOut>
 									</TransitionInfo>
+								</MusicTransition>
+							</ChildrenList>
+							<TransitionInfo/>
+						</MusicTransition>
+					</TransitionList>
+					<ObjectLists/>
+				</MusicSwitchContainer>
+				<MusicSwitchContainer Name="Fill" ID="{91071AC9-3BE5-40F7-9827-852A0FE02105}" ShortID="1061256760">
+					<PropertyList>
+						<Property Name="Tempo" Type="Real64" Value="95"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-9</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Music" ID="{7043B7B1-1797-4521-82D9-2EB759D432F9}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicPlaylistContainer Name="fill1" ID="{988CA717-8CEA-41CA-B301-229E10E5027A}" ShortID="466785567">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="fill break to drop" ID="{EB1B605E-A39A-433B-8633-188D634449DD}" ShortID="293442503">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5052.65306122449"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="fill break to drop" ID="{2F28BC57-DE51-4045-BCC6-3D05967D6093}" ShortID="73234839">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="fill break to drop" ID="{C11C486D-EF45-4BF5-8E6B-AE6AE5843743}">
+													<Language>SFX</Language>
+													<AudioFile>fill break to drop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="478325403"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{93127ED6-599D-47C1-92C0-31E17F92BEA5}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{62E8BA0B-885A-4011-9511-3D02C8B30BA1}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="fill break to drop" ID="{4BE785A5-93E2-4A76-8B1B-2AA1BF9FC4F9}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="2526.32653061224"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="fill break to drop" ID="{C11C486D-EF45-4BF5-8E6B-AE6AE5843743}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{B63B3F99-F204-4BB3-9C6B-94312C606CF8}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{93BA91E8-9495-491F-95CE-681B1215BE4E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="2526.32653061224"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="fill drop to break" ID="{BE22682C-2525-4DAA-B8FF-07F60E98209A}" ShortID="358163150">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5939.8406092545"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="fill drop to break" ID="{E96193F4-6084-4EFF-AAE4-98D8FC1866B0}" ShortID="921971294">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="fill drop to break" ID="{92241363-B073-4482-B883-43D788D1B586}">
+													<Language>SFX</Language>
+													<AudioFile>fill drop to break.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="875318371"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{E8476A16-6288-4C89-90E8-784C90068202}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9870F6A3-9921-42D4-9B60-D9C8E850A5A6}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="fill drop to break" ID="{51DD3AF6-DBAB-46B7-870E-221844573160}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="5052.65306122449"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="fill drop to break" ID="{92241363-B073-4482-B883-43D788D1B586}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{C888745F-8A3F-4EB4-9C53-F172A601C546}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D6F23A93-C6BC-440C-8E4E-F8CF7327AEB8}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="2526.31578947368"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="fill 1-2" ID="{563B884D-4A4B-4E49-ABDD-14F4EE6F0234}" ShortID="706481268">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="7848.87979527715"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="fill_1-2" ID="{D421BA99-B154-42DA-B0F4-A91381E8C198}" ShortID="768108333">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{4FC48563-7909-4056-89D2-A699606E8394}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="fill_1-2" ID="{11A453E6-643A-4420-8267-F7B315BACF8B}">
+													<Language>SFX</Language>
+													<AudioFile>fill_1-2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="907068458"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{13D36170-52FE-4C79-88C0-9D5251150AAC}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{EA3257FC-66D6-4D2C-9417-B0C7F28485CE}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="fill_1-2" ID="{5DC2CAD3-9725-429B-B862-56B5EB7421D3}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="7578.95691609977"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="fill_1-2" ID="{11A453E6-643A-4420-8267-F7B315BACF8B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{76C20FE1-BB8F-4CA1-863C-9C6E8E8F67C6}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{01A4A4B1-AEEE-4A35-8C4E-DC7738D12BE7}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="3315.78947368421"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{CA78D9B5-8958-4FD0-90A5-288FC83F0A76}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{DA313F45-6BAB-4AC8-8118-1B17597F1354}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{B563630B-FE46-453C-91FC-695E9DB747EC}" ShortID="388309143">
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{DF622BFF-9AFF-45A4-BFBD-614310E79D8F}" ShortID="285994440">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="fill break to drop" ID="{EB1B605E-A39A-433B-8633-188D634449DD}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+					</ChildrenList>
+					<TransitionList>
+						<MusicTransition Name="Root" ID="{6F36B405-747C-4CA7-B727-1B69D9A554F0}">
+							<PropertyList>
+								<Property Name="IsFolder" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<MusicTransition Name="Transition" ID="{15915288-DECF-4061-839B-5DE7E8C049A8}">
+									<TransitionInfo/>
 								</MusicTransition>
 							</ChildrenList>
 							<TransitionInfo/>
