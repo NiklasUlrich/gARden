@@ -9,10 +9,9 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: Material.001
   m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ValidKeywords:
-  - _EMISSION
+  m_ValidKeywords: []
   m_InvalidKeywords: []
-  m_LightmapFlags: 1
+  m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
   m_CustomRenderQueue: -1
@@ -76,6 +75,6 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.5375311, g: 0, b: 0.9063317, a: 1}
+    - _Color: {r: 0.9607843, g: 0.09411765, b: 0.6745098, a: 1}
     - _EmissionColor: {r: 0.06651644, g: 0, b: 0.2530482, a: 1}
   m_BuildTextureStacks: []

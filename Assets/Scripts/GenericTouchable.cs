@@ -3,9 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using Microsoft.MixedReality.Toolkit.Input;
 
-public class GenericTouchable : MonoBehaviour
+public class GenericTouchable : MonoBehaviour, IMixedRealityTouchHandler
 {
     public AK.Wwise.Event TouchWwiseEvent;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,5 +27,15 @@ public class GenericTouchable : MonoBehaviour
             TouchWwiseEvent.Post(gameObject);
         }
 
+    }
+
+    public void OnTouchCompleted(HandTrackingInputEventData eventData)
+    {
+        throw new System.NotImplementedException();
+    }
+
+    public void OnTouchUpdated(HandTrackingInputEventData eventData)
+    {
+        throw new System.NotImplementedException();
     }
 }

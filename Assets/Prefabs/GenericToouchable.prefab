@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2561590116398458232}
   - component: {fileID: 3809911603892709895}
+  - component: {fileID: 503998846909077433}
   m_Layer: 0
   m_Name: GenericToouchable
   m_TagString: Untagged
@@ -49,3 +50,18 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: b17ddf3381b27f44cb15edad374be8a0,
       type: 2}
+--- !u!114 &503998846909077433
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3109507257801714964}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183e8dd8b58276c4a8f2b807059981b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventsToReceive: 0
+  debounceThreshold: 0.01
+  touchableCollider: {fileID: 0}
