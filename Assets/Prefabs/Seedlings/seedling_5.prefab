@@ -12,6 +12,10 @@ GameObject:
   - component: {fileID: 1885965992333177239}
   - component: {fileID: 3496128910336982975}
   - component: {fileID: 7827291974354060091}
+  - component: {fileID: 6969063360924445235}
+  - component: {fileID: 9157614466574645627}
+  - component: {fileID: -3113824058298878416}
+  - component: {fileID: -7295157957527316002}
   m_Layer: 0
   m_Name: seedling_5
   m_TagString: Untagged
@@ -115,6 +119,67 @@ MonoBehaviour:
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: bdb9ef7c2b61e834197345137a0e6a77,
       type: 2}
+--- !u!114 &6969063360924445235
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2312763683699478354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 671f2edb052b13f4daa07bf4d1d380a2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  TouchWwiseEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: b17ddf3381b27f44cb15edad374be8a0,
+      type: 2}
+--- !u!65 &9157614466574645627
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2312763683699478354}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1.0550244, y: 1.6602857, z: 1.1650698}
+  m_Center: {x: -0.30813387, y: 1.0454552, z: -1.1059794}
+--- !u!54 &-3113824058298878416
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2312763683699478354}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &-7295157957527316002
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2312763683699478354}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 183e8dd8b58276c4a8f2b807059981b8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  eventsToReceive: 0
+  debounceThreshold: 0.01
+  touchableCollider: {fileID: 9157614466574645627}
 --- !u!1 &3713004831170027651
 GameObject:
   m_ObjectHideFlags: 0
