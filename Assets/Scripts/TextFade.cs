@@ -47,4 +47,10 @@ public class TextFade : MonoBehaviour
     {
         text.SetText("You seem to be a playful soul!\nTell your faerie guide that you made\n{0}\ndiscoveries!", secrets);
     }
+
+    public void HeightText(float height)
+    {
+        text.SetText("Height is: " + height);
+        FadeIn();
+    }
 }
