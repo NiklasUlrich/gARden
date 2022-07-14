@@ -12,14 +12,1037 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c732d4a64772b474b93e76ea17514cfb, type: 3}
   m_Name: AkWwiseProjectData
   m_EditorClassIdentifier: 
-  AcousticTextureWwu: []
-  AuxBusWwu: []
-  BankWwu: []
-  EventWwu: []
-  RtpcWwu: []
-  StateWwu: []
-  SwitchWwu: []
-  TriggerWwu: []
+  AcousticTextureWwu:
+  - PhysicalPath: Virtual Acoustics\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Virtual Acoustics
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: c3db74886eba9241bf2bed3071149b05
+    ParentPath: Virtual Acoustics\Default Work Unit
+    guid: c3db74886eba9241bf2bed3071149b05
+    GuidInternal: 
+    m_lastTime: -8585469756221428492
+    List: []
+  AuxBusWwu:
+  - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Master-Mixer Hierarchy
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 6385c44f0979564089d2a699606e8394
+    ParentPath: Master-Mixer Hierarchy\Default Work Unit
+    guid: 6385c44f0979564089d2a699606e8394
+    GuidInternal: 
+    m_lastTime: -8585445967317094361
+    List:
+    - name: Binaural
+      guid: 17a4cb7a00bc7e4bb8234c6496905ed1
+      id: 52442795
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6385c44f0979564089d2a699606e8394
+      - ElementName: Binaural
+        ObjectType: 2
+        guid: 17a4cb7a00bc7e4bb8234c6496905ed1
+      Path: Master-Mixer Hierarchy\Default Work Unit\Binaural
+    - name: Character
+      guid: e53a64a2c5039f4aa9c65b4ff8cb12e1
+      id: 436743010
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6385c44f0979564089d2a699606e8394
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Character
+        ObjectType: 2
+        guid: e53a64a2c5039f4aa9c65b4ff8cb12e1
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Character
+    - name: Master Audio Bus
+      guid: d8a41415a61d2a41a17e75ca0c2149f3
+      id: 3803692087
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6385c44f0979564089d2a699606e8394
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Music
+      guid: b1b743709717214582d92eb759d432f9
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6385c44f0979564089d2a699606e8394
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Music
+        ObjectType: 2
+        guid: b1b743709717214582d92eb759d432f9
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music
+  BankWwu:
+  - PhysicalPath: SoundBanks\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: SoundBanks
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 3af557e921cf2e4090a7f6b2d282052c
+    ParentPath: SoundBanks\Default Work Unit
+    guid: 3af557e921cf2e4090a7f6b2d282052c
+    GuidInternal: 
+    m_lastTime: -8585458721606425752
+    List:
+    - name: Main
+      guid: d7e6c2c303c189478201e9f2e2193aa1
+      id: 3161908922
+      PathAndIcons:
+      - ElementName: SoundBanks
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 3af557e921cf2e4090a7f6b2d282052c
+      - ElementName: Main
+        ObjectType: 7
+        guid: d7e6c2c303c189478201e9f2e2193aa1
+      Path: SoundBanks\Default Work Unit\Main
+  EventWwu:
+  - PhysicalPath: Events\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: fce7698c57975c43aeb2c1760f75c92b
+    ParentPath: Events\Default Work Unit
+    guid: fce7698c57975c43aeb2c1760f75c92b
+    GuidInternal: 
+    m_lastTime: -8585438779328532982
+    List:
+    - name: Dandelion
+      guid: 0245beb0e0fa6e40a5a49ab70fced6f1
+      id: 898275277
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Dandelion
+        ObjectType: 4
+        guid: 0245beb0e0fa6e40a5a49ab70fced6f1
+      Path: Events\Default Work Unit\Dandelion
+      maxAttenuation: 10
+      maxDuration: 2.53297
+      minDuration: 2.2
+    - name: Dandelion
+      guid: 38f96c2f54175b499ee1cf0674ac33dd
+      id: 898275277
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Dandelion
+        ObjectType: 4
+        guid: 0245beb0e0fa6e40a5a49ab70fced6f1
+      - ElementName: Dandelion
+        ObjectType: 3
+        guid: 38f96c2f54175b499ee1cf0674ac33dd
+      Path: Events\Default Work Unit\Dandelion\Dandelion
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Dropping_Fruit
+      guid: 44a1f4fcb9948747a04ac00d25c072b1
+      id: 3765476793
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Fruit and Tree
+        ObjectType: 4
+        guid: ae8b7dba1ce5c242a2c84269c8227030
+      - ElementName: Dropping_Fruit
+        ObjectType: 3
+        guid: 44a1f4fcb9948747a04ac00d25c072b1
+      Path: Events\Default Work Unit\Fruit and Tree\Dropping_Fruit
+      maxAttenuation: 100
+      maxDuration: 11.331406
+      minDuration: 9.448413
+    - name: Entrance
+      guid: f09c63fbefe8f4429d88c63425bc28ea
+      id: 2656882895
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Music
+        ObjectType: 4
+        guid: 5a84d648ae98f44d9b6349d5553fa2de
+      - ElementName: Entrance
+        ObjectType: 3
+        guid: f09c63fbefe8f4429d88c63425bc28ea
+      Path: Events\Default Work Unit\Music\Entrance
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: Exit
+      guid: b0b77379dacfec48bc8ba66333dee07e
+      id: 26822469
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Music
+        ObjectType: 4
+        guid: 5a84d648ae98f44d9b6349d5553fa2de
+      - ElementName: Exit
+        ObjectType: 3
+        guid: b0b77379dacfec48bc8ba66333dee07e
+      Path: Events\Default Work Unit\Music\Exit
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: Flower
+      guid: d4c93e15d5ba8a4c84d5b66279eedd7d
+      id: 3787535528
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Grounding
+        ObjectType: 4
+        guid: 4b866c18640cc94d9c1eb34621c90bc2
+      - ElementName: Flower
+        ObjectType: 3
+        guid: d4c93e15d5ba8a4c84d5b66279eedd7d
+      Path: Events\Default Work Unit\Grounding\Flower
+      maxAttenuation: 10
+      maxDuration: 2.200544
+      minDuration: 1.263175
+    - name: Fruit and Tree
+      guid: ae8b7dba1ce5c242a2c84269c8227030
+      id: 2932648666
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Fruit and Tree
+        ObjectType: 4
+        guid: ae8b7dba1ce5c242a2c84269c8227030
+      Path: Events\Default Work Unit\Fruit and Tree
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Grounding
+      guid: 4b866c18640cc94d9c1eb34621c90bc2
+      id: 3356807816
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Grounding
+        ObjectType: 4
+        guid: 4b866c18640cc94d9c1eb34621c90bc2
+      Path: Events\Default Work Unit\Grounding
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Growing_Tree
+      guid: 5f2d4dff391af94eb6f1fe5cd2f69e40
+      id: 1666569787
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Fruit and Tree
+        ObjectType: 4
+        guid: ae8b7dba1ce5c242a2c84269c8227030
+      - ElementName: Growing_Tree
+        ObjectType: 3
+        guid: 5f2d4dff391af94eb6f1fe5cd2f69e40
+      Path: Events\Default Work Unit\Fruit and Tree\Growing_Tree
+      maxAttenuation: 10
+      maxDuration: 4.105283
+      minDuration: 2.210544
+    - name: Light
+      guid: 0255863f42f1a646896dd420e5c4839a
+      id: 1935470627
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Grounding
+        ObjectType: 4
+        guid: 4b866c18640cc94d9c1eb34621c90bc2
+      - ElementName: Light
+        ObjectType: 3
+        guid: 0255863f42f1a646896dd420e5c4839a
+      Path: Events\Default Work Unit\Grounding\Light
+      maxAttenuation: 10
+      maxDuration: -1
+      minDuration: -1
+    - name: Mushroom
+      guid: 2338b494195e3040bc50a5c776d9f255
+      id: 1941802987
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      Path: Events\Default Work Unit\Mushroom
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Mushroom_Hits_the_Ground
+      guid: 36c3803a0df56348aad060fb1a44dba0
+      id: 3369687390
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      - ElementName: Mushroom_Hits_the_Ground
+        ObjectType: 3
+        guid: 36c3803a0df56348aad060fb1a44dba0
+      Path: Events\Default Work Unit\Mushroom\Mushroom_Hits_the_Ground
+      maxAttenuation: 10
+      maxDuration: 3.886122
+      minDuration: 3.886122
+    - name: Mushroom_Note
+      guid: db0ea9f59fc16e41ae289b0c3faffb31
+      id: 313967986
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      - ElementName: Mushroom_Note
+        ObjectType: 3
+        guid: db0ea9f59fc16e41ae289b0c3faffb31
+      Path: Events\Default Work Unit\Mushroom\Mushroom_Note
+      maxAttenuation: 10
+      maxDuration: 6.94737
+      minDuration: 3.473696
+    - name: Mushroom_Note_Second_Mushroom
+      guid: f237f0c99af9cc469bf2bf43c09f5121
+      id: 1758564386
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      - ElementName: Mushroom_Note_Second_Mushroom
+        ObjectType: 3
+        guid: f237f0c99af9cc469bf2bf43c09f5121
+      Path: Events\Default Work Unit\Mushroom\Mushroom_Note_Second_Mushroom
+      maxAttenuation: 10
+      maxDuration: 10.105284
+      minDuration: 10.105284
+    - name: Mushroom_Note_Third_Mushroom
+      guid: d1c485d961ba1a42aa2146ca5c00c85d
+      id: 113254737
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      - ElementName: Mushroom_Note_Third_Mushroom
+        ObjectType: 3
+        guid: d1c485d961ba1a42aa2146ca5c00c85d
+      Path: Events\Default Work Unit\Mushroom\Mushroom_Note_Third_Mushroom
+      maxAttenuation: 10
+      maxDuration: 2.526326
+      minDuration: 2.526326
+    - name: Mushroom_Small_Note_Second_Mushroom
+      guid: 7a403909f355b04bb72ea56dd7d876bb
+      id: 2792339242
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      - ElementName: Mushroom_Small_Note_Second_Mushroom
+        ObjectType: 3
+        guid: 7a403909f355b04bb72ea56dd7d876bb
+      Path: Events\Default Work Unit\Mushroom\Mushroom_Small_Note_Second_Mushroom
+      maxAttenuation: 10
+      maxDuration: 1.263175
+      minDuration: 1.263175
+    - name: Mushroom_Small_Note_Third_Mushroom
+      guid: 596f3994e1646a41bf5ae3a2cff14882
+      id: 3973682953
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      - ElementName: Mushroom_Small_Note_Third_Mushroom
+        ObjectType: 3
+        guid: 596f3994e1646a41bf5ae3a2cff14882
+      Path: Events\Default Work Unit\Mushroom\Mushroom_Small_Note_Third_Mushroom
+      maxAttenuation: 10
+      maxDuration: 1.263175
+      minDuration: 1.263175
+    - name: Music
+      guid: 5a84d648ae98f44d9b6349d5553fa2de
+      id: 3991942870
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Music
+        ObjectType: 4
+        guid: 5a84d648ae98f44d9b6349d5553fa2de
+      Path: Events\Default Work Unit\Music
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Music_Playlist
+      guid: bf356d9fe737ce43be226d219d2b6f8e
+      id: 2520593515
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Music_Playlist
+        ObjectType: 3
+        guid: bf356d9fe737ce43be226d219d2b6f8e
+      Path: Events\Default Work Unit\Music_Playlist
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: Picking_Fruit
+      guid: 130c1744090f7749a2d0d64303a90d61
+      id: 300230377
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Fruit and Tree
+        ObjectType: 4
+        guid: ae8b7dba1ce5c242a2c84269c8227030
+      - ElementName: Picking_Fruit
+        ObjectType: 3
+        guid: 130c1744090f7749a2d0d64303a90d61
+      Path: Events\Default Work Unit\Fruit and Tree\Picking_Fruit
+      maxAttenuation: 100
+      maxDuration: 6.961655
+      minDuration: 6.327438
+    - name: Picking_Up_the_Dandelion
+      guid: 36db330456ea1e408a3753b1b8f25eb8
+      id: 4034765065
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Dandelion
+        ObjectType: 4
+        guid: 0245beb0e0fa6e40a5a49ab70fced6f1
+      - ElementName: Picking_Up_the_Dandelion
+        ObjectType: 3
+        guid: 36db330456ea1e408a3753b1b8f25eb8
+      Path: Events\Default Work Unit\Dandelion\Picking_Up_the_Dandelion
+      maxAttenuation: 10
+      maxDuration: 2.053515
+      minDuration: 1.829479
+    - name: Picking_Up_the_Mushroom
+      guid: ef1338335a617d48a603f5253848d7e2
+      id: 384173615
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      - ElementName: Picking_Up_the_Mushroom
+        ObjectType: 3
+        guid: ef1338335a617d48a603f5253848d7e2
+      Path: Events\Default Work Unit\Mushroom\Picking_Up_the_Mushroom
+      maxAttenuation: 10
+      maxDuration: 1.269025
+      minDuration: 1.269025
+    - name: Small_Mushroom_Notes
+      guid: a7c12a5be3880145ac5e27db96309a27
+      id: 3856944273
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      - ElementName: Small_Mushroom_Notes
+        ObjectType: 3
+        guid: a7c12a5be3880145ac5e27db96309a27
+      Path: Events\Default Work Unit\Mushroom\Small_Mushroom_Notes
+      maxAttenuation: 10
+      maxDuration: 4.536213
+      minDuration: 1.191859
+    - name: SoundDesignEnd
+      guid: 718ec13c6c6e21468b601d2794a24275
+      id: 4256775455
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Mushroom
+        ObjectType: 4
+        guid: 2338b494195e3040bc50a5c776d9f255
+      - ElementName: SoundDesignEnd
+        ObjectType: 3
+        guid: 718ec13c6c6e21468b601d2794a24275
+      Path: Events\Default Work Unit\Mushroom\SoundDesignEnd
+      maxAttenuation: 10
+      maxDuration: 2.911225
+      minDuration: 2.911225
+    - name: Taps
+      guid: f7e0838b20d57c44a8cff551b212b4f1
+      id: 2703419059
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Taps
+        ObjectType: 4
+        guid: d4d0580f6a349d45adb4dabc9d92195f
+      - ElementName: Taps
+        ObjectType: 3
+        guid: f7e0838b20d57c44a8cff551b212b4f1
+      Path: Events\Default Work Unit\Taps\Taps
+      maxAttenuation: 0
+      maxDuration: 1.866938
+      minDuration: 1.582438
+    - name: Taps
+      guid: d4d0580f6a349d45adb4dabc9d92195f
+      id: 2703419059
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Taps
+        ObjectType: 4
+        guid: d4d0580f6a349d45adb4dabc9d92195f
+      Path: Events\Default Work Unit\Taps
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
+    - name: Throwing_Dandelion
+      guid: 311f9495bb4a664c85145ee10c4ee2f8
+      id: 1022526190
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Dandelion
+        ObjectType: 4
+        guid: 0245beb0e0fa6e40a5a49ab70fced6f1
+      - ElementName: Throwing_Dandelion
+        ObjectType: 3
+        guid: 311f9495bb4a664c85145ee10c4ee2f8
+      Path: Events\Default Work Unit\Dandelion\Throwing_Dandelion
+      maxAttenuation: 10
+      maxDuration: 3.489297
+      minDuration: 3.489297
+    - name: Zone_1
+      guid: 30aafa4d2750ab4c8a0969f02913262c
+      id: 2643994087
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Music
+        ObjectType: 4
+        guid: 5a84d648ae98f44d9b6349d5553fa2de
+      - ElementName: Zone_1
+        ObjectType: 3
+        guid: 30aafa4d2750ab4c8a0969f02913262c
+      Path: Events\Default Work Unit\Music\Zone_1
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: Zone_2
+      guid: 346a2f9d249760458f420ac831059779
+      id: 2643994084
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Music
+        ObjectType: 4
+        guid: 5a84d648ae98f44d9b6349d5553fa2de
+      - ElementName: Zone_2
+        ObjectType: 3
+        guid: 346a2f9d249760458f420ac831059779
+      Path: Events\Default Work Unit\Music\Zone_2
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: Zone_3_5_Drops
+      guid: 3d12b03188d83d4fbd70b61fa6f07a56
+      id: 4043173166
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Music
+        ObjectType: 4
+        guid: 5a84d648ae98f44d9b6349d5553fa2de
+      - ElementName: Zone_3_5_Drops
+        ObjectType: 3
+        guid: 3d12b03188d83d4fbd70b61fa6f07a56
+      Path: Events\Default Work Unit\Music\Zone_3_5_Drops
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+    - name: Zone_4
+      guid: 9cae99d172262748b3943ca777f68763
+      id: 2643994082
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: fce7698c57975c43aeb2c1760f75c92b
+      - ElementName: Music
+        ObjectType: 4
+        guid: 5a84d648ae98f44d9b6349d5553fa2de
+      - ElementName: Zone_4
+        ObjectType: 3
+        guid: 9cae99d172262748b3943ca777f68763
+      Path: Events\Default Work Unit\Music\Zone_4
+      maxAttenuation: 100
+      maxDuration: -1
+      minDuration: -1
+  RtpcWwu:
+  - PhysicalPath: Game Parameters\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Game Parameters
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 3a88b611c5ad1f44b75a7753fd83d1e3
+    ParentPath: Game Parameters\Default Work Unit
+    guid: 3a88b611c5ad1f44b75a7753fd83d1e3
+    GuidInternal: 
+    m_lastTime: -8585469756224168811
+    List: []
+  StateWwu:
+  - PhysicalPath: States\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: States
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: d182c9dd4e80b249a92605727fc85b02
+    ParentPath: States\Default Work Unit
+    guid: d182c9dd4e80b249a92605727fc85b02
+    GuidInternal: 
+    m_lastTime: -8585448600062030772
+    List:
+    - name: Music_States
+      guid: 629d93e33f75644ebe1cb5fb73105891
+      id: 1690668539
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: d182c9dd4e80b249a92605727fc85b02
+      - ElementName: Music_States
+        ObjectType: 9
+        guid: 629d93e33f75644ebe1cb5fb73105891
+      Path: States\Default Work Unit\Music_States
+      values:
+      - name: None
+        guid: ba2931283462e0418a3c45f366aea014
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: None
+          ObjectType: 8
+          guid: ba2931283462e0418a3c45f366aea014
+      - name: STATE_Entrance
+        guid: 308167eb26ae5244b70718ec4b143ac5
+        id: 3901413513
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: STATE_Entrance
+          ObjectType: 8
+          guid: 308167eb26ae5244b70718ec4b143ac5
+      - name: STATE_Exit
+        guid: 28d92d245a6d3b40957558ddcb329abc
+        id: 1788649551
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: STATE_Exit
+          ObjectType: 8
+          guid: 28d92d245a6d3b40957558ddcb329abc
+      - name: STATE_Zone_1
+        guid: de8349b05cf86c45a0b6f7e0264d4983
+        id: 883690017
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: STATE_Zone_1
+          ObjectType: 8
+          guid: de8349b05cf86c45a0b6f7e0264d4983
+      - name: STATE_Zone_2
+        guid: e2899e4cce454b438bfdda62e4590848
+        id: 883690018
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: STATE_Zone_2
+          ObjectType: 8
+          guid: e2899e4cce454b438bfdda62e4590848
+      - name: STATE_Zone_3_5_Drops
+        guid: 9e0845fa81e9ec419a531d7e307e3e2a
+        id: 3515679872
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: STATE_Zone_3_5_Drops
+          ObjectType: 8
+          guid: 9e0845fa81e9ec419a531d7e307e3e2a
+      - name: STATE_Zone_4
+        guid: 4f70a3e44933a2468b56cf653a28b076
+        id: 883690020
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: d182c9dd4e80b249a92605727fc85b02
+        - ElementName: Music_States
+          ObjectType: 9
+          guid: 629d93e33f75644ebe1cb5fb73105891
+        - ElementName: STATE_Zone_4
+          ObjectType: 8
+          guid: 4f70a3e44933a2468b56cf653a28b076
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  SwitchWwu:
+  - PhysicalPath: Switches\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Switches
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 906201ff74b82e45af851762f61efe73
+    ParentPath: Switches\Default Work Unit
+    guid: 906201ff74b82e45af851762f61efe73
+    GuidInternal: 
+    m_lastTime: -8585452560757702758
+    List:
+    - name: Zones_Background_Music
+      guid: 2baedbb8c4adb84aa6535f44eaf39fb4
+      id: 2966254405
+      PathAndIcons:
+      - ElementName: Switches
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 906201ff74b82e45af851762f61efe73
+      - ElementName: Zones_Background_Music
+        ObjectType: 11
+        guid: 2baedbb8c4adb84aa6535f44eaf39fb4
+      Path: Switches\Default Work Unit\Zones_Background_Music
+      values:
+      - name: Entrance
+        guid: 560753f2ea3a8048b4117de5becff182
+        id: 2656882895
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 906201ff74b82e45af851762f61efe73
+        - ElementName: Zones_Background_Music
+          ObjectType: 11
+          guid: 2baedbb8c4adb84aa6535f44eaf39fb4
+        - ElementName: Entrance
+          ObjectType: 10
+          guid: 560753f2ea3a8048b4117de5becff182
+      - name: Exit
+        guid: 742194ca7c5e404cb6ee5d251d5c4194
+        id: 26822469
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 906201ff74b82e45af851762f61efe73
+        - ElementName: Zones_Background_Music
+          ObjectType: 11
+          guid: 2baedbb8c4adb84aa6535f44eaf39fb4
+        - ElementName: Exit
+          ObjectType: 10
+          guid: 742194ca7c5e404cb6ee5d251d5c4194
+      - name: Zone_1
+        guid: 565ea80c4375c147954aabf61e33bacf
+        id: 2643994087
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 906201ff74b82e45af851762f61efe73
+        - ElementName: Zones_Background_Music
+          ObjectType: 11
+          guid: 2baedbb8c4adb84aa6535f44eaf39fb4
+        - ElementName: Zone_1
+          ObjectType: 10
+          guid: 565ea80c4375c147954aabf61e33bacf
+      - name: Zone_2
+        guid: 7c818d26098a0f48bae7252e54ee5468
+        id: 2643994084
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 906201ff74b82e45af851762f61efe73
+        - ElementName: Zones_Background_Music
+          ObjectType: 11
+          guid: 2baedbb8c4adb84aa6535f44eaf39fb4
+        - ElementName: Zone_2
+          ObjectType: 10
+          guid: 7c818d26098a0f48bae7252e54ee5468
+      - name: Zone_3_5_Drops
+        guid: 2b7f995e39b301408ba9cec2c2e069a1
+        id: 4043173166
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 906201ff74b82e45af851762f61efe73
+        - ElementName: Zones_Background_Music
+          ObjectType: 11
+          guid: 2baedbb8c4adb84aa6535f44eaf39fb4
+        - ElementName: Zone_3_5_Drops
+          ObjectType: 10
+          guid: 2b7f995e39b301408ba9cec2c2e069a1
+      - name: Zone_4
+        guid: aa43148d6e68ff42af696eccf529631f
+        id: 2643994082
+        PathAndIcons:
+        - ElementName: Switches
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 906201ff74b82e45af851762f61efe73
+        - ElementName: Zones_Background_Music
+          ObjectType: 11
+          guid: 2baedbb8c4adb84aa6535f44eaf39fb4
+        - ElementName: Zone_4
+          ObjectType: 10
+          guid: aa43148d6e68ff42af696eccf529631f
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+  TriggerWwu:
+  - PhysicalPath: Triggers\Default Work Unit.wwu
+    PathAndIcons:
+    - ElementName: Triggers
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 4894c65c6b75714d8a58126f5185501d
+    ParentPath: Triggers\Default Work Unit
+    guid: 4894c65c6b75714d8a58126f5185501d
+    GuidInternal: 
+    m_lastTime: -8585469756221428492
+    List: []
   ExpandedFileSystemItemIds: 
   ExpandedWaapiItemIds: 
   AutoSyncSelection: 0
