@@ -248,6 +248,17 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="Meditation_Voiceover_Processed" ID="{DA01A377-EC75-48BA-B3B2-DF2F9AB7F4E8}">
+							<ChildrenList>
+								<Action Name="" ID="{415729E1-217B-4B97-B633-F41B7BC08F5A}" ShortID="743552819">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Meditation voiceover processed" ID="{D8EE4F39-9DDE-4FCA-AB59-A4DCE15B63C9}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Dandelion" ID="{B0BE4502-FAE0-406E-A5A4-9AB70FCED6F1}" ShortID="102808717">
