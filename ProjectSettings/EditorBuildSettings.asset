@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/MushroomScene.unity
     guid: 0c4dce913d06877499cec84fde0308e5
-  - enabled: 0
+  - enabled: 1
     path: Assets/Scenes/Grounding.unity
     guid: 9a5ea605436ea9c4ea471b8f8287ec1b
   - enabled: 0
@@ -20,7 +20,7 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Clapping.unity
     guid: a3f70cdaaef686342929395000daa929
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Floor Height.unity
     guid: 4523bf48e266f3b4f88d8c864e33d439
   m_configObjects:
