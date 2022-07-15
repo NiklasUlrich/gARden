@@ -2008,10 +2008,8 @@
 					<ChildrenList>
 						<RandomSequenceContainer Name="Grounding_Light" ID="{36CEB58A-C71A-48CB-9BB8-6C5E7BA335A0}" ShortID="279528203">
 							<PropertyList>
-								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
-								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="5"/>
 							</PropertyList>
 							<ReferenceList>
@@ -2170,6 +2168,11 @@
 				<ActorMixer Name="Growing_Flower" ID="{77C0C046-6338-454E-86BF-879E91CF42F5}" ShortID="615194361">
 					<PropertyList>
 						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">

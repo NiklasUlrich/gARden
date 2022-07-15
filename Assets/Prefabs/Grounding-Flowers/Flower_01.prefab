@@ -260,5 +260,4 @@ MonoBehaviour:
   WwiseGroundEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: b17ddf3381b27f44cb15edad374be8a0,
-      type: 2}
+    WwiseObjectReference: {fileID: 0}

@@ -24,7 +24,7 @@ MonoBehaviour:
     ParentPath: Virtual Acoustics\Default Work Unit
     guid: c3db74886eba9241bf2bed3071149b05
     GuidInternal: 
-    m_lastTime: -8585457010776196149
+    m_lastTime: -8585469835235326047
     List: []
   AuxBusWwu:
   - PhysicalPath: Master-Mixer Hierarchy\Default Work Unit.wwu
@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6385c44f0979564089d2a699606e8394
     GuidInternal: 
-    m_lastTime: -8585445098737754175
+    m_lastTime: -8585446417833027033
     List:
     - name: Binaural
       guid: 17a4cb7a00bc7e4bb8234c6496905ed1
@@ -114,7 +114,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: 3af557e921cf2e4090a7f6b2d282052c
     GuidInternal: 
-    m_lastTime: -8585457010776258918
+    m_lastTime: -8585448895850079006
     List:
     - name: Main
       guid: d7e6c2c303c189478201e9f2e2193aa1
@@ -142,7 +142,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: fce7698c57975c43aeb2c1760f75c92b
     GuidInternal: 
-    m_lastTime: -8585438136207268717
+    m_lastTime: -8585438574155464003
     List:
     - name: Dandelion
       guid: 0245beb0e0fa6e40a5a49ab70fced6f1
@@ -333,8 +333,8 @@ MonoBehaviour:
         guid: 0255863f42f1a646896dd420e5c4839a
       Path: Events\Default Work Unit\Grounding\Light
       maxAttenuation: 10
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 7.873106
+      minDuration: 6.200703
     - name: Meditation_Voiceover_Processed
       guid: 77a301da75ecba48b3b2df2f9ab7f4e8
       id: 762803533
@@ -775,7 +775,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: 3a88b611c5ad1f44b75a7753fd83d1e3
     GuidInternal: 
-    m_lastTime: -8585457010777705519
+    m_lastTime: -8585469835237586024
     List: []
   StateWwu:
   - PhysicalPath: States\Default Work Unit.wwu
@@ -789,7 +789,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: d182c9dd4e80b249a92605727fc85b02
     GuidInternal: 
-    m_lastTime: -8585445098737323862
+    m_lastTime: -8585448895850248393
     List:
     - name: Music_States
       guid: 629d93e33f75644ebe1cb5fb73105891
@@ -933,7 +933,7 @@ MonoBehaviour:
     ParentPath: Switches\Default Work Unit
     guid: 906201ff74b82e45af851762f61efe73
     GuidInternal: 
-    m_lastTime: -8585452027894537660
+    m_lastTime: -8585452581563977699
     List:
     - name: Zones_Background_Music
       guid: 2baedbb8c4adb84aa6535f44eaf39fb4
@@ -1061,10 +1061,10 @@ MonoBehaviour:
     ParentPath: Triggers\Default Work Unit
     guid: 4894c65c6b75714d8a58126f5185501d
     GuidInternal: 
-    m_lastTime: -8585457010776206639
+    m_lastTime: -8585469835235656032
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 
+  ExpandedWaapiItemIds: 01000000060000000700000008000000090000000a0000000b0000000c0000000e000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

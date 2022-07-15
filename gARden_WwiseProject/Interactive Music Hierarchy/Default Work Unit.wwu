@@ -401,6 +401,13 @@
 							</Playlist>
 						</MusicPlaylistContainer>
 						<MusicPlaylistContainer Name="Zone 4" ID="{D0E3FA3A-51C8-42BD-8458-2FEBDCFC9AA1}" ShortID="1004330147">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8B95DA72-7852-4834-AA19-F606DB1C1586}"/>
@@ -557,7 +564,6 @@
 																					<PropertyList>
 																						<Property Name="EndTrimOffset" Type="Real64" Value="40421.0657596372"/>
 																						<Property Name="FadeInDuration" Type="Real64" Value="2633.9454335905"/>
-																						<Property Name="FadeOutDuration" Type="Real64" Value="7748.66304323804"/>
 																						<Property Name="PlayAt" Type="Real64" Value="98303.3198710252"/>
 																					</PropertyList>
 																					<AudioSourceRef Name="Entrance" ID="{582EF152-331E-4779-86FD-F77B2FC72F44}"/>
