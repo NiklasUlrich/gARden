@@ -4,23 +4,38 @@ using UnityEngine;
 
 public class Dandelion : MonoBehaviour
 {
+    /// <summary>
+    /// Parent object that contains the seeds
+    /// </summary>
     public GameObject seeds;
 
+    /// <summary>
+    /// The rigidbodies of the seed objects
+    /// </summary>
+    Rigidbody[] seedRBs;
+
+    /// <summary>
+    /// The force with which the seeds will explode when triggered
+    /// </summary>
     public float explosionForce;
+
+    /// <summary>
+    /// ´How much the trajetory of the seed will be corrected upwards
+    /// </summary>
+    public float upwardsModifier;
 
     public Transform flowerCenter;
 
-    public float upwardsModifier;
-
+    /// <summary>
+    /// True when the seed have been "exploded" again while in midair
+    /// </summary>
     bool doubleExploded = false;
-
-    bool exploded;
-
-    Rigidbody[] seedRBs;
-
-    public AK.Wwise.Event seedWwiseEvent;
-
     public bool DoubleExploded { get => doubleExploded; set => doubleExploded = value; }
+
+    /// <summary>
+    /// True when the plant has already exploded
+    /// </summary>
+    bool exploded;
     public bool Exploded { get => exploded; set => exploded = value; }
 
     // Start is called before the first frame update
@@ -35,7 +50,7 @@ public class Dandelion : MonoBehaviour
         
     }
 
-    public void explode(Vector3 explosionCenter, float  explosionRange)
+    public void Explode(Vector3 explosionCenter, float  explosionRange)
     {
         if (!exploded)
         {

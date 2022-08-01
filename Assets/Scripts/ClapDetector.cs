@@ -57,7 +57,7 @@ public class ClapDetector : MonoBehaviour
         {
             if(Vector3.Distance(dandelions[i].flowerCenter.position, clapPosition) < clapRange)
             {
-                dandelions[i].explode(clapPosition, clapRange);
+                dandelions[i].Explode(clapPosition, clapRange);
             }
         }
 
