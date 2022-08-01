@@ -20,27 +20,35 @@ public class GrowSeed : MonoBehaviour
         
     }
 
+    // <OnTriggerEnter>
+    /// <summary>
+    /// Is triggered when an objects enters the ground. Reacts when the object contains certain scripts
+    /// </summary>
+    /// <param name="other">the collider of the entering GameObjects</param>
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<FruitBehavior>() != null && !other.gameObject.GetComponent<FruitBehavior>().banana)
+        //Plants a seedling + plays vfx when other is a fruit
+        FruitBehavior fruit = other.gameObject.GetComponent<FruitBehavior>();
+        if (fruit != null && !fruit.banana)
         {
-            //instantiates a new Seedling Gameobject at the position where the fruit hits the ground
-            other.gameObject.GetComponent<FruitBehavior>().Plant();
+            fruit.Plant();
+            return;
         }
 
-        else if(other.gameObject.GetComponent<DandelionSeed>() != null)
+        //Plays collision sound if other is tiny mushroom
+        TinyMushroomBehavior tinyMushroom = other.gameObject.GetComponent<TinyMushroomBehavior>();
+        if (tinyMushroom != null)
         {
-            other.gameObject.GetComponent<DandelionSeed>().Pop();
+            tinyMushroom.OnGroundCollision();
+            return;
         }
 
-        else if (other.gameObject.GetComponent<TinyMushroomBehavior>() != null)
+        //plays collision sound if other is tiny flower
+        FlowerBehavior flower = other.gameObject.GetComponent<FlowerBehavior>();
+        if (flower != null)
         {
-            other.gameObject.GetComponent<TinyMushroomBehavior>().OnGroundCollision();
-        }
-
-        else if (other.gameObject.GetComponent<FlowerBehavior>() != null)
-        {
-            other.gameObject.GetComponent<FlowerBehavior>().OnGroundCollision();
+            flower.OnGroundCollision();
+            return;
         }
     }
 }

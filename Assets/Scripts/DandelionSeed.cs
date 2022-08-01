@@ -20,10 +20,6 @@ public class DandelionSeed : MonoBehaviour
         
     }
 
-    public void Pop()
-    {
-        //gameObject.SetActive(false);
-    }
 
     public void OnThrow()
     {
