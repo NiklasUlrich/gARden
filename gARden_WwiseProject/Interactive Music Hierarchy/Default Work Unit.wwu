@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}" SchemaVersion="110">
 	<InteractiveMusic>
 		<WorkUnit Name="Default Work Unit" ID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}" PersistMode="Standalone">
 			<ChildrenList>
@@ -77,6 +77,42 @@
 										<FocusUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
 									</CurveUsageInfoList>
 								</Attenuation>
 							</Custom>
@@ -198,7 +234,6 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
-							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{129A763A-7E15-4F59-A7E5-9A24D61F5675}" ShortID="999158164">
 									<PropertyList>
@@ -383,7 +418,6 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
-							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{C90B5AB2-73A6-4897-86FA-B2EA3187C6DA}" ShortID="43882468">
 									<PropertyList>
@@ -613,7 +647,6 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
-							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{3F141B17-88B3-4DD8-AAC3-B9515EA5F9EE}" ShortID="401402234">
 									<PropertyList>
@@ -791,7 +824,6 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
-							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{8A715FB3-C20D-46DF-B435-F0A21D61421D}" ShortID="538431389">
 									<PropertyList>
@@ -922,7 +954,6 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
-							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{7B491404-BFF9-42E0-87A3-CB446AF33E8F}" ShortID="628740024">
 									<PropertyList>
@@ -1067,7 +1098,6 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
-							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{1265D274-367E-4337-9782-7F8F66844ACF}" ShortID="689605198">
 									<PropertyList>
@@ -1335,7 +1365,6 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
-					<ObjectLists/>
 					<ArgumentList>
 						<ArgumentRef Name="Music_States" ID="{E3939D62-753F-4E64-BE1C-B5FB73105891}"/>
 					</ArgumentList>
@@ -1468,6 +1497,42 @@
 										<FocusUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
 									</CurveUsageInfoList>
 								</Attenuation>
 							</Custom>
@@ -1840,7 +1905,6 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
-							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{22390EAB-B2A9-401F-AA00-3EFC98A3C6A4}" ShortID="612436177"/>
 							</Playlist>
@@ -1871,7 +1935,6 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
-					<ObjectLists/>
 				</MusicSwitchContainer>
 				<MusicSwitchContainer Name="Fill" ID="{91071AC9-3BE5-40F7-9827-852A0FE02105}" ShortID="1061256760">
 					<PropertyList>
@@ -2167,7 +2230,6 @@
 									<TransitionInfo/>
 								</MusicTransition>
 							</TransitionList>
-							<ObjectLists/>
 							<Playlist>
 								<MusicPlaylistItem Name="" ID="{B563630B-FE46-453C-91FC-695E9DB747EC}" ShortID="388309143">
 									<ChildrenList>
@@ -2195,7 +2257,6 @@
 							<TransitionInfo/>
 						</MusicTransition>
 					</TransitionList>
-					<ObjectLists/>
 				</MusicSwitchContainer>
 			</ChildrenList>
 		</WorkUnit>

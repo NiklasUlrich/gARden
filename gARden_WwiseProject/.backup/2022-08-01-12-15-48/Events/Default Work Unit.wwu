@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{8C69E7FC-9757-435C-AEB2-C1760F75C92B}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{8C69E7FC-9757-435C-AEB2-C1760F75C92B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Mushroom" ID="{94B43823-5E19-4030-BC50-A5C776D9F255}" ShortID="1014219757">
+					<ChildrenList>
+						<Event Name="Mushroom_Note" ID="{F5A90EDB-C19F-416E-AE28-9B0C3FAFFB31}">
+							<ChildrenList>
+								<Action Name="" ID="{6B487307-20AD-47C7-8F98-BC4737F56E0F}" ShortID="222795571">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mushroom_Note" ID="{9F881EE7-DD22-4167-AB9D-87A5A162C749}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="SoundDesignEnd" ID="{3CC18E71-6E6C-4621-8B60-1D2794A24275}">
+							<ChildrenList>
+								<Action Name="" ID="{1C76F3F4-AB76-4014-B419-40C3D69AD7F2}" ShortID="772974969">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="SoundDesignEnd" ID="{E0830774-4267-4B5C-9FCB-0D8E3EB977E6}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Small_Mushroom_Notes" ID="{5B2AC1A7-88E3-4501-AC5E-27DB96309A27}">
+							<ChildrenList>
+								<Action Name="" ID="{C769A133-E149-4875-9FF7-61CA9EAFFB86}" ShortID="444473353">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Small Mushroom Notes" ID="{0B2BC353-CDB5-42FC-A257-40CEB74F7BD1}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mushroom_Note_Second_Mushroom" ID="{C9F037F2-F99A-46CC-9BF2-BF43C09F5121}">
+							<ChildrenList>
+								<Action Name="" ID="{71D4C2A8-75E3-439C-A130-E22B2414489D}" ShortID="933425570">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2nd_Mushroom_ARP" ID="{833168F6-83DB-4B47-B6C0-AFBA6232FF65}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mushroom_Small_Note_Second_Mushroom" ID="{0939407A-55F3-4BB0-B72E-A56DD7D876BB}">
+							<ChildrenList>
+								<Action Name="" ID="{6CE64359-95AF-4070-A8DE-A6EE3548CF8C}" ShortID="795093934">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2nd_Mushroom_Small_Notes" ID="{FE2993E3-0926-4516-B29E-D4AC32299CC7}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mushroom_Note_Third_Mushroom" ID="{D985C4D1-BA61-421A-AA21-46CA5C00C85D}">
+							<ChildrenList>
+								<Action Name="" ID="{07A817AA-1174-4BC0-BA1D-49087FBF2C1B}" ShortID="820827374">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3rd_Mushroom_Notes" ID="{D929C63C-06E8-4D33-82C9-62AE9147F7EB}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mushroom_Small_Note_Third_Mushroom" ID="{94396F59-64E1-416A-BF5A-E3A2CFF14882}">
+							<ChildrenList>
+								<Action Name="" ID="{D0DA21F8-6272-4D33-972E-6D2ACCC83EA1}" ShortID="578045695">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3rd_Mushroom_Small_Notes" ID="{D0F61500-3734-44ED-BA14-CCB4E828A7A0}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Picking_Up_the_Mushroom" ID="{333813EF-615A-487D-A603-F5253848D7E2}">
+							<ChildrenList>
+								<Action Name="" ID="{06FF8095-012E-47B7-8EDD-7A8C3879B3D1}" ShortID="663011761">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PIcking Up the Mushroom" ID="{A07384DA-5122-4A6A-9EEE-B2B9ADC49146}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Mushroom_Hits_the_Ground" ID="{3A80C336-F50D-4863-AAD0-60FB1A44DBA0}">
+							<ChildrenList>
+								<Action Name="" ID="{FB7D6FAC-D5DC-4932-8ECB-4EB06464578A}" ShortID="1059997530">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Mushroom_Hits_The_Ground" ID="{238E1141-DDBE-4D73-B178-6C47E4B8906D}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Music" ID="{48D6845A-98AE-4DF4-9B63-49D5553FA2DE}" ShortID="633349676">
+					<ChildrenList>
+						<Event Name="Entrance" ID="{FB639CF0-E8EF-42F4-9D88-C63425BC28EA}">
+							<ChildrenList>
+								<Action Name="" ID="{F304DF9C-1601-4767-BEFE-A284E0C289B1}" ShortID="252366945">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Entrance" ID="{9D60FF39-0669-4FF3-A878-186DA581380A}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Zone_1" ID="{4DFAAA30-5027-4CAB-8A09-69F02913262C}">
+							<ChildrenList>
+								<Action Name="" ID="{A0053234-0B80-4506-9590-CB325DE48B63}" ShortID="181469810">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Zone 1" ID="{73DB87D8-3CF6-4166-B0C0-C069C7CB7AA6}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Zone_2" ID="{9D2F6A34-9724-4560-8F42-0AC831059779}">
+							<ChildrenList>
+								<Action Name="" ID="{C00C9E66-094B-4161-A0EE-2ED7398E4D66}" ShortID="7703307">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Zone 2" ID="{46E65FEF-DA39-467E-9098-331C99FBC5AC}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Zone_3_5_Drops" ID="{31B0123D-D888-4F3D-BD70-B61FA6F07A56}">
+							<ChildrenList>
+								<Action Name="" ID="{514142A6-4E64-41CA-9201-C04EC30508E6}" ShortID="864419850">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Zone 3_5_Drops" ID="{966EBAD4-5A61-4EFF-9FDF-58C3BE189D71}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Zone_4" ID="{D199AE9C-2672-4827-B394-3CA777F68763}">
+							<ChildrenList>
+								<Action Name="" ID="{F84A3B83-3D2B-4DDF-BD39-56F35E68F621}" ShortID="520676094">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Zone 4" ID="{D0E3FA3A-51C8-42BD-8458-2FEBDCFC9AA1}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Exit" ID="{7973B7B0-CFDA-48EC-BC8B-A66333DEE07E}">
+							<ChildrenList>
+								<Action Name="" ID="{31CE56ED-B6D5-4270-8A1B-C45D9D6F652E}" ShortID="338517132">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Exit" ID="{39D84ACE-05B6-4868-AC8E-6107EBBA24BE}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Music_Playlist" ID="{9F6D35BF-37E7-43CE-BE22-6D219D2B6F8E}">
+					<ChildrenList>
+						<Action Name="" ID="{0EE57285-003C-4A6F-87E5-FEB001F3ACF5}" ShortID="781279979">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="All Background Music" ID="{84252B16-F31A-42B4-8781-185B278DB6FB}" WorkUnitID="{A8C91FC1-1A3A-4B48-8B0D-7DBCD17D84DE}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Fruit and Tree" ID="{BA7D8BAE-E51C-42C2-A2C8-4269C8227030}" ShortID="1049031464">
+					<ChildrenList>
+						<Event Name="Picking_Fruit" ID="{44170C13-0F09-4977-A2D0-D64303A90D61}">
+							<ChildrenList>
+								<Action Name="" ID="{504D16C3-9F70-445F-BEFF-F116D6BF8558}" ShortID="611365994">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="PIcking_Fruit" ID="{FDD3E560-409C-4CA4-B9CA-F389F5354BCD}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dropping_Fruit" ID="{FCF4A144-94B9-4787-A04A-C00D25C072B1}">
+							<ChildrenList>
+								<Action Name="" ID="{2DD3F444-504E-494D-882E-60D0BB1538E6}" ShortID="336070577">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dropping_Fruit" ID="{F2408F0E-2066-41EB-B551-915C8D72B693}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Growing_Tree" ID="{FF4D2D5F-1A39-4EF9-B6F1-FE5CD2F69E40}">
+							<ChildrenList>
+								<Action Name="" ID="{BA253B85-B253-44C8-8704-09BAB11DCF1C}" ShortID="132387879">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Growing_Tree" ID="{12884544-2CBC-4C48-8158-B928FC839646}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Grounding" ID="{186C864B-0C64-4DC9-9C1E-B34621C90BC2}" ShortID="571795477">
+					<ChildrenList>
+						<Event Name="Light" ID="{3F865502-F142-46A6-896D-D420E5C4839A}">
+							<ChildrenList>
+								<Action Name="" ID="{654B6A1F-A396-4E47-8431-431E109E7580}" ShortID="1026410781">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Grounding_Light" ID="{36CEB58A-C71A-48CB-9BB8-6C5E7BA335A0}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Flower" ID="{153EC9D4-BAD5-4C8A-84D5-B66279EEDD7D}">
+							<ChildrenList>
+								<Action Name="" ID="{6F94EA23-0601-41E9-B467-232E13B0B95E}" ShortID="678390923">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Growing_Flower" ID="{AB042E69-8236-4CE9-86F1-93AA70A2F012}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Meditation_Voiceover_Processed" ID="{DA01A377-EC75-48BA-B3B2-DF2F9AB7F4E8}">
+							<ChildrenList>
+								<Action Name="" ID="{415729E1-217B-4B97-B633-F41B7BC08F5A}" ShortID="743552819">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Meditation voiceover processed" ID="{D8EE4F39-9DDE-4FCA-AB59-A4DCE15B63C9}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dandelion" ID="{B0BE4502-FAE0-406E-A5A4-9AB70FCED6F1}" ShortID="102808717">
+					<ChildrenList>
+						<Event Name="Dandelion" ID="{2F6CF938-1754-495B-9EE1-CF0674AC33DD}">
+							<ChildrenList>
+								<Action Name="" ID="{AB069379-001C-4E27-A326-6866B56DD9ED}" ShortID="223244421">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dandelion" ID="{1B20AA84-A9EA-46DB-919C-BE6E22221565}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Picking_Up_the_Dandelion" ID="{0433DB36-EA56-401E-8A37-53B1B8F25EB8}">
+							<ChildrenList>
+								<Action Name="" ID="{DC261D52-A4B3-49B5-893F-F24B9E4B633D}" ShortID="745509716">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Picking Up the Dandelion Tip" ID="{290297CF-ED97-48AE-9CBF-28BD8833E04C}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Throwing_Dandelion" ID="{95941F31-4ABB-4C66-8514-5EE10C4EE2F8}">
+							<ChildrenList>
+								<Action Name="" ID="{C23D9312-6D56-42AF-8E13-FD2BC0227D5E}" ShortID="246048093">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Throwing Dandelion" ID="{3F109B4A-3E6B-4827-B7E3-13D73A86B50B}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Taps" ID="{0F58D0D4-346A-459D-ADB4-DABC9D92195F}" ShortID="824635843">
+					<ChildrenList>
+						<Event Name="Taps" ID="{8B83E0F7-D520-447C-A8CF-F551B212B4F1}">
+							<ChildrenList>
+								<Action Name="" ID="{BADCD640-5DBC-4BA3-B0CF-84499D6D676D}" ShortID="15326098">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Taps" ID="{6CD86515-5ADA-49D4-B19A-BDFCF2381473}" WorkUnitID="{A491F420-4F60-4053-A2E5-81B6570875D7}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

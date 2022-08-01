@@ -5,13 +5,13 @@ using UnityEngine;
 public class FruitTreeObserver : MonoBehaviour
 {
     bool finished = false;
-    FruitBehavior[] fruits;
+    Fruit[] fruits;
     public AK.Wwise.Event FinishedWwiseEvent;
     public ParticleSystem[] effects;
     // Start is called before the first frame update
     void Start()
     {
-        fruits = GetComponentsInChildren<FruitBehavior>();
+        fruits = GetComponentsInChildren<Fruit>();
     }
 
     // Update is called once per frame

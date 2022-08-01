@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{4FC48563-7909-4056-89D2-A699606E8394}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{4FC48563-7909-4056-89D2-A699606E8394}" SchemaVersion="110">
 	<Busses>
 		<WorkUnit Name="Default Work Unit" ID="{4FC48563-7909-4056-89D2-A699606E8394}" PersistMode="Standalone">
 			<ChildrenList>
@@ -9,28 +9,21 @@
 						<Property Name="OverrideColor" Type="bool" Value="True"/>
 					</PropertyList>
 					<ReferenceList>
-						<Reference Name="AudioDevice" PluginName="Microsoft Spatial Sound Platform Output [Deprecated]" CompanyID="275" PluginID="170" PluginType="7">
-							<ObjectRef Name="Microsoft_Spatial_Sound_Platform_Output__Deprecated_" ID="{FA7A40BF-E36D-48C3-AA00-AB033D787688}" WorkUnitID="{FFB53E2D-01C3-4854-A193-7E2C8AF97C5F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<Bus Name="Music" ID="{7043B7B1-1797-4521-82D9-2EB759D432F9}">
-							<ReferenceList/>
-							<ObjectLists/>
-						</Bus>
-						<Bus Name="Character" ID="{A2643AE5-03C5-4A9F-A9C6-5B4FF8CB12E1}">
-							<ObjectLists/>
-						</Bus>
-					</ChildrenList>
-					<ObjectLists/>
-				</Bus>
-				<Bus Name="Binaural" ID="{7ACBA417-BC00-4B7E-B823-4C6496905ED1}">
-					<ReferenceList>
-						<Reference Name="AudioDevice">
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
 							<ObjectRef Name="System" ID="{034C35FC-EF55-4FEA-A902-65D3BF2FCF5B}" WorkUnitID="{FFB53E2D-01C3-4854-A193-7E2C8AF97C5F}"/>
 						</Reference>
 					</ReferenceList>
-					<ObjectLists/>
+					<ChildrenList>
+						<Bus Name="Music" ID="{7043B7B1-1797-4521-82D9-2EB759D432F9}"/>
+						<Bus Name="Character" ID="{A2643AE5-03C5-4A9F-A9C6-5B4FF8CB12E1}"/>
+					</ChildrenList>
+				</Bus>
+				<Bus Name="Binaural" ID="{7ACBA417-BC00-4B7E-B823-4C6496905ED1}">
+					<ReferenceList>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{034C35FC-EF55-4FEA-A902-65D3BF2FCF5B}" WorkUnitID="{FFB53E2D-01C3-4854-A193-7E2C8AF97C5F}"/>
+						</Reference>
+					</ReferenceList>
 				</Bus>
 			</ChildrenList>
 		</WorkUnit>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 
-public class FruitBehavior : MonoBehaviour
+public class Fruit : MonoBehaviour
 {
     /// <summary>
     /// Which event will be played when touch is started

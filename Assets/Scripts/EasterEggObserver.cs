@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class EasterEggObserver : MonoBehaviour
 {
-    public FruitBehavior banana;
+    public Fruit banana;
     bool bananaFound = false;
 
     public GameObject mushrooms;

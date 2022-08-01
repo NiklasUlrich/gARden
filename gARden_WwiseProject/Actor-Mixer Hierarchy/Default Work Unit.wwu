@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="WorkUnit" ID="{A491F420-4F60-4053-A2E5-81B6570875D7}" SchemaVersion="103">
+<WwiseDocument Type="WorkUnit" ID="{A491F420-4F60-4053-A2E5-81B6570875D7}" SchemaVersion="110">
 	<AudioObjects>
 		<WorkUnit Name="Default Work Unit" ID="{A491F420-4F60-4053-A2E5-81B6570875D7}" PersistMode="Standalone">
 			<ChildrenList>
@@ -72,6 +72,42 @@
 										<FocusUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
 									</CurveUsageInfoList>
 								</Attenuation>
 							</Custom>
@@ -171,6 +207,42 @@
 														<FocusUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
 													</CurveUsageInfoList>
 												</Attenuation>
 											</Custom>
@@ -201,7 +273,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Mushroom_Note1" ID="{89678F79-BB3D-4770-9CC3-384AF542143E}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -224,7 +295,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Mushroom_Note2" ID="{6DAF5849-EF74-4131-A453-D9DE90BD67AA}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -247,7 +317,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Mushroom_Note3" ID="{5D6DD967-CFF6-4D65-B3F5-CDB3B374074C}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -270,7 +339,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Mushroom_Note4" ID="{F1E83AB9-499C-4B59-99E2-651F2CA2FAAC}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -293,13 +361,11 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Mushroom_Note5" ID="{A28F69EE-9A80-4A51-B233-CC6FDC91DB12}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="SoundDesignEnd" ID="{E0830774-4267-4B5C-9FCB-0D8E3EB977E6}" ShortID="235412743">
 									<PropertyList>
@@ -370,6 +436,42 @@
 														<FocusUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 														</FocusUsage>
+														<ObstructionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionVolumeUsage>
+														<ObstructionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionLPFUsage>
+														<ObstructionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</ObstructionHPFUsage>
+														<OcclusionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionVolumeUsage>
+														<OcclusionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionLPFUsage>
+														<OcclusionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</OcclusionHPFUsage>
+														<DiffractionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionVolumeUsage>
+														<DiffractionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionLPFUsage>
+														<DiffractionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</DiffractionHPFUsage>
+														<TransmissionVolumeUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionVolumeUsage>
+														<TransmissionLPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionLPFUsage>
+														<TransmissionHPFUsage>
+															<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+														</TransmissionHPFUsage>
 													</CurveUsageInfoList>
 												</Attenuation>
 											</Custom>
@@ -400,13 +502,11 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SoundDesignEnd" ID="{986E4A92-875E-41DB-8B04-3529974C57F3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Small Mushroom Notes" ID="{0B2BC353-CDB5-42FC-A257-40CEB74F7BD1}" ShortID="174271669">
 									<PropertyList>
@@ -472,7 +572,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SmallMushroom_Note0" ID="{BF0631CA-D473-473C-82E0-F1A985825B5C}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -495,7 +594,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SmallMushroom_Note1-1" ID="{C4CB8FD1-4EC6-4F84-A0BE-D52426B4B0BE}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -518,7 +616,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SmallMushroom_Note2" ID="{89CFD826-4AD6-413C-9512-4A09442B93A5}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -541,7 +638,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SmallMushroom_Note3" ID="{656DD6A2-E265-4298-A40E-E24BF376D55A}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -564,13 +660,11 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="SmallMushroom_Note4" ID="{01BECF95-3562-4C55-90C6-26D40C84B4C6}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="2nd_Mushroom_Small_Notes" ID="{FE2993E3-0926-4516-B29E-D4AC32299CC7}" ShortID="1007894255">
 									<PropertyList>
@@ -603,7 +697,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="2rdMushroom_Small_Note1" ID="{3FA214C3-1D0F-4479-BDBE-D7D7BE54DEC5}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -626,7 +719,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="2rdMushroom_Small_Note2" ID="{454FEFBB-08BD-4AB5-9A34-81CB6C47EF9E}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -649,7 +741,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="2rdMushroom_Small_Note3" ID="{B9298FE2-B567-46B4-A38D-F4227D9ED749}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -672,7 +763,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="2rdMushroom_Small_Note4" ID="{122701F4-7804-4152-952B-CCE600C4CD7C}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -695,7 +785,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="2rdMushroom_Small_Note5" ID="{615E272F-E1F1-4279-94FF-1D9249BAA0CC}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -718,13 +807,11 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="2rdMushroom_Small_Note6" ID="{B1B1D637-D8BB-40C1-8327-82CB560F7D87}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="3rd_Mushroom_Notes" ID="{D929C63C-06E8-4D33-82C9-62AE9147F7EB}" ShortID="937713722">
 									<PropertyList>
@@ -757,7 +844,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="3rdMushroom_Note1" ID="{41200F70-F427-46D6-8165-921CB8DF68CD}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -780,7 +866,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="3rdMushroom_Note2" ID="{E75420C5-2230-4F72-9513-0E1BFFAB1400}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -803,7 +888,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="3rdMushroom_Note3" ID="{E4A3075C-C393-4FE0-84F2-C76CF4F87926}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -826,7 +910,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="3rdMushroom_Note4" ID="{9D4F2F52-087F-4221-9EDC-613A210A46DB}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -849,13 +932,11 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="3rdMushroom_Note5" ID="{05DD2BCC-C41A-454F-86ED-9965362F919E}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="3rd_Mushroom_Small_Notes" ID="{D0F61500-3734-44ED-BA14-CCB4E828A7A0}" ShortID="989192232">
 									<PropertyList>
@@ -888,7 +969,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="3rdMushroom_Small_Note1" ID="{ECA214D8-5A80-47ED-A6A7-4ECC4DE13C4D}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -911,7 +991,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="3rdMushroom_Small_Note2" ID="{D0C5C8A4-7F70-42E8-BC33-ED31D2014B49}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -934,7 +1013,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="3rdMushroom_Small_Note3" ID="{9453B625-B392-4E02-A240-DFFA3FB55C95}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -957,7 +1035,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="3rdMushroom_Small_Note4" ID="{F210F743-C246-44D9-90D6-B710DF680C34}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -980,7 +1057,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="3rdMushroom_Small_Note5" ID="{D8B16FB5-85B4-420A-A97F-F9D062F25933}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -1003,13 +1079,11 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="3rdMushroom_Small_Note6" ID="{18212CC1-BEE2-4BE9-B542-3D89A7BC5E98}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="2nd_Mushroom_ARP" ID="{833168F6-83DB-4B47-B6C0-AFBA6232FF65}" ShortID="128388226">
 									<PropertyList>
@@ -1044,7 +1118,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="2ndMushroom_Note1" ID="{F0D13FC7-5070-440B-A7D6-38D2192656D0}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -1067,7 +1140,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="2ndMushroom_Note2" ID="{7D9438D1-991A-4B52-93F0-545E3CDE8BD3}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -1090,7 +1162,6 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="2ndMushroom_Note3" ID="{44D1AFAF-CE76-4F45-A33A-C38BD96B87CB}" Platform="Linked"/>
 											</ActiveSourceList>
@@ -1113,13 +1184,11 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="2ndMushroom_Note4" ID="{FCBB4F2E-B55E-465B-B2D9-FB88C7B8B0E6}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="PIcking Up the Mushroom" ID="{A07384DA-5122-4A6A-9EEE-B2B9ADC49146}" ShortID="492534222">
 									<ReferenceList>
@@ -1149,13 +1218,11 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Picking Up the Mushroom" ID="{2A65D4C5-EE82-439D-93E1-2392BAE017A3}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 								<RandomSequenceContainer Name="Mushroom_Hits_The_Ground" ID="{238E1141-DDBE-4D73-B178-6C47E4B8906D}" ShortID="225425754">
 									<ReferenceList>
@@ -1185,19 +1252,15 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
-											<ObjectLists/>
 											<ActiveSourceList>
 												<ActiveSource Name="Mushroom Hits the Ground" ID="{5CB925F0-986B-4507-8702-160A90840221}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
-									<ObjectLists/>
 								</RandomSequenceContainer>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Intro Music Test" ID="{DFF508EC-72EA-4A5F-ADC7-54FB89829CC9}" ShortID="570283376">
 					<PropertyList>
@@ -1268,6 +1331,42 @@
 										<FocusUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
 									</CurveUsageInfoList>
 								</Attenuation>
 							</Custom>
@@ -1301,13 +1400,11 @@
 									</MediaIDList>
 								</AudioFileSource>
 							</ChildrenList>
-							<ObjectLists/>
 							<ActiveSourceList>
 								<ActiveSource Name="Intro Test" ID="{720B0992-7A27-4891-99C8-D2F927829990}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Picking_Fruit" ID="{7C468BD2-1625-4270-86AE-6830F4571F61}" ShortID="533843757">
 					<PropertyList>
@@ -1375,6 +1472,42 @@
 										<FocusUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
 									</CurveUsageInfoList>
 								</Attenuation>
 							</Custom>
@@ -1418,7 +1551,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Fruit_Note1" ID="{0F70A00D-2109-4C80-AE7D-5B68A9B9BC2C}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1441,7 +1573,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Fruit_Note2" ID="{E6A8409C-8A3F-4B00-A5F3-8049A29BC72B}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1464,7 +1595,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Fruit_Note3" ID="{63CEE012-713C-4907-8501-D90001DB79B8}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1487,16 +1617,13 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Fruit_Note4" ID="{376AE6FF-A1D4-4CFF-9309-9BB939633A40}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Dropping_Fruit" ID="{536858F6-4023-4E4C-94C7-A7A1EEC29B47}" ShortID="253110040">
 					<PropertyList>
@@ -1564,6 +1691,42 @@
 										<FocusUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
 									</CurveUsageInfoList>
 								</Attenuation>
 							</Custom>
@@ -1607,7 +1770,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Falling_Fruit_1" ID="{D9A780AD-FB2A-4A96-8430-7813CC77BB69}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1630,7 +1792,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Falling_Fruit_2" ID="{0EDF66D3-D679-4849-9F58-83510F192DAC}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1653,7 +1814,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Falling_Fruit_3" ID="{1C10652C-F8F8-4F2C-B206-114E318942A6}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1676,7 +1836,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Falling_Fruit_4" ID="{80D5BAC2-E567-44F9-AEC7-F4BDD02D1DC7}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1699,16 +1858,13 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Falling_Fruit_5" ID="{2198F6E2-2337-4B8A-A05A-899F34252139}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Growing_Tree" ID="{7675E196-8982-492E-91B2-9B85E51334EB}" ShortID="185224235">
 					<PropertyList>
@@ -1779,6 +1935,42 @@
 										<FocusUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
 									</CurveUsageInfoList>
 								</Attenuation>
 							</Custom>
@@ -1822,7 +2014,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Growing_Tree_1" ID="{28A07164-7402-476A-91F1-44A2E308E6F3}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1845,7 +2036,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Growing_Tree_2" ID="{DC188567-8B13-4D03-AD65-8C22FB1F6E3C}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1868,7 +2058,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Growing_Tree_3" ID="{EEA1E287-31CC-4D68-8FAD-484EFA18851F}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1891,7 +2080,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Growing_Tree_4" ID="{70016C4B-F494-4731-B63A-C165C194EF9C}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -1914,16 +2102,13 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Growing_Tree_5" ID="{E533171E-C7A8-462F-B184-B2F7C5D0C7DC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Grounding_Light" ID="{E6854B90-6152-459D-826F-DD27EA04502C}" ShortID="133221538">
 					<PropertyList>
@@ -1994,6 +2179,42 @@
 										<FocusUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
 									</CurveUsageInfoList>
 								</Attenuation>
 							</Custom>
@@ -2039,7 +2260,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Grounding_Light_1" ID="{5F26EECD-2972-4238-8892-92F1E8CC3449}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2062,7 +2282,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Grounding_Light_2" ID="{EF88D8CE-C57E-4C60-BF00-2F2F84D5EAA5}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2085,7 +2304,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Grounding_Light_3" ID="{8DA2C125-49C4-4B9F-8AEC-FF189E01DAD6}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2108,7 +2326,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Grounding_Light_4" ID="{8BA12C90-28BB-4BB1-96B6-66868DC255E2}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2131,7 +2348,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Grounding_Light_5" ID="{8599BA1C-F76D-4CBB-89DD-717493908EE2}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2154,16 +2370,13 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Grounding_Light_6" ID="{4A90D95D-EE95-4A47-AEDA-AC0837153925}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Growing_Flower" ID="{77C0C046-6338-454E-86BF-879E91CF42F5}" ShortID="615194361">
 					<PropertyList>
@@ -2239,6 +2452,42 @@
 										<FocusUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
 									</CurveUsageInfoList>
 								</Attenuation>
 							</Custom>
@@ -2282,7 +2531,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Growing_Flower_1" ID="{150CBAE1-59B8-4F2C-8339-4B5FDD6687F2}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2305,7 +2553,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Growing_Flower_2" ID="{D6522165-49C7-4351-B1C9-9FB22682F921}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2328,7 +2575,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Growing_Flower_3" ID="{C623FAA0-8239-49D2-8C8F-2328FCA49F34}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2351,7 +2597,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Growing_Flower_4" ID="{2A25FCDF-BDCE-4ED5-8FE9-2825F0EF2607}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2374,7 +2619,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Growing_Flower_5" ID="{36BF7E4D-5BF9-4668-B184-325EAE1924D7}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2397,7 +2641,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Growing_Flower_6" ID="{06C47285-0D22-4250-B44A-64ACF5A2D80D}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2420,16 +2663,13 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Growing_Flower_7" ID="{BEB967B9-9194-4525-AD70-732A76A0D3EC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Dandelion" ID="{09BFE8BD-4806-4F73-A6A7-9CFDA14B6FB3}" ShortID="527130986">
 					<PropertyList>
@@ -2500,6 +2740,42 @@
 										<FocusUsage>
 											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
 									</CurveUsageInfoList>
 								</Attenuation>
 							</Custom>
@@ -2568,7 +2844,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Dandelion_1" ID="{94BEA9FE-7C1B-42A3-A508-DFFC94CBD5C6}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2612,7 +2887,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Dandelion_2" ID="{C34C1576-3AE0-4EA2-8710-2973667DB05B}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2635,7 +2909,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Dandelion3" ID="{2951F048-69DE-4624-BDD5-26025985639A}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2658,7 +2931,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Dandelion4" ID="{D3FDB18F-75ED-4316-8036-12EB9B407E93}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2681,13 +2953,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Dandelion5" ID="{DA48B4B4-4EF3-4A4C-B08D-1D085E7A201A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Picking Up the Dandelion Tip" ID="{290297CF-ED97-48AE-9CBF-28BD8833E04C}" ShortID="278061839">
 							<ReferenceList>
@@ -2717,7 +2987,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Picking Up the Dandelion 1" ID="{1FC956D5-8390-47B8-A1B3-9CCBA6482E27}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2740,13 +3009,11 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Picking Up the Dandelion 2" ID="{49B294EB-5DA7-4D8F-9EB7-E36B28DED860}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="Throwing Dandelion" ID="{3F109B4A-3E6B-4827-B7E3-13D73A86B50B}" ShortID="270358231">
 							<ReferenceList>
@@ -2776,7 +3043,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Throwing Dandelion 1" ID="{D4E22C8C-272D-49B5-AC36-7EF7C331AA1E}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2799,16 +3065,13 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Throwing Dandelion 2" ID="{BA474F8A-3EB0-47A6-872E-481B6378060B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Taps" ID="{A440E0DC-52A9-4354-91F5-6E6D7AB2F788}" ShortID="656126319">
 					<ReferenceList>
@@ -2856,7 +3119,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Tap1" ID="{B0B6CC22-FE0D-469A-BFCF-ABF010ED8102}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2879,7 +3141,6 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Tap2" ID="{AE5A9F00-2A5B-446E-AE45-AC7C7E57B088}" Platform="Linked"/>
 									</ActiveSourceList>
@@ -2902,16 +3163,13 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Tap3" ID="{1EEEAD4D-5162-4DB2-8718-D58678A169E8}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="Meditation" ID="{AA2CBF3C-29A7-4CD9-A488-CC1D6A01CCE8}" ShortID="479888077">
 					<ReferenceList>
@@ -2958,16 +3216,13 @@
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
-									<ObjectLists/>
 									<ActiveSourceList>
 										<ActiveSource Name="Voice Over Meditation_processed" ID="{F3032F7A-A17C-4564-8201-092CA6AC92B0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
-					<ObjectLists/>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

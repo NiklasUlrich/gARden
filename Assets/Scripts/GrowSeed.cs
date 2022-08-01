@@ -28,7 +28,7 @@ public class GrowSeed : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         //Plants a seedling + plays vfx when other is a fruit
-        FruitBehavior fruit = other.gameObject.GetComponent<FruitBehavior>();
+        Fruit fruit = other.gameObject.GetComponent<Fruit>();
         if (fruit != null && !fruit.banana)
         {
             fruit.Plant();

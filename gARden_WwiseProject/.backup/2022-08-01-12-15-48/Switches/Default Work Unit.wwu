@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FF016290-B874-452E-AF85-1762F61EFE73}" SchemaVersion="103">
+	<Switches>
+		<WorkUnit Name="Default Work Unit" ID="{FF016290-B874-452E-AF85-1762F61EFE73}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Zones_Background_Music" ID="{B8DBAE2B-ADC4-4AB8-A653-5F44EAF39FB4}">
+					<PropertyList>
+						<Property Name="UseGameParameter" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<Switch Name="Entrance" ID="{F2530756-3AEA-4880-B411-7DE5BECFF182}"/>
+						<Switch Name="Zone_1" ID="{0CA85E56-7543-47C1-954A-ABF61E33BACF}"/>
+						<Switch Name="Zone_2" ID="{268D817C-8A09-480F-BAE7-252E54EE5468}"/>
+						<Switch Name="Zone_3_5_Drops" ID="{5E997F2B-B339-4001-8BA9-CEC2C2E069A1}"/>
+						<Switch Name="Zone_4" ID="{8D1443AA-686E-42FF-AF69-6ECCF529631F}"/>
+						<Switch Name="Exit" ID="{CA942174-5E7C-4C40-B6EE-5D251D5C4194}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
+	</Switches>
+</WwiseDocument>
