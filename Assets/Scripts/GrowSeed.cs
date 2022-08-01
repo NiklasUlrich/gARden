@@ -25,10 +25,7 @@ public class GrowSeed : MonoBehaviour
         if (other.gameObject.GetComponent<FruitBehavior>() != null && !other.gameObject.GetComponent<FruitBehavior>().banana)
         {
             //instantiates a new Seedling Gameobject at the position where the fruit hits the ground
-            GameObject newSeedling = Instantiate(seedlings[Random.Range(0, seedlings.Count)], other.transform.position, Quaternion.Euler(0, Random.Range(0, 360) , 0) );
-            newSeedling.GetComponent<Animator>().SetBool("Completed", true);
-            other.gameObject.GetComponent<FruitBehavior>().Planted = true;
-            other.gameObject.SetActive(false);
+            other.gameObject.GetComponent<FruitBehavior>().Plant();
         }
 
         else if(other.gameObject.GetComponent<DandelionSeed>() != null)

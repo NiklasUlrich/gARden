@@ -15,6 +15,11 @@ public class FruitBehavior : MonoBehaviour
     /// </summary>
     public AK.Wwise.Event ThrowWwiseEvent;
 
+    /// <summary>
+    /// WThe seedling which will spawn when this fruit is planted
+    /// </summary>
+    public Seedling seedling;
+
     public bool banana;
 
     bool planted = false;
@@ -23,7 +28,7 @@ public class FruitBehavior : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        seedling.gameObject.SetActive(false);
     }
 
     // Update is called once per frame
@@ -51,5 +56,14 @@ public class FruitBehavior : MonoBehaviour
         {
             ThrowWwiseEvent.Post(gameObject);
         }
+    }
+
+    public void Plant()
+    {
+        seedling.gameObject.SetActive(true);
+        seedling.transform.SetPositionAndRotation(transform.position, Quaternion.Euler(0, Random.Range(0, 360), 0));
+        seedling.GetComponent<Animator>().SetBool("Completed", true);
+        planted = true;
+        gameObject.SetActive(false);
     }
 }
